@@ -1,0 +1,15 @@
+{
+  "codes": [
+    "Z25",
+    "Z65",
+    "Z85"
+  ],
+  "p": [
+    0.05,
+    0.2
+  ],
+  "trials": 40000,
+  "batch": 2000,
+  "seed": 77,
+  "seeding": "SeedSequence(seed).spawn(len(codes) * len(p)), one child per (code, p)"
+}

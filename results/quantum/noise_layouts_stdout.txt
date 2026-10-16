@@ -1,0 +1,36 @@
+gate-level source gate_level_css-20261015T201001Z-DESKTOP-RR5J4T0-ffe8a2b77f {'Z25': True, 'Z65': True, 'Z85': True}
+qudit Z25 [(0.0001, '1.00e-08'), (0.001, '1.00e-06'), (0.01, '1.00e-04'), (0.03, '9.00e-04'), (0.1, '1.00e-02'), (0.2, '4.00e-02')]
+qudit Z65 [(0.0001, '-4.44e-16'), (0.001, '0.00e+00'), (0.01, '0.00e+00'), (0.03, '2.22e-16'), (0.1, '0.00e+00'), (0.2, '-4.44e-16')]
+qudit Z85 [(0.0001, '1.00e-08'), (0.001, '1.00e-06'), (0.01, '1.00e-04'), (0.03, '9.00e-04'), (0.1, '1.00e-02'), (0.2, '4.00e-02')]
+mc Z25 cpu 0.0020000000000000018 0.0024999999999999467 False 0.64
+mc Z25 cuda 0.0020000000000000018 0.0024999999999999467 False 0.32
+mc Z65 cpu 0.0 0.0 True 2.5
+mc Z65 cuda 0.0 0.0 True 0.23
+mc Z85 cpu 0.0025500000000000522 0.0024999999999999467 True 4.43
+mc Z85 cuda 0.0025500000000000522 0.0024999999999999467 True 0.5
+bit_flip p=0.0001: ring layout A (10 q)=9.071e-04, ring layout B (12 q)=8.005e-04, no QEC minimal (3 q)=3.000e-04, no QEC same register A=9.996e-04, no QEC same register B=1.199e-03, no QEC layout B, label=3.004e-04, [[5,1,3]] x 3 (15 q)=2.779e-07
+bit_flip p=0.001: ring layout A (10 q)=9.037e-03, ring layout B (12 q)=7.974e-03, no QEC minimal (3 q)=2.997e-03, no QEC same register A=9.955e-03, no QEC same register B=1.193e-02, no QEC layout B, label=2.997e-03, [[5,1,3]] x 3 (15 q)=2.774e-05
+bit_flip p=0.01: ring layout A (10 q)=8.702e-02, ring layout B (12 q)=7.711e-02, no QEC minimal (3 q)=2.970e-02, no QEC same register A=9.562e-02, no QEC same register B=1.136e-01, no QEC layout B, label=2.970e-02, [[5,1,3]] x 3 (15 q)=2.722e-03
+bit_flip p=0.03: ring layout A (10 q)=2.403e-01, ring layout B (12 q)=2.149e-01, no QEC minimal (3 q)=8.733e-02, no QEC same register A=2.626e-01, no QEC same register B=3.062e-01, no QEC layout B, label=8.733e-02, [[5,1,3]] x 3 (15 q)=2.337e-02
+bit_flip p=0.1: ring layout A (10 q)=6.064e-01, ring layout B (12 q)=5.603e-01, no QEC minimal (3 q)=2.710e-01, no QEC same register A=6.513e-01, no QEC same register B=7.176e-01, no QEC layout B, label=2.710e-01, [[5,1,3]] x 3 (15 q)=2.098e-01
+phase_flip p=0.0001: ring layout A (10 q)=8.838e-04, ring layout B (12 q)=6.913e-04, no QEC minimal (3 q)=2.560e-04, no QEC same register A=8.956e-04, no QEC same register B=2.562e-04, no QEC layout B, label=2.562e-04, [[5,1,3]] x 3 (15 q)=2.999e-07
+phase_flip p=0.001: ring layout A (10 q)=8.799e-03, ring layout B (12 q)=6.888e-03, no QEC minimal (3 q)=2.558e-03, no QEC same register A=8.915e-03, no QEC same register B=2.558e-03, no QEC layout B, label=2.558e-03, [[5,1,3]] x 3 (15 q)=2.994e-05
+phase_flip p=0.01: ring layout A (10 q)=8.416e-02, ring layout B (12 q)=6.661e-02, no QEC minimal (3 q)=2.538e-02, no QEC same register A=8.525e-02, no QEC same register B=2.538e-02, no QEC layout B, label=2.538e-02, [[5,1,3]] x 3 (15 q)=2.938e-03
+phase_flip p=0.03: ring layout A (10 q)=2.290e-01, ring layout B (12 q)=1.856e-01, no QEC minimal (3 q)=7.480e-02, no QEC same register A=2.319e-01, no QEC same register B=7.480e-02, no QEC layout B, label=7.480e-02, [[5,1,3]] x 3 (15 q)=2.520e-02
+phase_flip p=0.1: ring layout A (10 q)=5.517e-01, ring layout B (12 q)=4.815e-01, no QEC minimal (3 q)=2.342e-01, no QEC same register A=5.582e-01, no QEC same register B=2.342e-01, no QEC layout B, label=2.342e-01, [[5,1,3]] x 3 (15 q)=2.248e-01
+depolarizing p=0.0001: ring layout A (10 q)=8.994e-04, ring layout B (12 q)=8.421e-04, no QEC minimal (3 q)=2.853e-04, no QEC same register A=9.649e-04, no QEC same register B=8.852e-04, no QEC layout B, label=2.855e-04, [[5,1,3]] x 3 (15 q)=2.853e-07
+depolarizing p=0.001: ring layout A (10 q)=8.959e-03, ring layout B (12 q)=8.388e-03, no QEC minimal (3 q)=2.851e-03, no QEC same register A=9.611e-03, no QEC same register B=8.818e-03, no QEC layout B, label=2.851e-03, [[5,1,3]] x 3 (15 q)=2.847e-05
+depolarizing p=0.01: ring layout A (10 q)=8.625e-02, ring layout B (12 q)=8.089e-02, no QEC minimal (3 q)=2.826e-02, no QEC same register A=9.236e-02, no QEC same register B=8.504e-02, no QEC layout B, label=2.826e-02, [[5,1,3]] x 3 (15 q)=2.788e-03
+depolarizing p=0.03: ring layout A (10 q)=2.380e-01, ring layout B (12 q)=2.241e-01, no QEC minimal (3 q)=8.318e-02, no QEC same register A=2.539e-01, no QEC same register B=2.356e-01, no QEC layout B, label=8.318e-02, [[5,1,3]] x 3 (15 q)=2.382e-02
+depolarizing p=0.1: ring layout A (10 q)=6.004e-01, ring layout B (12 q)=5.736e-01, no QEC minimal (3 q)=2.590e-01, no QEC same register A=6.331e-01, no QEC same register B=6.018e-01, no QEC layout B, label=2.590e-01, [[5,1,3]] x 3 (15 q)=2.101e-01
+amplitude_damping p=0.0001: ring layout A (10 q)=3.857e-04, ring layout B (12 q)=2.088e-04, no QEC minimal (3 q)=1.000e-04, no QEC same register A=3.999e-04, no QEC same register B=1.000e-04, no QEC layout B, label=1.000e-04, [[5,1,3]] x 3 (15 q)=7.224e-08
+amplitude_damping p=0.001: ring layout A (10 q)=3.851e-03, ring layout B (12 q)=2.087e-03, no QEC minimal (3 q)=9.999e-04, no QEC same register A=3.993e-03, no QEC same register B=9.999e-04, no QEC layout B, label=9.999e-04, [[5,1,3]] x 3 (15 q)=7.219e-06
+amplitude_damping p=0.01: ring layout A (10 q)=3.796e-02, ring layout B (12 q)=2.073e-02, no QEC minimal (3 q)=9.990e-03, no QEC same register A=3.929e-02, no QEC same register B=9.990e-03, no QEC layout B, label=9.990e-03, [[5,1,3]] x 3 (15 q)=7.159e-04
+amplitude_damping p=0.03: ring layout A (10 q)=1.103e-01, ring layout B (12 q)=6.129e-02, no QEC minimal (3 q)=2.991e-02, no QEC same register A=1.137e-01, no QEC same register B=2.991e-02, no QEC layout B, label=2.991e-02, [[5,1,3]] x 3 (15 q)=6.317e-03
+amplitude_damping p=0.1: ring layout A (10 q)=3.285e-01, ring layout B (12 q)=1.941e-01, no QEC minimal (3 q)=9.900e-02, no QEC same register A=3.348e-01, no QEC same register B=9.900e-02, no QEC layout B, label=9.900e-02, [[5,1,3]] x 3 (15 q)=6.453e-02
+phase_damping p=0.0001: ring layout A (10 q)=2.210e-04, ring layout B (12 q)=1.727e-04, no QEC minimal (3 q)=6.400e-05, no QEC same register A=2.240e-04, no QEC same register B=6.401e-05, no QEC layout B, label=6.401e-05, [[5,1,3]] x 3 (15 q)=1.875e-08
+phase_damping p=0.001: ring layout A (10 q)=2.209e-03, ring layout B (12 q)=1.727e-03, no QEC minimal (3 q)=6.400e-04, no QEC same register A=2.238e-03, no QEC same register B=6.401e-04, no QEC layout B, label=6.401e-04, [[5,1,3]] x 3 (15 q)=1.875e-06
+phase_damping p=0.01: ring layout A (10 q)=2.189e-02, ring layout B (12 q)=1.716e-02, no QEC minimal (3 q)=6.402e-03, no QEC same register A=2.218e-02, no QEC same register B=6.402e-03, no QEC layout B, label=6.402e-03, [[5,1,3]] x 3 (15 q)=1.875e-04
+phase_damping p=0.03: ring layout A (10 q)=6.437e-02, ring layout B (12 q)=5.079e-02, no QEC minimal (3 q)=1.922e-02, no QEC same register A=6.521e-02, no QEC same register B=1.922e-02, no QEC layout B, label=1.922e-02, [[5,1,3]] x 3 (15 q)=1.687e-03
+phase_damping p=0.1: ring layout A (10 q)=2.000e-01, ring layout B (12 q)=1.613e-01, no QEC minimal (3 q)=6.422e-02, no QEC same register A=2.025e-01, no QEC same register B=6.422e-02, no QEC layout B, label=6.422e-02, [[5,1,3]] x 3 (15 q)=1.864e-02
+[PASS] noise_layouts-20261016T005404Z-DESKTOP-RR5J4T0-a65fa71371  (1321.29 s)  -> C:\Users\bedrhan94\Desktop\PennyLane\epsilon_qec_research\results\quantum\noise_layouts-20261016T005404Z-DESKTOP-RR5J4T0-a65fa71371

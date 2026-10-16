@@ -1,0 +1,228 @@
+{
+  "Z5_small": {
+    "dim_H": 25,
+    "|C1|": 5,
+    "|C2|": 25,
+    "|D_true|": 1,
+    "K_formula": 5.0,
+    "x_generators": [
+      "(1+3i)"
+    ],
+    "z_generators": [],
+    "eps": [
+      "(0+0i)",
+      "(0+1i)",
+      "(0+2i)",
+      "(0+3i)",
+      "(0+4i)"
+    ],
+    "unitarity": {
+      "X_is_permutation": true,
+      "Z_unit_modulus": true,
+      "mode": "all u in R^n",
+      "n_tested": 25,
+      "sparse_UdagU_minus_I_max": 1.1102230246251565e-16
+    },
+    "pauli": {
+      "commutation_relation_max_error": 2.1677797545656835e-16,
+      "mode": "exhaustive over all (u, v) in R^n x R^n",
+      "pairs": 625,
+      "group_law_max_error": 1.7772239894833365e-16,
+      "x_generator_orders": [
+        {
+          "u": "(1+3i)",
+          "additive_order": 5,
+          "X(u)^order_is_I": true
+        }
+      ]
+    },
+    "commutation_true_dual": {
+      "pairs": 5,
+      "noncommuting_pairs": 0,
+      "first_noncommuting": null
+    },
+    "generator_commutator_max_state_level": 0.0,
+    "group_order": {
+      "|C1|*|D|": 5,
+      "distinct_operators_fingerprint": 5,
+      "candidates_equal_to_scalar_on_sample": 1
+    },
+    "x_no_fixed_points": true,
+    "dim_trace_formula": 5.0,
+    "dim_structural": 5,
+    "logical_gram_minus_I_max": 1.1102230246251565e-16,
+    "logical_states_stabilised_max_error": 0.0,
+    "projector_idempotence_error": 2.220446049250313e-16,
+    "projector_equals_span_of_logical_states_error": 2.2887833992611187e-16,
+    "dim_dense_nullspace": 5,
+    "|C1_dual|": 5,
+    "logical_Z_group_size_|C1dual|/|D|": 5.0,
+    "logical_operators": [
+      {
+        "op": "X((0+1i))",
+        "leakage": 2.7755575615628914e-16,
+        "is_permutation": true,
+        "trace_abs": 0.0
+      },
+      {
+        "op": "X((0+2i))",
+        "leakage": 2.7755575615628914e-16,
+        "is_permutation": true,
+        "trace_abs": 0.0
+      },
+      {
+        "op": "Z((1+3i))",
+        "leakage": 2.482534153247273e-16,
+        "is_diagonal": true,
+        "diag_phases_distinct": 5
+      },
+      {
+        "op": "Z((2+1i))",
+        "leakage": 2.482534153247273e-16,
+        "is_diagonal": true,
+        "diag_phases_distinct": 5
+      }
+    ],
+    "def6": {
+      "|D_def6|": 25,
+      "commutation": {
+        "pairs": 125,
+        "noncommuting_pairs": 80,
+        "first_noncommuting": {
+          "v": "(0+1i)",
+          "u": "(1+3i)",
+          "Tr<v,u>": 4
+        }
+      },
+      "dim_joint_plus1_eigenspace_structural": 0,
+      "dim_dense_nullspace": 0
+    },
+    "seconds": 0.02917260001413524,
+    "checks": {
+      "X unitary": true,
+      "Z unitary": true,
+      "Pauli relation": true,
+      "stabilizers commute": true,
+      "|S| = |C1||D|": true,
+      "dim = K (trace)": true,
+      "dim = K (structural)": true,
+      "logical orthonormal": true,
+      "P = span(logical)": true,
+      "dim = K (dense)": true
+    }
+  },
+  "Z25": {
+    "dim_H": 625,
+    "|C1|": 25,
+    "|C2|": 125,
+    "|D_true|": 5,
+    "K_formula": 5.0,
+    "x_generators": [
+      "(1+18i)"
+    ],
+    "z_generators": [
+      "(5+15i)"
+    ],
+    "eps": [
+      "(0+0i)",
+      "(2+1i)",
+      "(4+2i)",
+      "(6+3i)",
+      "(8+4i)"
+    ],
+    "unitarity": {
+      "X_is_permutation": true,
+      "Z_unit_modulus": true,
+      "mode": "all u in R^n",
+      "n_tested": 625,
+      "sparse_UdagU_minus_I_max": 1.1102230246251565e-16
+    },
+    "pauli": {
+      "commutation_relation_max_error": 1.3738309013483032e-16,
+      "mode": "exhaustive over all (u, v) in R^n x R^n",
+      "pairs": 390625,
+      "group_law_max_error": 1.0591761858187546e-16,
+      "x_generator_orders": [
+        {
+          "u": "(1+18i)",
+          "additive_order": 25,
+          "X(u)^order_is_I": true
+        }
+      ]
+    },
+    "commutation_true_dual": {
+      "pairs": 125,
+      "noncommuting_pairs": 0,
+      "first_noncommuting": null
+    },
+    "generator_commutator_max_state_level": 0.0,
+    "group_order": {
+      "|C1|*|D|": 125,
+      "distinct_operators_fingerprint": 125,
+      "candidates_equal_to_scalar_on_sample": 1
+    },
+    "x_no_fixed_points": true,
+    "dim_trace_formula": 5.0,
+    "dim_structural": 5,
+    "logical_gram_minus_I_max": 2.220446049250313e-16,
+    "logical_states_stabilised_max_error": 0.0,
+    "projector_idempotence_error": 2.7755575615628914e-16,
+    "projector_equals_span_of_logical_states_error": 2.0014830212433607e-16,
+    "dim_dense_nullspace": 5,
+    "|C1_dual|": 25,
+    "logical_Z_group_size_|C1dual|/|D|": 5.0,
+    "logical_operators": [
+      {
+        "op": "X((2+1i))",
+        "leakage": 5.551115123125783e-16,
+        "is_permutation": true,
+        "trace_abs": 0.0
+      },
+      {
+        "op": "X((4+2i))",
+        "leakage": 5.551115123125783e-16,
+        "is_permutation": true,
+        "trace_abs": 0.0
+      },
+      {
+        "op": "Z((1+18i))",
+        "leakage": 4.667663494284973e-16,
+        "is_diagonal": true,
+        "diag_phases_distinct": 5
+      },
+      {
+        "op": "Z((2+11i))",
+        "leakage": 4.615798956820347e-16,
+        "is_diagonal": true,
+        "diag_phases_distinct": 5
+      }
+    ],
+    "def6": {
+      "|D_def6|": 125,
+      "commutation": {
+        "pairs": 3125,
+        "noncommuting_pairs": 2800,
+        "first_noncommuting": {
+          "v": "(0+5i)",
+          "u": "(1+18i)",
+          "Tr<v,u>": 20
+        }
+      },
+      "dim_joint_plus1_eigenspace_structural": 0,
+      "dim_dense_nullspace": 0
+    },
+    "seconds": 6.723798000020906,
+    "checks": {
+      "X unitary": true,
+      "Z unitary": true,
+      "Pauli relation": true,
+      "stabilizers commute": true,
+      "|S| = |C1||D|": true,
+      "dim = K (trace)": true,
+      "dim = K (structural)": true,
+      "logical orthonormal": true,
+      "P = span(logical)": true,
+      "dim = K (dense)": true
+    }
+  }
+}

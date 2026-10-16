@@ -1,0 +1,1093 @@
+{
+  "A1_closed_form": [
+    {
+      "q": 25,
+      "n_ideals": 9,
+      "closed_form_mismatches_all_ideals": 0,
+      "random_generators_tested": 300,
+      "closed_form_mismatches_random": 0,
+      "def6_coincides_with_true_dual_for": [
+        "5+0i"
+      ],
+      "rows": [
+        {
+          "q": 25,
+          "generator": "1+0i",
+          "|C|": 625,
+          "|C^perpH|": 1,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "2+-1i",
+          "|C|": 125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "3+-4i",
+          "|C|": 25,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "2+1i",
+          "|C|": 125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "5+0i",
+          "|C|": 25,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": true,
+          "Ann(alpha)_equals_<alpha>": true
+        },
+        {
+          "q": 25,
+          "generator": "10+-5i",
+          "|C|": 5,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "3+4i",
+          "|C|": 25,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "10+5i",
+          "|C|": 5,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 25,
+          "generator": "25+0i",
+          "|C|": 1,
+          "|C^perpH|": 625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        }
+      ]
+    },
+    {
+      "q": 65,
+      "n_ideals": 16,
+      "closed_form_mismatches_all_ideals": 0,
+      "random_generators_tested": 300,
+      "closed_form_mismatches_random": 0,
+      "def6_coincides_with_true_dual_for": [],
+      "rows": [
+        {
+          "q": 65,
+          "generator": "1+0i",
+          "|C|": 4225,
+          "|C^perpH|": 1,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "3+-2i",
+          "|C|": 325,
+          "|C^perpH|": 13,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "3+2i",
+          "|C|": 325,
+          "|C^perpH|": 13,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "13+0i",
+          "|C|": 25,
+          "|C^perpH|": 169,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "2+-1i",
+          "|C|": 845,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "4+-7i",
+          "|C|": 65,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "8+1i",
+          "|C|": 65,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "26+-13i",
+          "|C|": 5,
+          "|C^perpH|": 845,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "2+1i",
+          "|C|": 845,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "8+-1i",
+          "|C|": 65,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "4+7i",
+          "|C|": 65,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "26+13i",
+          "|C|": 5,
+          "|C^perpH|": 845,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "5+0i",
+          "|C|": 169,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "15+-10i",
+          "|C|": 13,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "15+10i",
+          "|C|": 13,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 65,
+          "generator": "65+0i",
+          "|C|": 1,
+          "|C^perpH|": 4225,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        }
+      ]
+    },
+    {
+      "q": 85,
+      "n_ideals": 16,
+      "closed_form_mismatches_all_ideals": 0,
+      "random_generators_tested": 300,
+      "closed_form_mismatches_random": 0,
+      "def6_coincides_with_true_dual_for": [],
+      "rows": [
+        {
+          "q": 85,
+          "generator": "1+0i",
+          "|C|": 7225,
+          "|C^perpH|": 1,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "4+-1i",
+          "|C|": 425,
+          "|C^perpH|": 17,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "4+1i",
+          "|C|": 425,
+          "|C^perpH|": 17,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "17+0i",
+          "|C|": 25,
+          "|C^perpH|": 289,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "2+-1i",
+          "|C|": 1445,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "7+-6i",
+          "|C|": 85,
+          "|C^perpH|": 85,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "9+-2i",
+          "|C|": 85,
+          "|C^perpH|": 85,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "34+-17i",
+          "|C|": 5,
+          "|C^perpH|": 1445,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "2+1i",
+          "|C|": 1445,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "9+2i",
+          "|C|": 85,
+          "|C^perpH|": 85,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "7+6i",
+          "|C|": 85,
+          "|C^perpH|": 85,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "34+17i",
+          "|C|": 5,
+          "|C^perpH|": 1445,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "5+0i",
+          "|C|": 289,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "20+-5i",
+          "|C|": 17,
+          "|C^perpH|": 425,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "20+5i",
+          "|C|": 17,
+          "|C^perpH|": 425,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 85,
+          "generator": "85+0i",
+          "|C|": 1,
+          "|C^perpH|": 7225,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        }
+      ]
+    },
+    {
+      "q": 125,
+      "n_ideals": 16,
+      "closed_form_mismatches_all_ideals": 0,
+      "random_generators_tested": 300,
+      "closed_form_mismatches_random": 0,
+      "def6_coincides_with_true_dual_for": [],
+      "rows": [
+        {
+          "q": 125,
+          "generator": "1+0i",
+          "|C|": 15625,
+          "|C^perpH|": 1,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "2+-1i",
+          "|C|": 3125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "3+-4i",
+          "|C|": 625,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "2+-11i",
+          "|C|": 125,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "2+1i",
+          "|C|": 3125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "5+0i",
+          "|C|": 625,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "10+-5i",
+          "|C|": 125,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "15+-20i",
+          "|C|": 25,
+          "|C^perpH|": 625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "3+4i",
+          "|C|": 625,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "10+5i",
+          "|C|": 125,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "25+0i",
+          "|C|": 25,
+          "|C^perpH|": 625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "50+-25i",
+          "|C|": 5,
+          "|C^perpH|": 3125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "2+11i",
+          "|C|": 125,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "15+20i",
+          "|C|": 25,
+          "|C^perpH|": 625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "50+25i",
+          "|C|": 5,
+          "|C^perpH|": 3125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 125,
+          "generator": "125+0i",
+          "|C|": 1,
+          "|C^perpH|": 15625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        }
+      ]
+    },
+    {
+      "q": 325,
+      "n_ideals": 36,
+      "closed_form_mismatches_all_ideals": 0,
+      "random_generators_tested": 300,
+      "closed_form_mismatches_random": 0,
+      "def6_coincides_with_true_dual_for": [],
+      "rows": [
+        {
+          "q": 325,
+          "generator": "1+0i",
+          "|C|": 105625,
+          "|C^perpH|": 1,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "3+-2i",
+          "|C|": 8125,
+          "|C^perpH|": 13,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "3+2i",
+          "|C|": 8125,
+          "|C^perpH|": 13,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "13+0i",
+          "|C|": 625,
+          "|C^perpH|": 169,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "2+-1i",
+          "|C|": 21125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "4+-7i",
+          "|C|": 1625,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "8+1i",
+          "|C|": 1625,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "26+-13i",
+          "|C|": 125,
+          "|C^perpH|": 845,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "3+-4i",
+          "|C|": 4225,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "1+-18i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "17+-6i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "39+-52i",
+          "|C|": 25,
+          "|C^perpH|": 4225,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "2+1i",
+          "|C|": 21125,
+          "|C^perpH|": 5,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "8+-1i",
+          "|C|": 1625,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "4+7i",
+          "|C|": 1625,
+          "|C^perpH|": 65,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "26+13i",
+          "|C|": 125,
+          "|C^perpH|": 845,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "5+0i",
+          "|C|": 4225,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "15+-10i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "15+10i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "65+0i",
+          "|C|": 25,
+          "|C^perpH|": 4225,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "10+-5i",
+          "|C|": 845,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "20+-35i",
+          "|C|": 65,
+          "|C^perpH|": 1625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "40+5i",
+          "|C|": 65,
+          "|C^perpH|": 1625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "130+-65i",
+          "|C|": 5,
+          "|C^perpH|": 21125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "3+4i",
+          "|C|": 4225,
+          "|C^perpH|": 25,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "17+6i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "1+18i",
+          "|C|": 325,
+          "|C^perpH|": 325,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "39+52i",
+          "|C|": 25,
+          "|C^perpH|": 4225,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "10+5i",
+          "|C|": 845,
+          "|C^perpH|": 125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "40+-5i",
+          "|C|": 65,
+          "|C^perpH|": 1625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "20+35i",
+          "|C|": 65,
+          "|C^perpH|": 1625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "130+65i",
+          "|C|": 5,
+          "|C^perpH|": 21125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "25+0i",
+          "|C|": 169,
+          "|C^perpH|": 625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "75+-50i",
+          "|C|": 13,
+          "|C^perpH|": 8125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "75+50i",
+          "|C|": 13,
+          "|C^perpH|": 8125,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        },
+        {
+          "q": 325,
+          "generator": "325+0i",
+          "|C|": 1,
+          "|C^perpH|": 105625,
+          "closed_form_equals_annihilator": true,
+          "def6_equals_true_dual": false,
+          "Ann(alpha)_equals_<alpha>": false
+        }
+      ]
+    }
+  ],
+  "A1_example_generators": [
+    {
+      "example": "Z25",
+      "role": "alpha1 (C1)",
+      "alpha": "3+4i",
+      "|C|": 25,
+      "|true dual|": 25,
+      "|<sigma(alpha)>|": 25,
+      "def6_equals_true_dual": false
+    },
+    {
+      "example": "Z25",
+      "role": "alpha2 (C2)",
+      "alpha": "2+1i",
+      "|C|": 125,
+      "|true dual|": 5,
+      "|<sigma(alpha)>|": 125,
+      "def6_equals_true_dual": false
+    },
+    {
+      "example": "Z85",
+      "role": "alpha1 (C1)",
+      "alpha": "7+6i",
+      "|C|": 85,
+      "|true dual|": 85,
+      "|<sigma(alpha)>|": 85,
+      "def6_equals_true_dual": false
+    },
+    {
+      "example": "Z85",
+      "role": "alpha2 (C2)",
+      "alpha": "2+1i",
+      "|C|": 1445,
+      "|true dual|": 5,
+      "|<sigma(alpha)>|": 1445,
+      "def6_equals_true_dual": false
+    },
+    {
+      "example": "Z325",
+      "role": "alpha1 (C1)",
+      "alpha": "4+7i",
+      "|C|": 1625,
+      "|true dual|": 65,
+      "|<sigma(alpha)>|": 1625,
+      "def6_equals_true_dual": false
+    },
+    {
+      "example": "Z325",
+      "role": "alpha2 (C2)",
+      "alpha": "3+2i",
+      "|C|": 8125,
+      "|true dual|": 13,
+      "|<sigma(alpha)>|": 8125,
+      "def6_equals_true_dual": false
+    }
+  ],
+  "A3_printed_conditions": [
+    {
+      "example": "Example 7 (Z25)",
+      "printed_condition": "z * conj(alpha2) = 0 (mod q)",
+      "printed_set_equals_true_dual": true,
+      "set_without_bar_equals_true_dual": false,
+      "dual_generator": "10+5i",
+      "gen*conj(alpha2)": "0+0i",
+      "gen*alpha2": "15+20i"
+    },
+    {
+      "example": "Example 6 (Z325)",
+      "printed_condition": "z * conj(alpha2) = 0 (mod q)",
+      "printed_set_equals_true_dual": true,
+      "set_without_bar_equals_true_dual": false,
+      "dual_generator": "75+50i",
+      "gen*conj(alpha2)": "0+0i",
+      "gen*alpha2": "125+300i"
+    }
+  ],
+  "A4_Z9": {
+    "q": 9,
+    "prime_divisors": [
+      3
+    ],
+    "3 mod 4": 3,
+    "inside_paper_hypothesis": false
+  },
+  "B4_additive": {
+    "C": "Z_q * 1",
+    "|C|": 25,
+    "C_is_R_module": false,
+    "|C^perpH|": 1,
+    "|C^perpTr|": 25,
+    "|C||C^perpH|": 25,
+    "|C||C^perpTr|": 625,
+    "|R|": 625,
+    "pair": {
+      "|C1|": 25,
+      "|C2|": 125,
+      "C1_subset_C2": true,
+      "C1_is_R_module": false,
+      "C2_is_R_module": false,
+      "K=|C2|/|C1|": 5,
+      "hermitian_dual": {
+        "|D|": 1,
+        "noncommuting_pairs": 0,
+        "code_dimension": 25,
+        "dense_nullspace": 25
+      },
+      "trace_dual": {
+        "|D|": 5,
+        "noncommuting_pairs": 80,
+        "code_dimension": 0,
+        "dense_nullspace": 0
+      }
+    }
+  },
+  "C2_conventions": [
+    {
+      "code": "Z25",
+      "trace_convention": "paper",
+      "pauli_relation_max_error": 4.440892098500626e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 5,
+      "K_formula": 5,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 5,
+      "|eps|": 5,
+      "|T_X|": 5,
+      "|T_Z|": 25
+    },
+    {
+      "code": "Z25",
+      "trace_convention": "2re",
+      "pauli_relation_max_error": 4.573525985495315e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 5,
+      "K_formula": 5,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 5,
+      "|eps|": 5,
+      "|T_X|": 5,
+      "|T_Z|": 25
+    },
+    {
+      "code": "Z85",
+      "trace_convention": "paper",
+      "pauli_relation_max_error": 7.391117485641468e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 17,
+      "K_formula": 17,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 17,
+      "|eps|": 17,
+      "|T_X|": 5,
+      "|T_Z|": 85
+    },
+    {
+      "code": "Z85",
+      "trace_convention": "2re",
+      "pauli_relation_max_error": 7.17448075233818e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 17,
+      "K_formula": 17,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 17,
+      "|eps|": 17,
+      "|T_X|": 5,
+      "|T_Z|": 85
+    },
+    {
+      "code": "Z325",
+      "trace_convention": "paper",
+      "pauli_relation_max_error": 6.146465796626548e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 5,
+      "K_formula": 5,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 5,
+      "|eps|": 5,
+      "|T_X|": 13,
+      "|T_Z|": 1625
+    },
+    {
+      "code": "Z325",
+      "trace_convention": "2re",
+      "pauli_relation_max_error": 6.7787275892400296e-15,
+      "trace_dual_equals_hermitian_dual": true,
+      "noncommuting_pairs": 0,
+      "K_structural": 5,
+      "K_formula": 5,
+      "X_reading_C2_nonzero_syndromes": 0,
+      "Z_reading_distinct_over_eps": 5,
+      "|eps|": 5,
+      "|T_X|": 13,
+      "|T_Z|": 1625
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Phase 4: generalised Pauli operators and the Theorem 4 stabilizer group, checked numerically.
+seed = 4242
+# exhaustive (u, v) Pauli-relation check when dim^3 <= this, otherwise `pauli_pairs_sampled` pairs
+pauli_exhaustive_limit = 300_000_000
+pauli_pairs_sampled = 3000
+# dense null-space dimension count only for dim <= this
+dense_dim_limit = 625
+# number of random vectors used to check P^2 = P and P = sum_e |psi_e><psi_e|
+projector_random_vectors = 3
+
+[[codes]]
+key = "Z5_small"           # smallest sanity case (not in the paper): C1 = <2+i> <= C2 = R
+q = 5
+alpha1 = [2, 1]
+alpha2 = [1, 0]
+eps = "greedy"
+
+[[codes]]
+key = "Z25"
+
+[[codes]]
+key = "Z85"
+
+[[codes]]
+key = "Z325"
+
+[[codes]]
+key = "Z5n4"                # Remark 8 configuration found in Phase 2 (independent reconstruction)
+q = 5
+eps = "greedy"
+C2_generators = [[[3, 4], [3, 1], [1, 2], [0, 2]], [[0, 1], [0, 3], [3, 4], [4, 4]], [[3, 1], [1, 2], [4, 1], [2, 1]]]
+C1_generators = [[[4, 3], [1, 3], [3, 0], [0, 1]], [[3, 1], [2, 1], [1, 0], [0, 2]], [[2, 4], [3, 4], [4, 0], [0, 3]], [[1, 2], [4, 2], [2, 0], [0, 4]], [[0, 3], [0, 0], [0, 0], [2, 1]]]

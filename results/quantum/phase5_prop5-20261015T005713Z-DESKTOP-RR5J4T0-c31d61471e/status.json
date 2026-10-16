@@ -1,0 +1,17 @@
+{
+  "experiment_id": "phase5_prop5-20261015T005713Z-DESKTOP-RR5J4T0-c31d61471e",
+  "status": "PASS",
+  "started_utc": "2026-10-15T00:57:13.298587+00:00",
+  "finished_utc": "2026-10-15T01:26:02.668422+00:00",
+  "wall_time_s": 1729.3702706000768,
+  "notes": [
+    "Z5_small: Proposition 5 refuted for X-type errors (1 syndrome pattern(s) for |eps|=5)",
+    "Z25: Proposition 5 refuted for X-type errors (1 syndrome pattern(s) for |eps|=5)",
+    "Z85: Proposition 5 refuted for X-type errors (1 syndrome pattern(s) for |eps|=17)",
+    "Z325: Proposition 5 refuted for X-type errors (1 syndrome pattern(s) for |eps|=5)",
+    "Z5n4: Proposition 5 refuted for X-type errors (1 syndrome pattern(s) for |eps|=25)"
+  ],
+  "rss_MB_end": 668.1,
+  "peak_wset_MB": 4708.9,
+  "torch_cuda_max_allocated_MB": 0.0
+}

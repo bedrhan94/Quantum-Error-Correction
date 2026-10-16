@@ -1,0 +1,64 @@
+{
+  "original_sha256": "eb593509b063c6dd1d53c5ef2222a580c7957eb64407197c92ea4f7029e1ca2e",
+  "fixed_sha256": "01e5a4643513fb804fd48ba63c6bfbaeac69a105caf81e22c29ba7a3422cea99",
+  "diff_lines": 5,
+  "main_stdout_identical": true,
+  "cases": [
+    {
+      "q": 5,
+      "gen": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "|C|": 25,
+      "original_dual_equals_independent": true,
+      "original_double_dual_size": 625,
+      "original_double_dual_equals_C": false,
+      "fixed_dual_equals_independent": true,
+      "fixed_double_dual_size": 25,
+      "fixed_double_dual_equals_C": true
+    },
+    {
+      "q": 5,
+      "gen": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "|C|": 25,
+      "original_dual_equals_independent": true,
+      "original_double_dual_size": 625,
+      "original_double_dual_equals_C": false,
+      "fixed_dual_equals_independent": true,
+      "fixed_double_dual_size": 25,
+      "fixed_double_dual_equals_C": true
+    },
+    {
+      "q": 13,
+      "gen": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "|C|": 169,
+      "original_dual_equals_independent": true,
+      "fixed_dual_equals_independent": true
+    }
+  ]
+}

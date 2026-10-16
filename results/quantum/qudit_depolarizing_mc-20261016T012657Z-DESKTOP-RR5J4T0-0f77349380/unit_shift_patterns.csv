@@ -1,0 +1,4 @@
+code,patterns,X_corrected,Z_corrected,N_X (all u in R),N_Z (all v in R),|R|
+Z25,9,5,9,125,125,625
+Z65,9,9,9,845,845,4225
+Z85,9,5,9,425,425,7225

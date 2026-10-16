@@ -1,0 +1,44 @@
+C:\Users\bedrhan94\Desktop\PennyLane\epsilon_qec_research\experiments\gate_level_css.py:11: SyntaxWarning: invalid escape sequence '\ '
+  4  negative control: X(e), e in eps \ {0}: zero syndrome and <psi_0|X(e)|psi_0> = 0
+[Z25] 1_math: PASS (0.0 s)
+[Z25] 2_encoder_B: PASS (0.5 s)
+   Z25/B/reuse ZX basis (125): min F = 1.0000000000000
+   Z25/B ZX superpositions (25): min F = 1.0000000000000
+   Z25/B/reuse XZ basis (125): min F = 1.0000000000000
+   Z25/B XZ superpositions (25): min F = 1.0000000000000
+   native cross-check (12 runs): max |diff| = 1.11e-15
+[Z25] 3_cycle_B_reuse: PASS (505.3 s)
+   Z25/B ZX basis (40): min F = 1.0000000000000
+   Z25/B ZX superpositions (25): min F = 1.0000000000000
+   Z25/B XZ basis (40): min F = 1.0000000000000
+   Z25/B XZ superpositions (25): min F = 1.0000000000000
+   native cross-check (2 runs): max |diff| = 1.67e-15
+[Z25] 3_cycle_B: PASS (1060.0 s)
+   Z25/A ZX basis (125): min F = 0.9999999999999
+   Z25/A ZX superpositions (25): min F = 0.9999999999999
+   Z25/A XZ basis (125): min F = 0.9999999999999
+   Z25/A XZ superpositions (25): min F = 0.9999999999999
+[Z25] 3_cycle_A: PASS (1081.8 s)
+[Z25] 4_negative_control_B: PASS (2.5 s)
+[Z25] 5_Z_reading_B: PASS (1.1 s)
+[Z65] 1_math: PASS (0.0 s)
+[Z65] 2_encoder_B: PASS (0.6 s)
+   Z65/B/reuse ZX basis (40): min F = 1.0000000000000
+   Z65/B ZX superpositions (25): min F = 1.0000000000000
+   Z65/B/reuse XZ basis (40): min F = 1.0000000000000
+   Z65/B XZ superpositions (25): min F = 1.0000000000000
+   native cross-check (12 runs): max |diff| = 2.00e-15
+[Z65] 3_cycle_B_reuse: PASS (981.8 s)
+[Z65] 4_negative_control_B: PASS (5.4 s)
+[Z65] 5_Z_reading_B: PASS (2.5 s)
+[Z85] 1_math: PASS (0.0 s)
+[Z85] 2_encoder_B: PASS (158.6 s)
+   Z85/B/reuse ZX basis (30): min F = 1.0000000000000
+   Z85/B ZX superpositions (10): min F = 1.0000000000000
+   Z85/B/reuse XZ basis (30): min F = 1.0000000000000
+   Z85/B XZ superpositions (10): min F = 1.0000000000000
+   native cross-check (1 runs): max |diff| = 2.22e-16
+[Z85] 3_cycle_B_reuse: PASS (12246.4 s)
+[Z85] 4_negative_control_B: PASS (699.5 s)
+[Z85] 5_Z_reading_B: PASS (266.4 s)
+[PASS] gate_level_css-20261015T201001Z-DESKTOP-RR5J4T0-ffe8a2b77f  (17014.20 s)  -> C:\Users\bedrhan94\Desktop\PennyLane\epsilon_qec_research\results\quantum\gate_level_css-20261015T201001Z-DESKTOP-RR5J4T0-ffe8a2b77f

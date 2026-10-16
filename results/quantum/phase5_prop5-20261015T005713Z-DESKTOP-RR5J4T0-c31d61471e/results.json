@@ -1,0 +1,1393 @@
+{
+  "Z5_small": {
+    "dim_H": 25,
+    "K": 5.0,
+    "A_paper_reading_X_errors": {
+      "C2_elements_tested": 25,
+      "C2_elements_with_nonzero_syndrome": 0,
+      "kernel_of_X_syndrome_equals_C2": true,
+      "kernel_of_X_syndrome_equals_C1": false,
+      "eps_rows": [
+        {
+          "e": "0+0i",
+          "syndrome_algebraic": [],
+          "syndrome_from_state_Z": [],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 2.7755575615628914e-16,
+          "acts_as_identity_on_code": true,
+          "fidelity_random_logical_state": 1.0,
+          "|<psi_0|X(e)|psi_0>|^2": 1.0,
+          "e_in_C1": true
+        },
+        {
+          "e": "0+1i",
+          "syndrome_algebraic": [],
+          "syndrome_from_state_Z": [],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 2.7755575615628914e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.01712780831980343,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "0+2i",
+          "syndrome_algebraic": [],
+          "syndrome_from_state_Z": [],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 2.7755575615628914e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10388796239863421,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "0+3i",
+          "syndrome_algebraic": [],
+          "syndrome_from_state_Z": [],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 2.7755575615628914e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10388796239863417,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "0+4i",
+          "syndrome_algebraic": [],
+          "syndrome_from_state_Z": [],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 2.7755575615628914e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.01712780831980344,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        }
+      ],
+      "distinct_syndrome_patterns_over_eps": 1,
+      "|eps|": 5,
+      "prop5_holds_for_X_errors": false,
+      "knill_laflamme_eps_X_errors": {
+        "max_deviation": 2.2360679774997894,
+        "worst_pair": [
+          0,
+          1
+        ],
+        "n_errors": 5
+      }
+    },
+    "B_supplementary_Z_errors": {
+      "kernel_of_Z_syndrome_equals_C1_dual": true,
+      "|C1_dual|": 5,
+      "C1_dual_subset_C1": true,
+      "distinct_Z_syndromes_over_eps": 5,
+      "|eps|": 5,
+      "Z_syndrome_constant_on_each_coset_C1+e": true
+    },
+    "C_alternative_design_recovery": {
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "|T_X|": 1,
+      "|T_Z|": 5,
+      "T_X": [
+        "0+0i"
+      ],
+      "max_lee_weight_T_X": 0,
+      "max_lee_weight_T_Z": 1,
+      "pairs_tested": 5,
+      "mode": "exhaustive",
+      "recovered_exactly": 5,
+      "min_fidelity": 0.9999999999999993,
+      "seconds": 0.0005898999515920877,
+      "weight2_X_errors_tested": 8,
+      "weight2_X_errors_recovered": 0,
+      "knill_laflamme_alt_set": {
+        "max_deviation": 2.220539349857056e-16,
+        "worst_pair": [
+          2,
+          2
+        ],
+        "n_errors": 5
+      }
+    },
+    "seconds": 0.007584200007840991
+  },
+  "Z25": {
+    "dim_H": 625,
+    "K": 5.0,
+    "A_paper_reading_X_errors": {
+      "C2_elements_tested": 125,
+      "C2_elements_with_nonzero_syndrome": 0,
+      "kernel_of_X_syndrome_equals_C2": true,
+      "kernel_of_X_syndrome_equals_C1": false,
+      "eps_rows": [
+        {
+          "e": "0+0i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 5.551115123125783e-16,
+          "acts_as_identity_on_code": true,
+          "fidelity_random_logical_state": 1.0000000000000009,
+          "|<psi_0|X(e)|psi_0>|^2": 1.0,
+          "e_in_C1": true
+        },
+        {
+          "e": "2+1i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 5.551115123125783e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.15915562138928738,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "4+2i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 5.551115123125783e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.3221302919881593,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "6+3i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 5.551115123125783e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.3221302919881593,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "8+4i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 5.551115123125783e-16,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.15915562138928735,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        }
+      ],
+      "distinct_syndrome_patterns_over_eps": 1,
+      "|eps|": 5,
+      "prop5_holds_for_X_errors": false,
+      "knill_laflamme_eps_X_errors": {
+        "max_deviation": 2.2360679774997902,
+        "worst_pair": [
+          0,
+          1
+        ],
+        "n_errors": 5
+      }
+    },
+    "B_supplementary_Z_errors": {
+      "kernel_of_Z_syndrome_equals_C1_dual": true,
+      "|C1_dual|": 25,
+      "C1_dual_subset_C1": true,
+      "distinct_Z_syndromes_over_eps": 5,
+      "|eps|": 5,
+      "Z_syndrome_constant_on_each_coset_C1+e": true
+    },
+    "C_alternative_design_recovery": {
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "|T_X|": 5,
+      "|T_Z|": 25,
+      "T_X": [
+        "0+0i",
+        "0+1i",
+        "0+24i",
+        "1+0i",
+        "24+0i"
+      ],
+      "max_lee_weight_T_X": 1,
+      "max_lee_weight_T_Z": 3,
+      "pairs_tested": 125,
+      "mode": "exhaustive",
+      "recovered_exactly": 125,
+      "min_fidelity": 0.9999999999999998,
+      "seconds": 0.0521103001665324,
+      "weight2_X_errors_tested": 8,
+      "weight2_X_errors_recovered": 0,
+      "knill_laflamme_alt_set": {
+        "max_deviation": 4.440980439703058e-16,
+        "worst_pair": [
+          70,
+          70
+        ],
+        "n_errors": 125
+      }
+    },
+    "seconds": 0.6065825000405312
+  },
+  "Z85": {
+    "dim_H": 7225,
+    "K": 17.0,
+    "A_paper_reading_X_errors": {
+      "C2_elements_tested": 1445,
+      "C2_elements_with_nonzero_syndrome": 0,
+      "kernel_of_X_syndrome_equals_C2": true,
+      "kernel_of_X_syndrome_equals_C1": false,
+      "eps_rows": [
+        {
+          "e": "0+0i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": true,
+          "fidelity_random_logical_state": 0.9999999999999993,
+          "|<psi_0|X(e)|psi_0>|^2": 0.9999999999999998,
+          "e_in_C1": true
+        },
+        {
+          "e": "2+1i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.08940083246997763,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "4+2i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.0061415892457018124,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "6+3i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.08068673149339285,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "8+4i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.09770756935004013,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "10+5i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.0009047549708542909,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "12+6i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.1602948584792482,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "14+7i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10381907807344032,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "16+8i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.028296251398854628,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "18+9i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.028296251398854628,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "20+10i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10381907807344032,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "22+11i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.1602948584792482,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "24+12i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.0009047549708542893,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "26+13i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.09770756935004013,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "28+14i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.08068673149339285,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "30+15i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.0061415892457018124,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "32+16i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0
+          ],
+          "stays_in_code_space_leak": 1.653438101671085e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.08940083246997765,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        }
+      ],
+      "distinct_syndrome_patterns_over_eps": 1,
+      "|eps|": 17,
+      "prop5_holds_for_X_errors": false,
+      "knill_laflamme_eps_X_errors": {
+        "max_deviation": 4.12310562561766,
+        "worst_pair": [
+          0,
+          3
+        ],
+        "n_errors": 17
+      }
+    },
+    "B_supplementary_Z_errors": {
+      "kernel_of_Z_syndrome_equals_C1_dual": true,
+      "|C1_dual|": 85,
+      "C1_dual_subset_C1": true,
+      "distinct_Z_syndromes_over_eps": 17,
+      "|eps|": 17,
+      "Z_syndrome_constant_on_each_coset_C1+e": true
+    },
+    "C_alternative_design_recovery": {
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "|T_X|": 5,
+      "|T_Z|": 85,
+      "T_X": [
+        "0+0i",
+        "0+1i",
+        "0+84i",
+        "1+0i",
+        "84+0i"
+      ],
+      "max_lee_weight_T_X": 1,
+      "max_lee_weight_T_Z": 6,
+      "pairs_tested": 425,
+      "mode": "exhaustive",
+      "recovered_exactly": 425,
+      "min_fidelity": 0.9999999999999982,
+      "seconds": 0.8483280001673847,
+      "weight2_X_errors_tested": 8,
+      "weight2_X_errors_recovered": 0,
+      "knill_laflamme_alt_set": {
+        "max_deviation": 5.661053387215531e-16,
+        "mode": "sampled 3000 pairs"
+      }
+    },
+    "seconds": 82.69492770009674
+  },
+  "Z325": {
+    "dim_H": 105625,
+    "K": 5.0,
+    "A_paper_reading_X_errors": {
+      "C2_elements_tested": 8125,
+      "C2_elements_with_nonzero_syndrome": 0,
+      "kernel_of_X_syndrome_equals_C2": true,
+      "kernel_of_X_syndrome_equals_C1": false,
+      "eps_rows": [
+        {
+          "e": "0+0i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 2.5207418382982574e-14,
+          "acts_as_identity_on_code": true,
+          "fidelity_random_logical_state": 1.0000000000000004,
+          "|<psi_0|X(e)|psi_0>|^2": 1.0000000000000004,
+          "e_in_C1": true
+        },
+        {
+          "e": "3+2i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 2.5207418382982574e-14,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.3630267074366952,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "6+4i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 2.5207418382982574e-14,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.22854795805114195,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "9+6i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 2.5207418382982574e-14,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.228547958051142,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "12+8i",
+          "syndrome_algebraic": [
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 2.5207418382982574e-14,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.3630267074366952,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        }
+      ],
+      "distinct_syndrome_patterns_over_eps": 1,
+      "|eps|": 5,
+      "prop5_holds_for_X_errors": false,
+      "knill_laflamme_eps_X_errors": {
+        "max_deviation": 2.236067977499815,
+        "worst_pair": [
+          0,
+          1
+        ],
+        "n_errors": 5
+      }
+    },
+    "B_supplementary_Z_errors": {
+      "kernel_of_Z_syndrome_equals_C1_dual": true,
+      "|C1_dual|": 65,
+      "C1_dual_subset_C1": true,
+      "distinct_Z_syndromes_over_eps": 5,
+      "|eps|": 5,
+      "Z_syndrome_constant_on_each_coset_C1+e": false
+    },
+    "C_alternative_design_recovery": {
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "|T_X|": 13,
+      "|T_Z|": 1625,
+      "T_X": [
+        "0+0i",
+        "0+1i",
+        "0+324i",
+        "1+0i",
+        "324+0i",
+        "0+2i",
+        "0+323i",
+        "1+1i",
+        "1+324i",
+        "2+0i",
+        "323+0i",
+        "324+1i",
+        "324+324i"
+      ],
+      "max_lee_weight_T_X": 2,
+      "max_lee_weight_T_Z": 34,
+      "pairs_tested": 21125,
+      "mode": "exhaustive",
+      "recovered_exactly": 21125,
+      "min_fidelity": 0.9999999999999991,
+      "seconds": 724.6598517999519,
+      "weight2_X_errors_tested": 8,
+      "weight2_X_errors_recovered": 8,
+      "knill_laflamme_alt_set": {
+        "max_deviation": 1.30522361985072e-16,
+        "mode": "sampled 3000 pairs"
+      }
+    },
+    "seconds": 968.4410394001752
+  },
+  "Z5n4": {
+    "dim_H": 390625,
+    "K": 25.0,
+    "A_paper_reading_X_errors": {
+      "C2_elements_tested": 15625,
+      "C2_elements_with_nonzero_syndrome": 0,
+      "kernel_of_X_syndrome_equals_C2": true,
+      "kernel_of_X_syndrome_equals_C1": false,
+      "eps_rows": [
+        {
+          "e": "(0+0i, 0+0i, 0+0i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": true,
+          "fidelity_random_logical_state": 1.0,
+          "|<psi_0|X(e)|psi_0>|^2": 1.0000000000000009,
+          "e_in_C1": true
+        },
+        {
+          "e": "(0+0i, 1+3i, 0+0i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.05386648175697916,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+0i, 2+1i, 0+0i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.052125292674338075,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+0i, 3+4i, 0+0i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.052125292674338075,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+0i, 4+2i, 0+0i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.05386648175697916,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+4i, 0+1i, 0+1i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.021317016977267476,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+4i, 1+4i, 0+1i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10251172960707233,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+4i, 2+2i, 0+1i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.012315108911121368,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+4i, 3+0i, 0+1i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.006036222451272691,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+4i, 4+3i, 0+1i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.006520818285937323,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+3i, 0+2i, 0+2i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.026492042259838783,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+3i, 1+0i, 0+2i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.04702788870629531,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+3i, 2+3i, 0+2i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.006561713157374425,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+3i, 3+1i, 0+2i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.004178713448271099,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+3i, 4+4i, 0+2i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.003781808166329419,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+2i, 0+3i, 0+3i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.026492042259838783,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+2i, 1+1i, 0+3i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.0037818081663294175,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+2i, 2+4i, 0+3i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.004178713448271099,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+2i, 3+2i, 0+3i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.006561713157374425,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+2i, 4+0i, 0+3i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.047027888706295325,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+1i, 0+4i, 0+4i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.02131701697726747,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+1i, 1+2i, 0+4i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.00652081828593732,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+1i, 2+0i, 0+4i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.006036222451272691,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+1i, 3+3i, 0+4i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.012315108911121362,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        },
+        {
+          "e": "(0+1i, 4+1i, 0+4i, 0+0i)",
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "syndrome_from_state_Z": [
+            0,
+            0
+          ],
+          "syndrome_from_state_X": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "stays_in_code_space_leak": 3.5466505253942254e-15,
+          "acts_as_identity_on_code": false,
+          "fidelity_random_logical_state": 0.10251172960707226,
+          "|<psi_0|X(e)|psi_0>|^2": 0.0,
+          "e_in_C1": false
+        }
+      ],
+      "distinct_syndrome_patterns_over_eps": 1,
+      "|eps|": 25,
+      "prop5_holds_for_X_errors": false,
+      "knill_laflamme_eps_X_errors": {
+        "max_deviation": 5.000000000000004,
+        "worst_pair": [
+          0,
+          2
+        ],
+        "n_errors": 25
+      }
+    },
+    "B_supplementary_Z_errors": {
+      "kernel_of_Z_syndrome_equals_C1_dual": true,
+      "|C1_dual|": 625,
+      "C1_dual_subset_C1": false,
+      "distinct_Z_syndromes_over_eps": 5,
+      "|eps|": 25,
+      "Z_syndrome_constant_on_each_coset_C1+e": false
+    },
+    "C_alternative_design_recovery": {
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "|T_X|": 25,
+      "|T_Z|": 625,
+      "T_X": [
+        "(0+0i, 0+0i, 0+0i, 0+0i)",
+        "(0+1i, 0+0i, 0+0i, 0+0i)",
+        "(0+4i, 0+0i, 0+0i, 0+0i)",
+        "(1+0i, 0+0i, 0+0i, 0+0i)",
+        "(4+0i, 0+0i, 0+0i, 0+0i)",
+        "(0+0i, 0+1i, 0+0i, 0+0i)",
+        "(0+0i, 0+4i, 0+0i, 0+0i)",
+        "(0+0i, 1+0i, 0+0i, 0+0i)",
+        "(0+0i, 4+0i, 0+0i, 0+0i)",
+        "(0+0i, 0+0i, 0+1i, 0+0i)",
+        "(0+0i, 0+0i, 0+4i, 0+0i)",
+        "(0+0i, 0+0i, 1+0i, 0+0i)",
+        "(0+0i, 0+0i, 4+0i, 0+0i)",
+        "(0+0i, 0+0i, 0+0i, 0+1i)",
+        "(0+0i, 0+0i, 0+0i, 0+4i)",
+        "(0+0i, 0+0i, 0+0i, 1+0i)",
+        "(0+0i, 0+0i, 0+0i, 4+0i)",
+        "(1+0i, 0+1i, 0+0i, 0+0i)",
+        "(4+0i, 0+1i, 0+0i, 0+0i)",
+        "(1+0i, 0+4i, 0+0i, 0+0i)"
+      ],
+      "max_lee_weight_T_X": 2,
+      "max_lee_weight_T_Z": 4,
+      "pairs_tested": 400,
+      "mode": "sampled 400",
+      "recovered_exactly": 400,
+      "min_fidelity": 0.9999999999999991,
+      "seconds": 200.1839399000164,
+      "weight2_X_errors_tested": 128,
+      "weight2_X_errors_recovered": 16,
+      "knill_laflamme_alt_set": {
+        "max_deviation": 1.4980712173117744e-17,
+        "mode": "sampled 60 pairs"
+      }
+    },
+    "seconds": 672.049376900075
+  }
+}

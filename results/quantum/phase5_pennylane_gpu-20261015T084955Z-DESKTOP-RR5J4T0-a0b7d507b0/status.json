@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase5_pennylane_gpu-20261015T084955Z-DESKTOP-RR5J4T0-a0b7d507b0",
+  "status": "PASS",
+  "started_utc": "2026-10-15T08:49:55.885702+00:00",
+  "finished_utc": "2026-10-15T08:59:35.860837+00:00",
+  "wall_time_s": 579.975130188,
+  "notes": [],
+  "rss_MB_end": 1124.8,
+  "peak_wset_MB": null,
+  "torch_cuda_max_allocated_MB": 0.0
+}

@@ -1,0 +1,1091 @@
+{
+  "pennylane": "0.45.1",
+  "device": "lightning.qubit",
+  "mcm_method": "tree-traversal",
+  "trace_convention": "2re",
+  "codes": {
+    "Z25": {
+      "steps": {
+        "1_math": {
+          "noncommuting_pairs": 0,
+          "K_formula": 5,
+          "dim_structural": 5,
+          "dim_trace_formula": 5.0,
+          "gram_minus_I": 2.220446049250313e-16,
+          "closed_form_dual_equals_enumerated": true,
+          "C2perp_subset_C1": true,
+          "status": "PASS",
+          "seconds": 0.0007739001885056496
+        },
+        "2_encoder_B": {
+          "rows": [
+            {
+              "j": 0,
+              "t_j": "0+0i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 1,
+              "t_j": "15+5i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 2,
+              "t_j": "5+10i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 3,
+              "t_j": "20+15i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 4,
+              "t_j": "10+20i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            }
+          ],
+          "worst_fidelity": 1.0,
+          "superposition_fidelity": 0.9999999999999982,
+          "max_residual_logical_ancilla": 0.0,
+          "max_leakage": 0.0,
+          "eps_to_canonical": [
+            {
+              "eps": "0+0i",
+              "canonical_j": 0
+            },
+            {
+              "eps": "2+1i",
+              "canonical_j": 4
+            },
+            {
+              "eps": "4+2i",
+              "canonical_j": 3
+            },
+            {
+              "eps": "6+3i",
+              "canonical_j": 2
+            },
+            {
+              "eps": "8+4i",
+              "canonical_j": 1
+            }
+          ],
+          "wires": {
+            "data_qubits": 12,
+            "logical_qubits": 3,
+            "ancilla_qubits": 6,
+            "total_wires": 21,
+            "digits": [
+              [
+                "U5d1",
+                5,
+                "free"
+              ],
+              [
+                "U5d0",
+                5,
+                "free"
+              ],
+              [
+                "V5d1",
+                5,
+                "label"
+              ],
+              [
+                "V5d0",
+                5,
+                "dead"
+              ]
+            ],
+            "parts": [
+              [
+                "Z",
+                0,
+                5,
+                1
+              ],
+              [
+                "X",
+                0,
+                5,
+                2
+              ]
+            ],
+            "reuse_ancilla": true
+          },
+          "status": "PASS",
+          "seconds": 0.5762901999987662
+        },
+        "3_cycle_B_reuse": {
+          "layout": "B",
+          "reuse_ancilla": true,
+          "wires": 21,
+          "pairs_mode": "sampled 20 of 125",
+          "n_pairs": 20,
+          "|T_X|": 5,
+          "|T_Z|": 25,
+          "runs": 50,
+          "min_fidelity": 0.9999999999999987,
+          "n_fidelity_1": 50,
+          "max_discarded_probability": 5.502860862503083e-31,
+          "mean_seconds": 0.621368833980523,
+          "native_crosscheck": [
+            {
+              "a": "0+24i",
+              "b": "24+2i",
+              "order": "ZX",
+              "segmented_P0": 0.9999999999999996,
+              "native_P0": 0.9999999999999996,
+              "max_abs_diff_full_distribution": 4.6055007901015276e-32,
+              "native_seconds": 26.348627700004727
+            },
+            {
+              "a": "24+0i",
+              "b": "2+24i",
+              "order": "XZ",
+              "segmented_P0": 0.9999999999999997,
+              "native_P0": 1.0000000000000004,
+              "max_abs_diff_full_distribution": 7.771561172376096e-16,
+              "native_seconds": 33.049355200026184
+            }
+          ],
+          "rows": [
+            {
+              "a": "0+0i",
+              "b": "0+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.43582289991900325,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 34
+                }
+              ],
+              "discarded_probability": 1.3922609680181418e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "24+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 0.9999999999999991,
+              "seconds": 0.6330979999620467,
+              "records": [
+                {
+                  "Z0": 4,
+                  "X0": 32
+                }
+              ],
+              "discarded_probability": 1.026131336629404e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.636756099993363,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 32
+                }
+              ],
+              "discarded_probability": 1.1741119694657205e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "0+23i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 1.0,
+              "seconds": 0.6442792001180351,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 3
+                }
+              ],
+              "discarded_probability": 1.83219355391777e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "0+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.4500810999888927,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 17
+                }
+              ],
+              "discarded_probability": 1.6789978681481935e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "2+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.6246215999126434,
+              "records": [
+                {
+                  "Z0": 4,
+                  "X0": 24
+                }
+              ],
+              "discarded_probability": 1.948095065866341e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "24+23i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.6543115000240505,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 1
+                }
+              ],
+              "discarded_probability": 1.503285182328745e-31
+            },
+            {
+              "a": "24+0i",
+              "b": "2+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 1.0,
+              "seconds": 0.6370782000012696,
+              "records": [
+                {
+                  "Z0": 3,
+                  "X0": 24
+                }
+              ],
+              "discarded_probability": 1.215103808467595e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.6382434999104589,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 12
+                }
+              ],
+              "discarded_probability": 2.058727664860469e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "1+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 1.0000000000000002,
+              "seconds": 0.5942760999314487,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 36
+                }
+              ],
+              "discarded_probability": 2.3858480211964858e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "23+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 1.0,
+              "seconds": 0.6504001999273896,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 10
+                }
+              ],
+              "discarded_probability": 1.1344541249235645e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "22+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 1.0,
+              "seconds": 0.5846092998981476,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 28
+                }
+              ],
+              "discarded_probability": 3.073288588127202e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "24+23i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 1.0,
+              "seconds": 0.6306979998480529,
+              "records": [
+                {
+                  "Z0": 4,
+                  "X0": 1
+                }
+              ],
+              "discarded_probability": 1.6334296026266705e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "23+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.4329767997842282,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 10
+                }
+              ],
+              "discarded_probability": 1.1064580825107902e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.6301682000048459,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 35
+                }
+              ],
+              "discarded_probability": 5.383319086225941e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "23+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.6837212999816984,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 33
+                }
+              ],
+              "discarded_probability": 4.792761132764334e-31
+            },
+            {
+              "a": "24+0i",
+              "b": "2+24i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 1.0,
+              "seconds": 0.6143594000022858,
+              "records": [
+                {
+                  "Z0": 3,
+                  "X0": 27
+                }
+              ],
+              "discarded_probability": 1.8013913747570002e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "23+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.5941230000462383,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 33
+                }
+              ],
+              "discarded_probability": 4.998988566936812e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "1+24i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999999,
+              "seconds": 0.45485949981957674,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 25
+                }
+              ],
+              "discarded_probability": 1.983766063997801e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "1+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.694640199886635,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 2
+                }
+              ],
+              "discarded_probability": 1.2130317789146109e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "1+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.7445952000562102,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 36
+                }
+              ],
+              "discarded_probability": 2.3839656803712077e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "23+1i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 0.9999999999999992,
+              "seconds": 0.6199294999241829,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 10
+                }
+              ],
+              "discarded_probability": 1.0825739949744235e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "1+24i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 0.9999999999999987,
+              "seconds": 0.6011678001377732,
+              "records": [
+                {
+                  "Z0": 0,
+                  "X0": 25
+                }
+              ],
+              "discarded_probability": 1.6861616157686777e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+2i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 0.9999999999999994,
+              "seconds": 0.794583500130102,
+              "records": [
+                {
+                  "Z0": 1,
+                  "X0": 32
+                }
+              ],
+              "discarded_probability": 1.432924564713896e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "23+0i",
+              "order": "ZX",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 1.0000000000000007,
+              "seconds": 0.7807756001129746,
+              "records": [
+                {
+                  "Z0": 2,
+                  "X0": 33
+                }
+              ],
+              "discarded_probability": 4.73364304368069e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "0+2i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999992,
+              "seconds": 0.468499300070107,
+              "records": [
+                {
+                  "X0": 34,
+                  "Z0": 0
+                }
+              ],
+              "discarded_probability": 1.3785965445432258e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "24+2i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 0.9999999999999991,
+              "seconds": 0.6833051000721753,
+              "records": [
+                {
+                  "X0": 32,
+                  "Z0": 4
+                }
+              ],
+              "discarded_probability": 1.4543874385209806e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+2i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 0.9999999999999992,
+              "seconds": 0.6227744999341667,
+              "records": [
+                {
+                  "X0": 32,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 1.2384350203427163e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "0+23i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999991,
+              "seconds": 0.6423333999700844,
+              "records": [
+                {
+                  "X0": 3,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 1.9452318425022313e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "0+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.4556305999867618,
+              "records": [
+                {
+                  "X0": 17,
+                  "Z0": 0
+                }
+              ],
+              "discarded_probability": 1.6789978681481935e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "2+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 1.0000000000000004,
+              "seconds": 0.6311228000558913,
+              "records": [
+                {
+                  "X0": 24,
+                  "Z0": 4
+                }
+              ],
+              "discarded_probability": 1.9480950658663407e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "24+23i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 0.9999999999999991,
+              "seconds": 0.590727600036189,
+              "records": [
+                {
+                  "X0": 1,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 1.465471910879614e-31
+            },
+            {
+              "a": "24+0i",
+              "b": "2+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 1.0000000000000004,
+              "seconds": 0.5774050999898463,
+              "records": [
+                {
+                  "X0": 24,
+                  "Z0": 3
+                }
+              ],
+              "discarded_probability": 1.5099742153826645e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999993,
+              "seconds": 0.6640402998309582,
+              "records": [
+                {
+                  "X0": 12,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 2.0629194025616226e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "1+2i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 1.0,
+              "seconds": 0.5890553998760879,
+              "records": [
+                {
+                  "X0": 36,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 2.287011454127627e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "23+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.620733099989593,
+              "records": [
+                {
+                  "X0": 10,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 1.1778939074011398e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "22+0i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 0.9999999999999993,
+              "seconds": 0.6121503000613302,
+              "records": [
+                {
+                  "X0": 28,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 3.127402387720178e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "24+23i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.6354011001531035,
+              "records": [
+                {
+                  "X0": 1,
+                  "Z0": 4
+                }
+              ],
+              "discarded_probability": 1.3663650096940366e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "23+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.4398762001655996,
+              "records": [
+                {
+                  "X0": 10,
+                  "Z0": 0
+                }
+              ],
+              "discarded_probability": 1.0524017484136968e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "24+0i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 1.0,
+              "seconds": 0.6439851999748498,
+              "records": [
+                {
+                  "X0": 35,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 5.502860862503083e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "23+0i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 0",
+              "fidelity": 0.9999999999999993,
+              "seconds": 0.6480511000845581,
+              "records": [
+                {
+                  "X0": 33,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 5.131939335736089e-31
+            },
+            {
+              "a": "24+0i",
+              "b": "2+24i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 1",
+              "fidelity": 1.0,
+              "seconds": 0.6063882999587804,
+              "records": [
+                {
+                  "X0": 27,
+                  "Z0": 3
+                }
+              ],
+              "discarded_probability": 1.811398342751491e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "23+0i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 2",
+              "fidelity": 0.9999999999999996,
+              "seconds": 0.6091938999015838,
+              "records": [
+                {
+                  "X0": 33,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 4.791000039694321e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "1+24i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 3",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.45568270003423095,
+              "records": [
+                {
+                  "X0": 25,
+                  "Z0": 0
+                }
+              ],
+              "discarded_probability": 1.8582792964037556e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "1+0i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "basis 4",
+              "fidelity": 0.9999999999999991,
+              "seconds": 0.6689561998937279,
+              "records": [
+                {
+                  "X0": 2,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 1.1617786826202542e-31
+            },
+            {
+              "a": "0+1i",
+              "b": "23+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 1.0000000000000009,
+              "seconds": 0.8520626998506486,
+              "records": [
+                {
+                  "X0": 10,
+                  "Z0": 1
+                }
+              ],
+              "discarded_probability": 1.1055824065441776e-31
+            },
+            {
+              "a": "24+0i",
+              "b": "2+24i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 1.0000000000000004,
+              "seconds": 0.7623598999343812,
+              "records": [
+                {
+                  "X0": 27,
+                  "Z0": 3
+                }
+              ],
+              "discarded_probability": 1.79254591163321e-31
+            },
+            {
+              "a": "1+0i",
+              "b": "24+23i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 0.9999999999999998,
+              "seconds": 0.7608859001193196,
+              "records": [
+                {
+                  "X0": 1,
+                  "Z0": 2
+                }
+              ],
+              "discarded_probability": 1.5783461180229612e-31
+            },
+            {
+              "a": "0+0i",
+              "b": "0+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 1.0,
+              "seconds": 0.5877489999402314,
+              "records": [
+                {
+                  "X0": 17,
+                  "Z0": 0
+                }
+              ],
+              "discarded_probability": 1.677784236278584e-31
+            },
+            {
+              "a": "0+24i",
+              "b": "2+1i",
+              "order": "XZ",
+              "engine": "segmented",
+              "input": "random superposition",
+              "fidelity": 1.0,
+              "seconds": 0.7798962998203933,
+              "records": [
+                {
+                  "X0": 24,
+                  "Z0": 4
+                }
+              ],
+              "discarded_probability": 1.9939850428912983e-31
+            }
+          ],
+          "status": "PASS",
+          "seconds": 92.01414339989424
+        },
+        "4_negative_control_B": {
+          "rows": [
+            {
+              "e": "2+1i",
+              "syndrome_values_Z_then_X": [
+                0,
+                0
+              ],
+              "syndrome_probability": 1.0000000000000002,
+              "all_syndromes_zero": true,
+              "|<psi0|X(e)|psi0>|^2": 0.0,
+              "e_in_C1": false
+            },
+            {
+              "e": "4+2i",
+              "syndrome_values_Z_then_X": [
+                0,
+                0
+              ],
+              "syndrome_probability": 1.0000000000000002,
+              "all_syndromes_zero": true,
+              "|<psi0|X(e)|psi0>|^2": 0.0,
+              "e_in_C1": false
+            },
+            {
+              "e": "6+3i",
+              "syndrome_values_Z_then_X": [
+                0,
+                0
+              ],
+              "syndrome_probability": 1.0000000000000002,
+              "all_syndromes_zero": true,
+              "|<psi0|X(e)|psi0>|^2": 0.0,
+              "e_in_C1": false
+            },
+            {
+              "e": "8+4i",
+              "syndrome_values_Z_then_X": [
+                0,
+                0
+              ],
+              "syndrome_probability": 1.0000000000000002,
+              "all_syndromes_zero": true,
+              "|<psi0|X(e)|psi0>|^2": 0.0,
+              "e_in_C1": false
+            }
+          ],
+          "reproduces_prop5_counterexample": true,
+          "status": "PASS",
+          "seconds": 2.661366800079122
+        },
+        "5_Z_reading_B": {
+          "rows": [
+            {
+              "e": "0+0i",
+              "measured": [
+                0
+              ],
+              "expected": [
+                0
+              ],
+              "probability": 1.0000000000000002
+            },
+            {
+              "e": "2+1i",
+              "measured": [
+                15
+              ],
+              "expected": [
+                15
+              ],
+              "probability": 1.0000000000000002
+            },
+            {
+              "e": "4+2i",
+              "measured": [
+                5
+              ],
+              "expected": [
+                5
+              ],
+              "probability": 0.9999999999999996
+            },
+            {
+              "e": "6+3i",
+              "measured": [
+                20
+              ],
+              "expected": [
+                20
+              ],
+              "probability": 1.0000000000000002
+            },
+            {
+              "e": "8+4i",
+              "measured": [
+                10
+              ],
+              "expected": [
+                10
+              ],
+              "probability": 0.9999999999999992
+            }
+          ],
+          "distinct_syndromes": 5,
+          "|eps|": 5,
+          "condition_(eps-eps)_cap_C1perp_trivial": true,
+          "equivalence_holds": true,
+          "measured_equals_expected": true,
+          "status": "PASS",
+          "seconds": 1.2128194000106305
+        }
+      },
+      "config_used": {
+        "device": "lightning.qubit",
+        "engine": "segmented",
+        "native_crosscheck": 2,
+        "cycle_sample": 20,
+        "superposition_pairs": 5,
+        "cycle_exhaustive_limit": 0
+      }
+    }
+  }
+}

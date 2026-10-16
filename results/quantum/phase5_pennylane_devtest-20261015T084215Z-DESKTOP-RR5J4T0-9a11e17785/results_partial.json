@@ -1,0 +1,40 @@
+{
+  "pennylane_version": "0.45.1",
+  "device": "lightning.qubit",
+  "c_dtype": "complex128",
+  "full_cycle_coherent": {
+    "Z25": {
+      "status": "RUN",
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "wires": 20,
+      "feed_forward": "coherent (ancilla-controlled corrections)",
+      "rows": [
+        {
+          "a": "1+0i",
+          "b": "2+24i",
+          "ancilla_branch_probability": 0.9999999999999644,
+          "fidelity_after_recovery": 1.0,
+          "seconds": 1.6697348998859525,
+          "gpu_used_MB_after_run": null
+        },
+        {
+          "a": "0+1i",
+          "b": "1+23i",
+          "ancilla_branch_probability": 0.999999999999964,
+          "fidelity_after_recovery": 1.0,
+          "seconds": 1.810791099909693,
+          "gpu_used_MB_after_run": null
+        },
+        {
+          "a": "0+24i",
+          "b": "22+0i",
+          "ancilla_branch_probability": 0.9999999999999648,
+          "fidelity_after_recovery": 1.0,
+          "seconds": 1.6476786998100579,
+          "gpu_used_MB_after_run": null
+        }
+      ],
+      "min_fidelity": 1.0
+    }
+  }
+}

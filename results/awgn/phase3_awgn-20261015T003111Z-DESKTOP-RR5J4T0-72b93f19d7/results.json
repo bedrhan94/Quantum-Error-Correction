@@ -1,0 +1,187 @@
+{
+  "category": "independent reconstruction",
+  "figures": {
+    "fig1": {
+      "qam16_ml": {
+        "constellation": {
+          "M": 16,
+          "bits_per_symbol": 4.0,
+          "avg_energy_unnormalised": 10.000000000000002,
+          "dmin_unnormalised": 2.0,
+          "dmin_normalised": 0.6324555320336758,
+          "dmin2_over_Es": 0.39999999999999986
+        },
+        "label": "16-QAM (ML)"
+      },
+      "qam32_ml": {
+        "constellation": {
+          "M": 32,
+          "bits_per_symbol": 5.0,
+          "avg_energy_unnormalised": 20.0,
+          "dmin_unnormalised": 2.0,
+          "dmin_normalised": 0.4472135954999579,
+          "dmin2_over_Es": 0.19999999999999998
+        },
+        "label": "32-QAM cross (ML)"
+      },
+      "rq25_w5_ring": {
+        "constellation": {
+          "M": 25,
+          "bits_per_symbol": 4.643856189774724,
+          "avg_energy_unnormalised": 4.0,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.5,
+          "dmin2_over_Es": 0.25
+        },
+        "label": "25-el. Z[i]/(5) grid, ring receiver"
+      },
+      "rq25_w5_ml": {
+        "constellation": {
+          "M": 25,
+          "bits_per_symbol": 4.643856189774724,
+          "avg_energy_unnormalised": 4.0,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.5,
+          "dmin2_over_Es": 0.25
+        },
+        "label": "25-el. Z[i]/(5) grid, ML"
+      },
+      "rq25_w34_ring": {
+        "constellation": {
+          "M": 25,
+          "bits_per_symbol": 4.643856189774724,
+          "avg_energy_unnormalised": 4.16,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.49029033784546006,
+          "dmin2_over_Es": 0.24038461538461536
+        },
+        "label": "25-el. Z[i]/(3+4i), ring receiver"
+      },
+      "rq25_w34_ml": {
+        "constellation": {
+          "M": 25,
+          "bits_per_symbol": 4.643856189774724,
+          "avg_energy_unnormalised": 4.16,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.49029033784546006,
+          "dmin2_over_Es": 0.24038461538461536
+        },
+        "label": "25-el. Z[i]/(3+4i), ML"
+      }
+    },
+    "fig2": {
+      "qam256_ml": {
+        "constellation": {
+          "M": 256,
+          "bits_per_symbol": 8.0,
+          "avg_energy_unnormalised": 170.0,
+          "dmin_unnormalised": 2.0,
+          "dmin_normalised": 0.15339299776947402,
+          "dmin2_over_Es": 0.02352941176470586
+        },
+        "label": "256-QAM (ML)"
+      },
+      "qam1024_ml": {
+        "constellation": {
+          "M": 1024,
+          "bits_per_symbol": 10.0,
+          "avg_energy_unnormalised": 682.0,
+          "dmin_unnormalised": 2.0,
+          "dmin_normalised": 0.07658395810674823,
+          "dmin2_over_Es": 0.005865102639296168
+        },
+        "label": "1024-QAM (ML)"
+      },
+      "rq625_w25_ring": {
+        "constellation": {
+          "M": 625,
+          "bits_per_symbol": 9.287712379549449,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.09805806756909197,
+          "dmin2_over_Es": 0.009615384615384606
+        },
+        "label": "625-el. Z_25[i] grid, ring receiver"
+      },
+      "rq625_w25_ml": {
+        "constellation": {
+          "M": 625,
+          "bits_per_symbol": 9.287712379549449,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.09805806756909197,
+          "dmin2_over_Es": 0.009615384615384606
+        },
+        "label": "625-el. Z_25[i] grid, ML"
+      },
+      "rq625_w724_ring": {
+        "constellation": {
+          "M": 625,
+          "bits_per_symbol": 9.287712379549449,
+          "avg_energy_unnormalised": 104.1664,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.09797971512544268,
+          "dmin2_over_Es": 0.009600024576062901
+        },
+        "label": "625-el. Z[i]/(-7+24i), ring receiver"
+      }
+    },
+    "fig3": {
+      "unc625_ring": {
+        "constellation": {
+          "M": 625,
+          "bits_per_symbol": 9.287712379549449,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 1.0,
+          "dmin_normalised": 0.09805806756909197,
+          "dmin2_over_Es": 0.009615384615384606
+        },
+        "label": "Uncoded 625 Z_25[i], ring receiver"
+      },
+      "coded125_coset_tx": {
+        "constellation": {
+          "M": 125,
+          "bits_per_symbol": 6.965784284662087,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 2.23606797749979,
+          "dmin_normalised": 0.21926450482675722,
+          "dmin2_over_Es": 0.04807692307692304
+        },
+        "label": "Coded <2+i> (125), coset decoder, Es of 125"
+      },
+      "coded125_coset_all": {
+        "constellation": {
+          "M": 125,
+          "bits_per_symbol": 6.965784284662087,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 2.23606797749979,
+          "dmin_normalised": 0.21926450482675722,
+          "dmin2_over_Es": 0.04807692307692304
+        },
+        "label": "Coded <2+i> (125), coset decoder, Es of 625"
+      },
+      "coded125_ml": {
+        "constellation": {
+          "M": 125,
+          "bits_per_symbol": 6.965784284662087,
+          "avg_energy_unnormalised": 104.0,
+          "dmin_unnormalised": 2.23606797749979,
+          "dmin_normalised": 0.21926450482675722,
+          "dmin2_over_Es": 0.04807692307692304
+        },
+        "label": "Same 125 points, ML detection"
+      },
+      "qam128_ml": {
+        "constellation": {
+          "M": 128,
+          "bits_per_symbol": 7.0,
+          "avg_energy_unnormalised": 82.0,
+          "dmin_unnormalised": 2.0,
+          "dmin_normalised": 0.22086305214969304,
+          "dmin2_over_Es": 0.04878048780487803
+        },
+        "label": "Uncoded 128-QAM cross (ML), equal rate"
+      }
+    }
+  }
+}

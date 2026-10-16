@@ -1,0 +1,51 @@
+{
+  "seed": 777,
+  "device": "lightning.qubit",
+  "adder_all_k_limit": 85,
+  "adder_sample_k": 6,
+  "gate_test_random_u": 6,
+  "gate_tests": [
+    "Z25",
+    "Z85",
+    "Z325"
+  ],
+  "prop5_z_syndrome": [
+    "Z25",
+    "Z85",
+    "Z325"
+  ],
+  "x_syndrome": [
+    "Z25",
+    "Z85"
+  ],
+  "full_cycle": [
+    "Z25"
+  ],
+  "full_cycle_pairs": 12,
+  "max_wires": 26,
+  "gate_set": [
+    "CNOT",
+    "RZ",
+    "RY",
+    "RX",
+    "PhaseShift",
+    "ControlledPhaseShift",
+    "Hadamard",
+    "PauliX",
+    "QubitUnitary",
+    "Toffoli",
+    "SWAP",
+    "GlobalPhase"
+  ],
+  "codes": [
+    {
+      "key": "Z25"
+    },
+    {
+      "key": "Z85"
+    },
+    {
+      "key": "Z325"
+    }
+  ]
+}

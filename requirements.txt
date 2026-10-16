@@ -1,0 +1,17 @@
+# Versions actually used for every run in results/ (Windows 10, Python 3.12.10).
+# torch: CUDA 12.8 build (supports Blackwell sm_120); install with
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.11.0
+torch==2.11.0
+pennylane==0.45.1
+pennylane-lightning==0.45.0
+psutil==7.2.2
+pypdf==6.14.2
+pytest==9.1.1
+reportlab==4.4.4
+# installed but not used by any experiment (see report, section 10):
+stim==1.16.0
+# NOT installable on native Windows (custatevec-cu12 has no Windows wheels).  Installed inside WSL2 Ubuntu by
+# wsl/setup_wsl_gpu.sh:  pennylane-lightning-gpu==0.45.0  (pulls custatevec-cu12)

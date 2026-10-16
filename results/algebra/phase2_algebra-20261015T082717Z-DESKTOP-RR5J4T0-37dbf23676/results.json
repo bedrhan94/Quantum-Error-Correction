@@ -1,0 +1,1433 @@
+{
+  "axioms": [
+    {
+      "q": 5,
+      "|R|": 25,
+      "mul_commutative_all_pairs": true,
+      "add_commutative_all_pairs": true,
+      "conj_multiplicative_all_pairs": true,
+      "conj_additive_all_pairs": true,
+      "norm_multiplicative_all_pairs": true,
+      "trace_pairing_nondegenerate_all": true,
+      "conj_involution_all": true,
+      "norm_equals_x_conj_x_all": true,
+      "i_squared_is_minus_one": true,
+      "triples": "exhaustive",
+      "mul_associative": true,
+      "distributive": true
+    },
+    {
+      "q": 13,
+      "|R|": 169,
+      "mul_commutative_all_pairs": true,
+      "add_commutative_all_pairs": true,
+      "conj_multiplicative_all_pairs": true,
+      "conj_additive_all_pairs": true,
+      "norm_multiplicative_all_pairs": true,
+      "trace_pairing_nondegenerate_all": true,
+      "conj_involution_all": true,
+      "norm_equals_x_conj_x_all": true,
+      "i_squared_is_minus_one": true,
+      "triples": "exhaustive",
+      "mul_associative": true,
+      "distributive": true
+    },
+    {
+      "q": 25,
+      "|R|": 625,
+      "mul_commutative_all_pairs": true,
+      "add_commutative_all_pairs": true,
+      "conj_multiplicative_all_pairs": true,
+      "conj_additive_all_pairs": true,
+      "norm_multiplicative_all_pairs": true,
+      "trace_pairing_nondegenerate_all": true,
+      "conj_involution_all": true,
+      "norm_equals_x_conj_x_all": true,
+      "i_squared_is_minus_one": true,
+      "triples": "exhaustive",
+      "mul_associative": true,
+      "distributive": true
+    },
+    {
+      "q": 85,
+      "|R|": 7225,
+      "mul_commutative_all_pairs": true,
+      "add_commutative_all_pairs": true,
+      "conj_multiplicative_all_pairs": true,
+      "conj_additive_all_pairs": true,
+      "norm_multiplicative_all_pairs": true,
+      "trace_pairing_nondegenerate_all": true,
+      "conj_involution_all": true,
+      "norm_equals_x_conj_x_all": true,
+      "i_squared_is_minus_one": true,
+      "triples": "random(2000000)",
+      "mul_associative": true,
+      "distributive": true
+    }
+  ],
+  "units": [
+    {
+      "q": 5,
+      "units_by_norm_criterion": 16,
+      "units_by_brute_force": 16,
+      "criterion_matches_brute_force": true,
+      "mode": "exhaustive multiplication table",
+      "units_formula_split_primes": 16
+    },
+    {
+      "q": 13,
+      "units_by_norm_criterion": 144,
+      "units_by_brute_force": 144,
+      "criterion_matches_brute_force": true,
+      "mode": "exhaustive multiplication table",
+      "units_formula_split_primes": 144
+    },
+    {
+      "q": 25,
+      "units_by_norm_criterion": 400,
+      "units_by_brute_force": 400,
+      "criterion_matches_brute_force": true,
+      "mode": "exhaustive multiplication table",
+      "units_formula_split_primes": 400
+    },
+    {
+      "q": 85,
+      "units_by_norm_criterion": 4096,
+      "units_by_brute_force": 4096,
+      "criterion_matches_brute_force": true,
+      "mode": "exhaustive multiplication table",
+      "units_formula_split_primes": 4096
+    },
+    {
+      "q": 325,
+      "units_by_norm_criterion": 57600,
+      "units_formula_split_primes": 57600
+    }
+  ],
+  "css": {
+    "Z25": {
+      "q": 25,
+      "alpha1": "3+4i",
+      "alpha2": "2+1i",
+      "|R|": 625,
+      "size_C1_enumerated": 25,
+      "size_C2_enumerated": 125,
+      "size_C1_paper_formula_q2_over_N": 25.0,
+      "size_C2_paper_formula_q2_over_N": 125.0,
+      "size_C1_gcd_formula": 25,
+      "size_C2_gcd_formula": 125,
+      "gcd(alpha1,q)": [
+        3,
+        4
+      ],
+      "gcd(alpha2,q)": [
+        2,
+        1
+      ],
+      "N(alpha1)_mod_q": 0,
+      "N(alpha2)_mod_q": 5,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 5,
+      "K": 5,
+      "size_C2_dual_true": 5,
+      "size_C2_dual_def6": 125,
+      "size_C1_dual_true": 25,
+      "size_C2_trace_dual": 5,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_def6_orthogonal_to_all_C2_exhaustive": false,
+      "dual_true_principal_generator_found": "5+15i",
+      "claimed_dual_generator": "10+5i",
+      "claimed_dual_generator_ideal_equals_true_dual": true,
+      "size_C2_euclidean_dual": 5,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "2+1i",
+        "v_in_def6_dual": "2+24i",
+        "<c,v>_H": "3+4i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "3+4i",
+        "v_in_def6_dual": "2+24i",
+        "Tr<v,u>_H mod q": 16,
+        "chi": [
+          -0.6374239897486895,
+          -0.7705132427757894
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 25,
+          "computed": 25,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 125,
+          "computed": 125,
+          "match": true
+        },
+        "index": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "K": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        }
+      }
+    },
+    "Z85": {
+      "q": 85,
+      "alpha1": "7+6i",
+      "alpha2": "2+1i",
+      "|R|": 7225,
+      "size_C1_enumerated": 85,
+      "size_C2_enumerated": 1445,
+      "size_C1_paper_formula_q2_over_N": 85.0,
+      "size_C2_paper_formula_q2_over_N": 1445.0,
+      "size_C1_gcd_formula": 85,
+      "size_C2_gcd_formula": 1445,
+      "gcd(alpha1,q)": [
+        7,
+        6
+      ],
+      "gcd(alpha2,q)": [
+        2,
+        1
+      ],
+      "N(alpha1)_mod_q": 0,
+      "N(alpha2)_mod_q": 5,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 17,
+      "K": 17,
+      "size_C2_dual_true": 5,
+      "size_C2_dual_def6": 1445,
+      "size_C1_dual_true": 85,
+      "size_C2_trace_dual": 5,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_def6_orthogonal_to_all_C2_exhaustive": false,
+      "dual_true_principal_generator_found": "17+51i",
+      "size_C2_euclidean_dual": 5,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "2+1i",
+        "v_in_def6_dual": "2+84i",
+        "<c,v>_H": "3+4i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "7+6i",
+        "v_in_def6_dual": "2+84i",
+        "Tr<v,u>_H mod q": 74,
+        "chi": [
+          0.6872366859692629,
+          -0.7264335740162239
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 85,
+          "computed": 85,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 1445,
+          "computed": 1445,
+          "match": true
+        },
+        "index": {
+          "claimed": 17,
+          "computed": 17,
+          "match": true
+        },
+        "K": {
+          "claimed": 17,
+          "computed": 17,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        }
+      }
+    },
+    "Z325": {
+      "q": 325,
+      "alpha1": "4+7i",
+      "alpha2": "3+2i",
+      "|R|": 105625,
+      "size_C1_enumerated": 1625,
+      "size_C2_enumerated": 8125,
+      "size_C1_paper_formula_q2_over_N": 1625.0,
+      "size_C2_paper_formula_q2_over_N": 8125.0,
+      "size_C1_gcd_formula": 1625,
+      "size_C2_gcd_formula": 8125,
+      "gcd(alpha1,q)": [
+        4,
+        7
+      ],
+      "gcd(alpha2,q)": [
+        3,
+        2
+      ],
+      "N(alpha1)_mod_q": 65,
+      "N(alpha2)_mod_q": 13,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 5,
+      "K": 5,
+      "size_C2_dual_true": 13,
+      "size_C2_dual_def6": 8125,
+      "size_C1_dual_true": 65,
+      "size_C2_trace_dual": 13,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_true_principal_generator_found": "25+125i",
+      "claimed_dual_generator": "75+50i",
+      "claimed_dual_generator_ideal_equals_true_dual": true,
+      "size_C2_euclidean_dual": 13,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "3+2i",
+        "v_in_def6_dual": "3+323i",
+        "<c,v>_H": "5+12i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "4+7i",
+        "v_in_def6_dual": "3+323i",
+        "Tr<v,u>_H mod q": 294,
+        "chi": [
+          0.825719824359524,
+          -0.5640804655895086
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 1625,
+          "computed": 1625,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 8125,
+          "computed": 8125,
+          "match": true
+        },
+        "index": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "K": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 13,
+          "computed": 13,
+          "match": true
+        }
+      }
+    }
+  },
+  "z9_table_row": {
+    "C1": [
+      0,
+      3,
+      6
+    ],
+    "C2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "size_C1": 3,
+    "size_C2": 9,
+    "index": 3,
+    "size_C2_dual_true": 1,
+    "C2_dual_true": [
+      0
+    ],
+    "size_C2_dual_def6": 9,
+    "K_theorem4_formula": 3,
+    "table_claims": {
+      "size_C1": 3,
+      "size_C2": 9,
+      "index": 3,
+      "size_dual": 3,
+      "K_table2": 1
+    },
+    "table1_dual_size_matches_true_dual": false,
+    "table2_K_matches_theorem4": false
+  },
+  "lemma1": [
+    {
+      "q": 5,
+      "n_alpha_tested": 25,
+      "n_distinct_ideals": 4,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 4
+        },
+        "p2_def6": {
+          "violations": 2,
+          "tested": 4
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 5
+        },
+        "p3_def6": {
+          "violations": 5,
+          "tested": 5
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 25,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 25
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 25,
+          "|C2dual|": 25,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 13,
+      "n_alpha_tested": 169,
+      "n_distinct_ideals": 4,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 4
+        },
+        "p2_def6": {
+          "violations": 2,
+          "tested": 4
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 5
+        },
+        "p3_def6": {
+          "violations": 5,
+          "tested": 5
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 169,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 169
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 169,
+          "|C2dual|": 169,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 25,
+      "n_alpha_tested": 625,
+      "n_distinct_ideals": 9,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 9
+        },
+        "p2_def6": {
+          "violations": 6,
+          "tested": 9
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 27
+        },
+        "p3_def6": {
+          "violations": 27,
+          "tested": 27
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 625,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 625
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 625,
+          "|C2dual|": 625,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 65,
+      "n_alpha_tested": 4225,
+      "n_distinct_ideals": 16,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 16
+        },
+        "p2_def6": {
+          "violations": 12,
+          "tested": 16
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 65
+        },
+        "p3_def6": {
+          "violations": 65,
+          "tested": 65
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 4225,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 4225
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 4225,
+          "|C2dual|": 4225,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 85,
+      "n_alpha_tested": 7225,
+      "n_distinct_ideals": 16,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 16
+        },
+        "p2_def6": {
+          "violations": 12,
+          "tested": 16
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 65
+        },
+        "p3_def6": {
+          "violations": 65,
+          "tested": 65
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 7225,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 7225
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 7225,
+          "|C2dual|": 7225,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 325,
+      "n_alpha_tested": 36,
+      "n_distinct_ideals": 36,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 36
+        },
+        "p2_def6": {
+          "violations": 30,
+          "tested": 36
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 288
+        },
+        "p3_def6": {
+          "violations": 288,
+          "tested": 288
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "1+0i",
+          "|C|": 105625,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "1+0i",
+          "|C|": 105625,
+          "|dual|": 105625,
+          "q^2": 105625
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "3+323i",
+          "C2": "1+0i",
+          "|C1|": 8125,
+          "|C2|": 105625,
+          "|C2dual|": 105625,
+          "|C1dual|": 8125
+        }
+      },
+      "mode": "all divisor ideals (= all ideals, Z_q[i] is a PIR)"
+    }
+  ],
+  "transversals": {
+    "Z25": {
+      "greedy_theorem2": {
+        "eps": [
+          "0+0i",
+          "0+5i",
+          "0+10i",
+          "0+15i",
+          "0+20i"
+        ],
+        "size_C1": 25,
+        "size_C2": 125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "multiples_k_alpha2": {
+        "eps": [
+          "0+0i",
+          "2+1i",
+          "4+2i",
+          "6+3i",
+          "8+4i"
+        ],
+        "size_C1": 25,
+        "size_C2": 125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "orig_canonical_i_multiples": {
+        "eps": [
+          "0+0i",
+          "24+2i",
+          "23+4i",
+          "22+6i",
+          "21+8i"
+        ],
+        "size_C1": 25,
+        "size_C2": 125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "paper_example4": {
+        "eps": [
+          "0+0i",
+          "10+0i",
+          "0+10i",
+          "0+15i",
+          "0+5i"
+        ],
+        "size_C1": 25,
+        "size_C2": 125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "paper_example7": {
+        "eps": [
+          "0+0i",
+          "2+1i",
+          "4+2i",
+          "6+3i",
+          "8+4i"
+        ],
+        "size_C1": 25,
+        "size_C2": 125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      }
+    },
+    "Z85": {
+      "greedy_theorem2": {
+        "eps": [
+          "0+0i",
+          "0+5i",
+          "0+10i",
+          "0+15i",
+          "0+20i",
+          "0+25i",
+          "0+30i",
+          "0+35i",
+          "0+40i",
+          "0+45i",
+          "0+50i",
+          "0+55i",
+          "0+60i",
+          "0+65i",
+          "0+70i",
+          "0+75i",
+          "0+80i"
+        ],
+        "size_C1": 85,
+        "size_C2": 1445,
+        "index": 17,
+        "size_eps": 17,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 136,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "multiples_k_alpha2": {
+        "eps": [
+          "0+0i",
+          "2+1i",
+          "4+2i",
+          "6+3i",
+          "8+4i",
+          "10+5i",
+          "12+6i",
+          "14+7i",
+          "16+8i",
+          "18+9i",
+          "20+10i",
+          "22+11i",
+          "24+12i",
+          "26+13i",
+          "28+14i",
+          "30+15i",
+          "32+16i"
+        ],
+        "size_C1": 85,
+        "size_C2": 1445,
+        "index": 17,
+        "size_eps": 17,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 136,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "orig_canonical_i_multiples": {
+        "eps": [
+          "0+0i",
+          "84+2i",
+          "83+4i",
+          "82+6i",
+          "81+8i",
+          "80+10i",
+          "79+12i",
+          "78+14i",
+          "77+16i",
+          "76+18i",
+          "75+20i",
+          "74+22i",
+          "73+24i",
+          "72+26i",
+          "71+28i",
+          "70+30i",
+          "69+32i"
+        ],
+        "size_C1": 85,
+        "size_C2": 1445,
+        "index": 17,
+        "size_eps": 17,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 136,
+        "bad_pairs": [],
+        "valid": true
+      }
+    },
+    "Z325": {
+      "greedy_theorem2": {
+        "eps": [
+          "0+0i",
+          "0+13i",
+          "0+26i",
+          "0+39i",
+          "0+52i"
+        ],
+        "size_C1": 1625,
+        "size_C2": 8125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "multiples_k_alpha2": {
+        "eps": [
+          "0+0i",
+          "3+2i",
+          "6+4i",
+          "9+6i",
+          "12+8i"
+        ],
+        "size_C1": 1625,
+        "size_C2": 8125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "orig_canonical_i_multiples": {
+        "eps": [
+          "0+0i",
+          "323+3i",
+          "321+6i",
+          "319+9i",
+          "317+12i"
+        ],
+        "size_C1": 1625,
+        "size_C2": 8125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      },
+      "paper_example6": {
+        "eps": [
+          "0+0i",
+          "3+2i",
+          "6+4i",
+          "9+6i",
+          "12+8i"
+        ],
+        "size_C1": 1625,
+        "size_C2": 8125,
+        "index": 5,
+        "size_eps": 5,
+        "eps_in_C2": true,
+        "size_matches_index": true,
+        "pairwise_distinct_cosets": true,
+        "translates_disjoint": true,
+        "union_equals_C2": true,
+        "n_pair_checks": 10,
+        "bad_pairs": [],
+        "valid": true
+      }
+    }
+  },
+  "decoding": [
+    {
+      "ring": "Z25",
+      "oracle": "bitmap-vectorised",
+      "y_total": 625,
+      "y_in_C2": 125,
+      "in_C2_exactly_one_candidate": 125,
+      "in_C2_zero_candidates": 0,
+      "in_C2_multiple_candidates": 0,
+      "not_in_C2_with_candidate": 0,
+      "all_c_in_C1": true,
+      "all_codeword_error_pairs_recovered": true
+    },
+    {
+      "ring": "Z25",
+      "oracle": "bitmap",
+      "ok": 125,
+      "not_in_C2": 500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 1250,
+      "membership_tests_per_word": 2.0,
+      "seconds_all_R_best_of": 0.005972399841994047,
+      "us_per_word": 9.555839747190475,
+      "preprocess_s_C1": 1.500127837061882e-06,
+      "preprocess_s_C2": 1.0998919606208801e-06,
+      "memory_bytes_C1_oracle_est": 625
+    },
+    {
+      "ring": "Z25",
+      "oracle": "pyset",
+      "ok": 125,
+      "not_in_C2": 500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 1250,
+      "membership_tests_per_word": 2.0,
+      "seconds_all_R_best_of": 0.003293899819254875,
+      "us_per_word": 5.2702397108078,
+      "preprocess_s_C1": 3.750016912817955e-05,
+      "preprocess_s_C2": 0.00010710000060498714,
+      "memory_bytes_C1_oracle_est": 2800
+    },
+    {
+      "ring": "Z25",
+      "oracle": "algebraic",
+      "ok": 125,
+      "not_in_C2": 500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 1250,
+      "membership_tests_per_word": 2.0,
+      "seconds_all_R_best_of": 0.0032202000729739666,
+      "us_per_word": 5.152320116758347,
+      "preprocess_s_C1": 1.4800112694501877e-05,
+      "preprocess_s_C2": 5.400041118264198e-06,
+      "memory_bytes_C1_oracle_est": 0
+    },
+    {
+      "ring": "Z25",
+      "oracle": "direct-quotient-map(baseline)",
+      "ok": 125,
+      "seconds_all_C2_incl_reference": 0.003727999981492758,
+      "agrees_with_eps_decoder_on_all_C2": true
+    },
+    {
+      "ring": "Z85",
+      "oracle": "bitmap-vectorised",
+      "y_total": 7225,
+      "y_in_C2": 1445,
+      "in_C2_exactly_one_candidate": 1445,
+      "in_C2_zero_candidates": 0,
+      "in_C2_multiple_candidates": 0,
+      "not_in_C2_with_candidate": 0,
+      "all_c_in_C1": true,
+      "all_codeword_error_pairs_recovered": true
+    },
+    {
+      "ring": "Z85",
+      "oracle": "bitmap",
+      "ok": 1445,
+      "not_in_C2": 5780,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 31790,
+      "membership_tests_per_word": 4.4,
+      "seconds_all_R_best_of": 0.1387024000287056,
+      "us_per_word": 19.197564017813924,
+      "preprocess_s_C1": 1.4998950064182281e-06,
+      "preprocess_s_C2": 1.100124791264534e-06,
+      "memory_bytes_C1_oracle_est": 7225
+    },
+    {
+      "ring": "Z85",
+      "oracle": "pyset",
+      "ok": 1445,
+      "not_in_C2": 5780,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 31790,
+      "membership_tests_per_word": 4.4,
+      "seconds_all_R_best_of": 0.0719192000105977,
+      "us_per_word": 9.954214534338783,
+      "preprocess_s_C1": 0.00012110010720789433,
+      "preprocess_s_C2": 0.0014168999623507261,
+      "memory_bytes_C1_oracle_est": 9520
+    },
+    {
+      "ring": "Z85",
+      "oracle": "algebraic",
+      "ok": 1445,
+      "not_in_C2": 5780,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 31790,
+      "membership_tests_per_word": 4.4,
+      "seconds_all_R_best_of": 0.06960439984686673,
+      "us_per_word": 9.63382696842446,
+      "preprocess_s_C1": 1.9499799236655235e-05,
+      "preprocess_s_C2": 5.899928510189056e-06,
+      "memory_bytes_C1_oracle_est": 0
+    },
+    {
+      "ring": "Z85",
+      "oracle": "direct-quotient-map(baseline)",
+      "ok": 1445,
+      "seconds_all_C2_incl_reference": 0.11293160007335246,
+      "agrees_with_eps_decoder_on_all_C2": true
+    },
+    {
+      "ring": "Z325",
+      "oracle": "bitmap-vectorised",
+      "y_total": 105625,
+      "y_in_C2": 8125,
+      "in_C2_exactly_one_candidate": 8125,
+      "in_C2_zero_candidates": 0,
+      "in_C2_multiple_candidates": 0,
+      "not_in_C2_with_candidate": 0,
+      "all_c_in_C1": true,
+      "all_codeword_error_pairs_recovered": true
+    },
+    {
+      "ring": "Z325",
+      "oracle": "bitmap",
+      "ok": 8125,
+      "not_in_C2": 97500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 146250,
+      "membership_tests_per_word": 1.3846153846153846,
+      "seconds_all_R_best_of": 0.6591135000344366,
+      "us_per_word": 6.240127810976914,
+      "preprocess_s_C1": 3.00002284348011e-06,
+      "preprocess_s_C2": 2.300133928656578e-06,
+      "memory_bytes_C1_oracle_est": 105625
+    },
+    {
+      "ring": "Z325",
+      "oracle": "pyset",
+      "ok": 8125,
+      "not_in_C2": 97500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 146250,
+      "membership_tests_per_word": 1.3846153846153846,
+      "seconds_all_R_best_of": 0.35553770000115037,
+      "us_per_word": 3.3660373964605954,
+      "preprocess_s_C1": 0.0014712999109178782,
+      "preprocess_s_C2": 0.006472400156781077,
+      "memory_bytes_C1_oracle_est": 182000
+    },
+    {
+      "ring": "Z325",
+      "oracle": "algebraic",
+      "ok": 8125,
+      "not_in_C2": 97500,
+      "no_candidate": 0,
+      "non_unique": 0,
+      "wrong": 0,
+      "membership_tests_total": 146250,
+      "membership_tests_per_word": 1.3846153846153846,
+      "seconds_all_R_best_of": 0.3465196001343429,
+      "us_per_word": 3.280658936183128,
+      "preprocess_s_C1": 1.9800150766968727e-05,
+      "preprocess_s_C2": 6.400048732757568e-06,
+      "memory_bytes_C1_oracle_est": 0
+    },
+    {
+      "ring": "Z325",
+      "oracle": "direct-quotient-map(baseline)",
+      "ok": 8125,
+      "seconds_all_C2_incl_reference": 0.2369964001700282,
+      "agrees_with_eps_decoder_on_all_C2": true
+    }
+  ],
+  "scaling_rows": 160,
+  "scaling_fit_family_A": {
+    "bitmap": {
+      "us_per_eps_element": 4.0965437005801935,
+      "intercept_us": 4.921278757206034,
+      "r2": 0.9999892702336997
+    },
+    "pyset": {
+      "us_per_eps_element": 2.0115290969495376,
+      "intercept_us": 2.8336837052092694,
+      "r2": 0.9999395964010177
+    },
+    "algebraic": {
+      "us_per_eps_element": 1.9539905391649557,
+      "intercept_us": 2.8220080414098394,
+      "r2": 0.9999769773224501
+    },
+    "direct-quotient-map(baseline)": {
+      "us_per_eps_element": 0.0006132885399159648,
+      "intercept_us": 0.9592466023943813,
+      "r2": 0.5641832312084557
+    }
+  },
+  "multiqudit": {
+    "found_after_tries": 5,
+    "C2_generators": [
+      [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "C1_generators": [
+      [
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "size_C2": 15625,
+    "size_C1": 625,
+    "size_C2_dual": 25,
+    "C1_subset_C2": true,
+    "dual_subset_C1": true,
+    "orth_exhaustive_C2_vs_dual": true,
+    "K_theorem4_|C2|/|C1|": 25,
+    "K_remark8_|C1|/|C2dual|": 25,
+    "C1_dual_size": 625,
+    "status": "independent reconstruction (paper gives no generators)"
+  }
+}

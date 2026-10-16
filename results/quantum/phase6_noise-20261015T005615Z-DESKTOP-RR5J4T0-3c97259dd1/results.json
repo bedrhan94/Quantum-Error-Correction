@@ -1,0 +1,3 @@
+{
+  "noise_model": "code capacity: i.i.d. single-qubit (or qudit) noise on the data once; ideal encoding/syndrome extraction/recovery"
+}

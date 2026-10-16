@@ -1,0 +1,1428 @@
+{
+  "summary": {
+    "25|greedy": {
+      "evaluated": 14,
+      "condition_true": 9,
+      "prop5_Z_holds": 9,
+      "equivalence_violations": 0
+    },
+    "25|canonical": {
+      "evaluated": 14,
+      "condition_true": 9,
+      "prop5_Z_holds": 9,
+      "equivalence_violations": 0
+    },
+    "25|paper_multiples": {
+      "evaluated": 8,
+      "condition_true": 8,
+      "prop5_Z_holds": 8,
+      "equivalence_violations": 0
+    },
+    "25|random": {
+      "evaluated": 14,
+      "condition_true": 9,
+      "prop5_Z_holds": 9,
+      "equivalence_violations": 0
+    },
+    "65|greedy": {
+      "evaluated": 27,
+      "condition_true": 17,
+      "prop5_Z_holds": 17,
+      "equivalence_violations": 0
+    },
+    "65|canonical": {
+      "evaluated": 27,
+      "condition_true": 17,
+      "prop5_Z_holds": 17,
+      "equivalence_violations": 0
+    },
+    "65|paper_multiples": {
+      "evaluated": 16,
+      "condition_true": 16,
+      "prop5_Z_holds": 16,
+      "equivalence_violations": 0
+    },
+    "65|random": {
+      "evaluated": 27,
+      "condition_true": 16,
+      "prop5_Z_holds": 16,
+      "equivalence_violations": 0
+    },
+    "85|greedy": {
+      "evaluated": 27,
+      "condition_true": 17,
+      "prop5_Z_holds": 17,
+      "equivalence_violations": 0
+    },
+    "85|canonical": {
+      "evaluated": 27,
+      "condition_true": 17,
+      "prop5_Z_holds": 17,
+      "equivalence_violations": 0
+    },
+    "85|paper_multiples": {
+      "evaluated": 16,
+      "condition_true": 16,
+      "prop5_Z_holds": 16,
+      "equivalence_violations": 0
+    },
+    "85|random": {
+      "evaluated": 27,
+      "condition_true": 17,
+      "prop5_Z_holds": 17,
+      "equivalence_violations": 0
+    },
+    "125|greedy": {
+      "evaluated": 40,
+      "condition_true": 25,
+      "prop5_Z_holds": 25,
+      "equivalence_violations": 0
+    },
+    "125|canonical": {
+      "evaluated": 40,
+      "condition_true": 25,
+      "prop5_Z_holds": 25,
+      "equivalence_violations": 0
+    },
+    "125|paper_multiples": {
+      "evaluated": 20,
+      "condition_true": 20,
+      "prop5_Z_holds": 20,
+      "equivalence_violations": 0
+    },
+    "125|random": {
+      "evaluated": 40,
+      "condition_true": 25,
+      "prop5_Z_holds": 25,
+      "equivalence_violations": 0
+    },
+    "325|greedy": {
+      "evaluated": 102,
+      "condition_true": 62,
+      "prop5_Z_holds": 62,
+      "equivalence_violations": 0
+    },
+    "325|canonical": {
+      "evaluated": 102,
+      "condition_true": 62,
+      "prop5_Z_holds": 62,
+      "equivalence_violations": 0
+    },
+    "325|paper_multiples": {
+      "evaluated": 52,
+      "condition_true": 52,
+      "prop5_Z_holds": 52,
+      "equivalence_violations": 0
+    },
+    "325|random": {
+      "evaluated": 102,
+      "condition_true": 58,
+      "prop5_Z_holds": 58,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|greedy": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random0": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random1": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random2": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random3": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random4": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random5": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random6": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random7": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random8": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random9": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random10": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random11": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random12": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random13": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random14": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random15": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random16": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random17": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random18": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    },
+    "5 (n=4)|random19": {
+      "evaluated": 1,
+      "condition_true": 0,
+      "prop5_Z_holds": 0,
+      "equivalence_violations": 0
+    }
+  },
+  "invalid_multiples": [
+    {
+      "q": 25,
+      "alpha1": "5+0i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 625,
+      "K": 25,
+      "|C1^perpH|": 25,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 25,
+      "alpha1": "10+-5i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 25,
+      "alpha1": "10+-5i",
+      "alpha2": "2+-1i",
+      "|C1|": 5,
+      "|C2|": 125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 25,
+      "alpha1": "10+5i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 25,
+      "alpha1": "10+5i",
+      "alpha2": "2+1i",
+      "|C1|": 5,
+      "|C2|": 125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 25,
+      "alpha1": "25+0i",
+      "alpha2": "1+0i",
+      "|C1|": 1,
+      "|C2|": 625,
+      "K": 625,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "13+0i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 4225,
+      "K": 169,
+      "|C1^perpH|": 169,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "26+-13i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 4225,
+      "K": 845,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "26+-13i",
+      "alpha2": "2+-1i",
+      "|C1|": 5,
+      "|C2|": 845,
+      "K": 169,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "26+13i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 4225,
+      "K": 845,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "26+13i",
+      "alpha2": "2+1i",
+      "|C1|": 5,
+      "|C2|": 845,
+      "K": 169,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "5+0i",
+      "alpha2": "1+0i",
+      "|C1|": 169,
+      "|C2|": 4225,
+      "K": 25,
+      "|C1^perpH|": 25,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "15+-10i",
+      "alpha2": "1+0i",
+      "|C1|": 13,
+      "|C2|": 4225,
+      "K": 325,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "15+-10i",
+      "alpha2": "3+-2i",
+      "|C1|": 13,
+      "|C2|": 325,
+      "K": 25,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "15+10i",
+      "alpha2": "1+0i",
+      "|C1|": 13,
+      "|C2|": 4225,
+      "K": 325,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "15+10i",
+      "alpha2": "3+2i",
+      "|C1|": 13,
+      "|C2|": 325,
+      "K": 25,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 65,
+      "alpha1": "65+0i",
+      "alpha2": "1+0i",
+      "|C1|": 1,
+      "|C2|": 4225,
+      "K": 4225,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "17+0i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 7225,
+      "K": 289,
+      "|C1^perpH|": 289,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "34+-17i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 7225,
+      "K": 1445,
+      "|C1^perpH|": 1445,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "34+-17i",
+      "alpha2": "2+-1i",
+      "|C1|": 5,
+      "|C2|": 1445,
+      "K": 289,
+      "|C1^perpH|": 1445,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "34+17i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 7225,
+      "K": 1445,
+      "|C1^perpH|": 1445,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "34+17i",
+      "alpha2": "2+1i",
+      "|C1|": 5,
+      "|C2|": 1445,
+      "K": 289,
+      "|C1^perpH|": 1445,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "5+0i",
+      "alpha2": "1+0i",
+      "|C1|": 289,
+      "|C2|": 7225,
+      "K": 25,
+      "|C1^perpH|": 25,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "20+-5i",
+      "alpha2": "1+0i",
+      "|C1|": 17,
+      "|C2|": 7225,
+      "K": 425,
+      "|C1^perpH|": 425,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "20+-5i",
+      "alpha2": "4+-1i",
+      "|C1|": 17,
+      "|C2|": 425,
+      "K": 25,
+      "|C1^perpH|": 425,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "20+5i",
+      "alpha2": "1+0i",
+      "|C1|": 17,
+      "|C2|": 7225,
+      "K": 425,
+      "|C1^perpH|": 425,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "20+5i",
+      "alpha2": "4+1i",
+      "|C1|": 17,
+      "|C2|": 425,
+      "K": 25,
+      "|C1^perpH|": 425,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 85,
+      "alpha1": "85+0i",
+      "alpha2": "1+0i",
+      "|C1|": 1,
+      "|C2|": 7225,
+      "K": 7225,
+      "|C1^perpH|": 7225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "5+0i",
+      "alpha2": "1+0i",
+      "|C1|": 625,
+      "|C2|": 15625,
+      "K": 25,
+      "|C1^perpH|": 25,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "10+-5i",
+      "alpha2": "1+0i",
+      "|C1|": 125,
+      "|C2|": 15625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "10+-5i",
+      "alpha2": "2+-1i",
+      "|C1|": 125,
+      "|C2|": 3125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+-20i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 15625,
+      "K": 625,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+-20i",
+      "alpha2": "2+-1i",
+      "|C1|": 25,
+      "|C2|": 3125,
+      "K": 125,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+-20i",
+      "alpha2": "3+-4i",
+      "|C1|": 25,
+      "|C2|": 625,
+      "K": 25,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "10+5i",
+      "alpha2": "1+0i",
+      "|C1|": 125,
+      "|C2|": 15625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "10+5i",
+      "alpha2": "2+1i",
+      "|C1|": 125,
+      "|C2|": 3125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "25+0i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 15625,
+      "K": 625,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "25+0i",
+      "alpha2": "2+-1i",
+      "|C1|": 25,
+      "|C2|": 3125,
+      "K": 125,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "25+0i",
+      "alpha2": "2+1i",
+      "|C1|": 25,
+      "|C2|": 3125,
+      "K": 125,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "25+0i",
+      "alpha2": "5+0i",
+      "|C1|": 25,
+      "|C2|": 625,
+      "K": 25,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "50+-25i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 15625,
+      "K": 3125,
+      "|C1^perpH|": 3125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "50+-25i",
+      "alpha2": "2+-1i",
+      "|C1|": 5,
+      "|C2|": 3125,
+      "K": 625,
+      "|C1^perpH|": 3125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+20i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 15625,
+      "K": 625,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+20i",
+      "alpha2": "2+1i",
+      "|C1|": 25,
+      "|C2|": 3125,
+      "K": 125,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "15+20i",
+      "alpha2": "3+4i",
+      "|C1|": 25,
+      "|C2|": 625,
+      "K": 25,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "50+25i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 15625,
+      "K": 3125,
+      "|C1^perpH|": 3125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "50+25i",
+      "alpha2": "2+1i",
+      "|C1|": 5,
+      "|C2|": 3125,
+      "K": 625,
+      "|C1^perpH|": 3125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 125,
+      "alpha1": "125+0i",
+      "alpha2": "1+0i",
+      "|C1|": 1,
+      "|C2|": 15625,
+      "K": 15625,
+      "|C1^perpH|": 15625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "13+0i",
+      "alpha2": "1+0i",
+      "|C1|": 625,
+      "|C2|": 105625,
+      "K": 169,
+      "|C1^perpH|": 169,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "26+-13i",
+      "alpha2": "1+0i",
+      "|C1|": 125,
+      "|C2|": 105625,
+      "K": 845,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "26+-13i",
+      "alpha2": "2+-1i",
+      "|C1|": 125,
+      "|C2|": 21125,
+      "K": 169,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+-52i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 105625,
+      "K": 4225,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+-52i",
+      "alpha2": "2+-1i",
+      "|C1|": 25,
+      "|C2|": 21125,
+      "K": 845,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+-52i",
+      "alpha2": "3+-4i",
+      "|C1|": 25,
+      "|C2|": 4225,
+      "K": 169,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "26+13i",
+      "alpha2": "1+0i",
+      "|C1|": 125,
+      "|C2|": 105625,
+      "K": 845,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "26+13i",
+      "alpha2": "2+1i",
+      "|C1|": 125,
+      "|C2|": 21125,
+      "K": 169,
+      "|C1^perpH|": 845,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "5+0i",
+      "alpha2": "1+0i",
+      "|C1|": 4225,
+      "|C2|": 105625,
+      "K": 25,
+      "|C1^perpH|": 25,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "15+-10i",
+      "alpha2": "1+0i",
+      "|C1|": 325,
+      "|C2|": 105625,
+      "K": 325,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "15+-10i",
+      "alpha2": "3+-2i",
+      "|C1|": 325,
+      "|C2|": 8125,
+      "K": 25,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "15+10i",
+      "alpha2": "1+0i",
+      "|C1|": 325,
+      "|C2|": 105625,
+      "K": 325,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "15+10i",
+      "alpha2": "3+2i",
+      "|C1|": 325,
+      "|C2|": 8125,
+      "K": 25,
+      "|C1^perpH|": 325,
+      "C1^perpH_subset_C1": true,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "65+0i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 105625,
+      "K": 4225,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "65+0i",
+      "alpha2": "2+-1i",
+      "|C1|": 25,
+      "|C2|": 21125,
+      "K": 845,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "65+0i",
+      "alpha2": "2+1i",
+      "|C1|": 25,
+      "|C2|": 21125,
+      "K": 845,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "65+0i",
+      "alpha2": "5+0i",
+      "|C1|": 25,
+      "|C2|": 4225,
+      "K": 169,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "10+-5i",
+      "alpha2": "1+0i",
+      "|C1|": 845,
+      "|C2|": 105625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "10+-5i",
+      "alpha2": "2+-1i",
+      "|C1|": 845,
+      "|C2|": 21125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+-35i",
+      "alpha2": "1+0i",
+      "|C1|": 65,
+      "|C2|": 105625,
+      "K": 1625,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+-35i",
+      "alpha2": "3+-2i",
+      "|C1|": 65,
+      "|C2|": 8125,
+      "K": 125,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+-35i",
+      "alpha2": "2+-1i",
+      "|C1|": 65,
+      "|C2|": 21125,
+      "K": 325,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+-35i",
+      "alpha2": "4+-7i",
+      "|C1|": 65,
+      "|C2|": 1625,
+      "K": 25,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+5i",
+      "alpha2": "1+0i",
+      "|C1|": 65,
+      "|C2|": 105625,
+      "K": 1625,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+5i",
+      "alpha2": "3+2i",
+      "|C1|": 65,
+      "|C2|": 8125,
+      "K": 125,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+5i",
+      "alpha2": "2+-1i",
+      "|C1|": 65,
+      "|C2|": 21125,
+      "K": 325,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+5i",
+      "alpha2": "8+1i",
+      "|C1|": 65,
+      "|C2|": 1625,
+      "K": 25,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "130+-65i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 105625,
+      "K": 21125,
+      "|C1^perpH|": 21125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "130+-65i",
+      "alpha2": "2+-1i",
+      "|C1|": 5,
+      "|C2|": 21125,
+      "K": 4225,
+      "|C1^perpH|": 21125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+52i",
+      "alpha2": "1+0i",
+      "|C1|": 25,
+      "|C2|": 105625,
+      "K": 4225,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+52i",
+      "alpha2": "2+1i",
+      "|C1|": 25,
+      "|C2|": 21125,
+      "K": 845,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "39+52i",
+      "alpha2": "3+4i",
+      "|C1|": 25,
+      "|C2|": 4225,
+      "K": 169,
+      "|C1^perpH|": 4225,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "10+5i",
+      "alpha2": "1+0i",
+      "|C1|": 845,
+      "|C2|": 105625,
+      "K": 125,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "10+5i",
+      "alpha2": "2+1i",
+      "|C1|": 845,
+      "|C2|": 21125,
+      "K": 25,
+      "|C1^perpH|": 125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+-5i",
+      "alpha2": "1+0i",
+      "|C1|": 65,
+      "|C2|": 105625,
+      "K": 1625,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+-5i",
+      "alpha2": "3+-2i",
+      "|C1|": 65,
+      "|C2|": 8125,
+      "K": 125,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+-5i",
+      "alpha2": "2+1i",
+      "|C1|": 65,
+      "|C2|": 21125,
+      "K": 325,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "40+-5i",
+      "alpha2": "8+-1i",
+      "|C1|": 65,
+      "|C2|": 1625,
+      "K": 25,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+35i",
+      "alpha2": "1+0i",
+      "|C1|": 65,
+      "|C2|": 105625,
+      "K": 1625,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+35i",
+      "alpha2": "3+2i",
+      "|C1|": 65,
+      "|C2|": 8125,
+      "K": 125,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+35i",
+      "alpha2": "2+1i",
+      "|C1|": 65,
+      "|C2|": 21125,
+      "K": 325,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "20+35i",
+      "alpha2": "4+7i",
+      "|C1|": 65,
+      "|C2|": 1625,
+      "K": 25,
+      "|C1^perpH|": 1625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "130+65i",
+      "alpha2": "1+0i",
+      "|C1|": 5,
+      "|C2|": 105625,
+      "K": 21125,
+      "|C1^perpH|": 21125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "130+65i",
+      "alpha2": "2+1i",
+      "|C1|": 5,
+      "|C2|": 21125,
+      "K": 4225,
+      "|C1^perpH|": 21125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "25+0i",
+      "alpha2": "1+0i",
+      "|C1|": 169,
+      "|C2|": 105625,
+      "K": 625,
+      "|C1^perpH|": 625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "75+-50i",
+      "alpha2": "1+0i",
+      "|C1|": 13,
+      "|C2|": 105625,
+      "K": 8125,
+      "|C1^perpH|": 8125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "75+-50i",
+      "alpha2": "3+-2i",
+      "|C1|": 13,
+      "|C2|": 8125,
+      "K": 625,
+      "|C1^perpH|": 8125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "75+50i",
+      "alpha2": "1+0i",
+      "|C1|": 13,
+      "|C2|": 105625,
+      "K": 8125,
+      "|C1^perpH|": 8125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "75+50i",
+      "alpha2": "3+2i",
+      "|C1|": 13,
+      "|C2|": 8125,
+      "K": 625,
+      "|C1^perpH|": 8125,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    },
+    {
+      "q": 325,
+      "alpha1": "325+0i",
+      "alpha2": "1+0i",
+      "|C1|": 1,
+      "|C2|": 105625,
+      "K": 105625,
+      "|C1^perpH|": 105625,
+      "C1^perpH_subset_C1": false,
+      "eps_method": "paper_multiples",
+      "status": "not a transversal (multiples of alpha2)"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Phase 1: run the authors' code unchanged and check the paper's worked examples with it.
+seed = 20260625
+examples = ["Z25", "Z85", "Z325"]
+# exhaustive decoding of every y in R with the ORIGINAL decode() (Python objects; Z325 ~ 105625 words)
+exhaustive_all_R = true
+# original run_simulation() re-run with a fixed seed (the file itself never seeds `random`)
+simulation_trials = 5000
+# n = 2 Hermitian dual of the original (only n = 2 is implemented there) vs independent code
+dual_n2_cases = [
+  { q = 5,  gen = [[2, 1], [1, 0]] },
+  { q = 5,  gen = [[1, 2], [3, 4]] },
+  { q = 13, gen = [[3, 2], [1, 1]] },
+]
+# double-dual consistency of the original hermitian_dual() (latent-bug probe)
+double_dual_case = { q = 5, gen = [[2, 1], [1, 0]] }

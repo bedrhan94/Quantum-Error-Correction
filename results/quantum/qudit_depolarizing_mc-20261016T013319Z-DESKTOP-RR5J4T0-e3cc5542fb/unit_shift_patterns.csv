@@ -1,0 +1,4 @@
+code,patterns,X_corrected,Z_corrected,X_uncorrected_shifts,Z_uncorrected_shifts,N_X (all u in R),N_Z (all v in R),|R|
+Z25,9,5,9,"(-1, -1) (-1, 1) (1, -1) (1, 1)",,125,125,625
+Z65,9,9,9,,,845,845,4225
+Z85,9,5,9,"(-1, -1) (-1, 1) (1, -1) (1, 1)",,425,425,7225

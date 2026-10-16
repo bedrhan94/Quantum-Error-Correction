@@ -1,0 +1,11 @@
+{
+  "experiment_id": "noise_layouts-20261016T005404Z-DESKTOP-RR5J4T0-a65fa71371",
+  "status": "PASS",
+  "started_utc": "2026-10-16T00:54:04.730995+00:00",
+  "finished_utc": "2026-10-16T01:16:06.014487+00:00",
+  "wall_time_s": 1321.2911861999892,
+  "notes": [],
+  "rss_MB_end": 9228.4,
+  "peak_wset_MB": 9437.2,
+  "torch_cuda_max_allocated_MB": 3928.6
+}

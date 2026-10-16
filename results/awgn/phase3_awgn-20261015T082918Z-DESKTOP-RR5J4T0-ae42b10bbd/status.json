@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase3_awgn-20261015T082918Z-DESKTOP-RR5J4T0-ae42b10bbd",
+  "status": "PASS",
+  "started_utc": "2026-10-15T08:29:18.487226+00:00",
+  "finished_utc": "2026-10-15T08:29:43.246310+00:00",
+  "wall_time_s": 24.75929949991405,
+  "notes": [],
+  "rss_MB_end": 1053.9,
+  "peak_wset_MB": 1077.7,
+  "torch_cuda_max_allocated_MB": 1616.0
+}

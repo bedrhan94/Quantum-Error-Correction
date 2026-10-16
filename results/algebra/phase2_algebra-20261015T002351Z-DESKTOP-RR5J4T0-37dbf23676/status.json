@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase2_algebra-20261015T002351Z-DESKTOP-RR5J4T0-37dbf23676",
+  "status": "PASS",
+  "started_utc": "2026-10-15T00:23:51.419927+00:00",
+  "finished_utc": "2026-10-15T00:25:50.681658+00:00",
+  "wall_time_s": 119.26225499995053,
+  "notes": [],
+  "rss_MB_end": 653.7,
+  "peak_wset_MB": 894.3,
+  "torch_cuda_max_allocated_MB": 0.0
+}

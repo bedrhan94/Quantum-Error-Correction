@@ -1,0 +1,70 @@
+{
+  "seed": 6060,
+  "gate_level_prefix": "gate_level_css",
+  "qudit": {
+    "codes": [
+      "Z25",
+      "Z65",
+      "Z85"
+    ],
+    "p_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.03,
+      0.1,
+      0.2
+    ],
+    "mc_p": 0.05,
+    "mc_trials": {
+      "Z25": 40000,
+      "Z65": 20000,
+      "Z85": 20000
+    },
+    "mc_batch": {
+      "Z25": 4000,
+      "Z65": 2000,
+      "Z85": 2000
+    }
+  },
+  "qubit": {
+    "code": "Z25",
+    "channels": [
+      "bit_flip",
+      "phase_flip",
+      "depolarizing",
+      "amplitude_damping",
+      "phase_damping"
+    ],
+    "p_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "gpu_chunk": 5,
+    "cpu_crosscheck_p": 0.01
+  },
+  "codes": [
+    {
+      "key": "Z25"
+    },
+    {
+      "key": "Z65",
+      "q": 65,
+      "alpha1": [
+        4,
+        7
+      ],
+      "alpha2": [
+        3,
+        2
+      ],
+      "eps": "multiples"
+    },
+    {
+      "key": "Z85"
+    }
+  ]
+}

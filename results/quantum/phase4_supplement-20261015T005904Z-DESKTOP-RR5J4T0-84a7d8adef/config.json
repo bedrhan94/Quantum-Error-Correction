@@ -1,0 +1,13 @@
+{
+  "q": 25,
+  "alpha1": [
+    10,
+    20
+  ],
+  "alpha2": [
+    2,
+    1
+  ],
+  "seed": 0,
+  "note": "alpha1 = 5(2-i) = 10-5i = 10+20i (mod 25); (2+i) | alpha1 but C2^perpH = <5(2+i)> is not inside <alpha1>"
+}

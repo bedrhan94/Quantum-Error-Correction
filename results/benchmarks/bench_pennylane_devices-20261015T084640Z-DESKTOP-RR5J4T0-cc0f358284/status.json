@@ -1,0 +1,16 @@
+{
+  "experiment_id": "bench_pennylane_devices-20261015T084640Z-DESKTOP-RR5J4T0-cc0f358284",
+  "status": "FAIL",
+  "started_utc": "2026-10-15T08:46:40.622438+00:00",
+  "finished_utc": "2026-10-15T08:49:32.404153+00:00",
+  "wall_time_s": 171.78170932700004,
+  "notes": [
+    "Z25 Prop.5 Z-syndrome round lightning.gpu complex64: fidelity 0.9999887476846312",
+    "Z85 Prop.5 Z-syndrome round lightning.gpu complex64: fidelity 0.9999812869507864",
+    "Z85 X-syndrome round (phase estimation) lightning.gpu complex64: fidelity 0.9999696210410306",
+    "Z325 Prop.5 Z-syndrome round lightning.gpu complex64: fidelity 0.9999706545813662"
+  ],
+  "rss_MB_end": 1763.8,
+  "peak_wset_MB": null,
+  "torch_cuda_max_allocated_MB": 0.0
+}

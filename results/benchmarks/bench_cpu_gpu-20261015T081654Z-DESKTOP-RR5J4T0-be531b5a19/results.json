@@ -1,0 +1,110 @@
+{
+  "rows": [
+    {
+      "workload": "awgn_ml_1024qam",
+      "device": "cpu",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 7.46051530004479,
+      "wall_s_median": 7.470036400016397,
+      "throughput_Msym_s": 0.5405192995910534,
+      "ser": 0.16112775
+    },
+    {
+      "workload": "awgn_ml_1024qam",
+      "device": "cuda",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.42704119998961687,
+      "wall_s_median": 0.427725899964571,
+      "gpu_peak_MB": 1614.525390625,
+      "throughput_Msym_s": 9.357515334958807,
+      "ser": 0.161155,
+      "speedup_vs_cpu_median": 17.46454072721607
+    },
+    {
+      "workload": "awgn_ring_625",
+      "device": "cpu",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.4890580999199301,
+      "wall_s_median": 0.5207734000869095,
+      "throughput_Msym_s": 38.36827403439939,
+      "ser": 0.055849
+    },
+    {
+      "workload": "awgn_ring_625",
+      "device": "cuda",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.019832600140944123,
+      "wall_s_median": 0.01991389994509518,
+      "gpu_peak_MB": 203.98974609375,
+      "throughput_Msym_s": 1036.204999967249,
+      "ser": 0.05590785,
+      "speedup_vs_cpu_median": 26.151251212607235
+    },
+    {
+      "workload": "awgn_coset_125",
+      "device": "cpu",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.6184910999145359,
+      "wall_s_median": 0.6215423999819905,
+      "throughput_Msym_s": 31.452831440066138,
+      "ser": 0.0008135
+    },
+    {
+      "workload": "awgn_coset_125",
+      "device": "cuda",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.030440300004556775,
+      "wall_s_median": 0.030597399920225143,
+      "gpu_peak_MB": 219.65771484375,
+      "throughput_Msym_s": 666.1226643130464,
+      "ser": 0.00080435,
+      "speedup_vs_cpu_median": 20.313569179162364
+    },
+    {
+      "workload": "dm_ring_ad",
+      "device": "cpu",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 4.370842000003904,
+      "wall_s_median": 4.428042700048536,
+      "logical_error_rate": 0.17798841352794037
+    },
+    {
+      "workload": "dm_ring_ad",
+      "device": "cuda",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 0.5480862001422793,
+      "wall_s_median": 0.5574391998816282,
+      "gpu_peak_MB": 1208.1259765625,
+      "logical_error_rate": 0.17798864841461182,
+      "speedup_vs_cpu_median": 7.943543799913655
+    },
+    {
+      "workload": "mc_ring_z325",
+      "device": "cpu",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 22.85946979979053,
+      "wall_s_median": 22.86194589990191,
+      "logical_error_rate": 0.0
+    },
+    {
+      "workload": "mc_ring_z325",
+      "device": "cuda",
+      "status": "RUN",
+      "repeats": 3,
+      "wall_s_min": 1.9354681000113487,
+      "wall_s_median": 1.9578911000862718,
+      "gpu_peak_MB": 2831.88720703125,
+      "logical_error_rate": 0.0,
+      "speedup_vs_cpu_median": 11.67682201471498
+    }
+  ]
+}

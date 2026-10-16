@@ -1,0 +1,45 @@
+# Phase 6: noise experiments.  Noise model: CODE CAPACITY (i.i.d. noise on the data once;
+# encoding, syndrome extraction and recovery ideal).  Gate counts are reported separately.
+seed = 6666
+p_grid = [1e-4, 3e-4, 1e-3, 3e-3, 1e-2, 3e-2, 0.1, 0.2, 0.3]
+channels = ["bit_flip", "phase_flip", "depolarizing", "amplitude_damping", "phase_damping"]
+
+[qubit_level]
+# exact density matrices; 10-qubit codes on CPU (complex128) AND on GPU (complex64) for comparison
+ring_key = "Z25"
+modular = { N = 625, K = 5, s = 5 }
+gpu_cross_check = true
+
+[qudit_level]
+# exact enumeration on the ring codes (unit-shift model, qudit depolarizing, paper's eps model)
+codes = ["Z25", "Z85", "Z325", "Z5n4"]
+p_grid = [1e-3, 3e-3, 1e-2, 3e-2, 0.1, 0.2]
+
+[montecarlo]
+# batched trajectory simulator (validated against the exact unit-shift value), CPU vs GPU
+p = 0.05
+runs = [
+  { key = "Z25",  trials = 20000, batch = 4000 },
+  { key = "Z85",  trials = 20000, batch = 2000 },
+  { key = "Z325", trials = 6000,  batch = 500 },
+  { key = "Z5n4", trials = 1000,  batch = 50 },
+]
+
+[resources]
+gate_set = ["CNOT", "RZ", "RY", "RX", "PhaseShift", "ControlledPhaseShift", "Hadamard", "PauliX", "QubitUnitary", "Toffoli", "SWAP", "GlobalPhase", "CZ", "CY"]
+
+[[codes]]
+key = "Z25"
+
+[[codes]]
+key = "Z85"
+
+[[codes]]
+key = "Z325"
+
+[[codes]]
+key = "Z5n4"
+q = 5
+eps = "greedy"
+C2_generators = [[[3, 4], [3, 1], [1, 2], [0, 2]], [[0, 1], [0, 3], [3, 4], [4, 4]], [[3, 1], [1, 2], [4, 1], [2, 1]]]
+C1_generators = [[[4, 3], [1, 3], [3, 0], [0, 1]], [[3, 1], [2, 1], [1, 0], [0, 2]], [[2, 4], [3, 4], [4, 0], [0, 3]], [[1, 2], [4, 2], [2, 0], [0, 4]], [[0, 3], [0, 0], [0, 0], [2, 1]]]

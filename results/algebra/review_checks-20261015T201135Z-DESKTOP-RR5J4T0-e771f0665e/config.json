@@ -1,0 +1,41 @@
+{
+  "seed": 909,
+  "closed_form_q": [
+    25,
+    65,
+    85,
+    125,
+    325
+  ],
+  "random_alpha_per_q": 300,
+  "convention_check_codes": [
+    "Z25",
+    "Z85",
+    "Z325"
+  ],
+  "additive_counterexample": {
+    "q": 25,
+    "C": [
+      [
+        1,
+        0
+      ]
+    ],
+    "C1": [
+      [
+        1,
+        0
+      ]
+    ],
+    "C2": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  }
+}

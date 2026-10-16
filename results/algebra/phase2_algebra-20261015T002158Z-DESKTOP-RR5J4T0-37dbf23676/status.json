@@ -1,0 +1,12 @@
+{
+  "experiment_id": "phase2_algebra-20261015T002158Z-DESKTOP-RR5J4T0-37dbf23676",
+  "status": "ERROR",
+  "started_utc": "2026-10-15T00:21:58.932415+00:00",
+  "finished_utc": "2026-10-15T00:22:38.389175+00:00",
+  "wall_time_s": 39.45733020012267,
+  "notes": [],
+  "rss_MB_end": 636.1,
+  "peak_wset_MB": 894.9,
+  "torch_cuda_max_allocated_MB": 0.0,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\bedrhan94\\Desktop\\PennyLane\\epsilon_qec_research\\experiments\\phase2_algebra.py\", line 413, in main\n    dec_rows += exhaustive_decoding(key, pair, eps, cfg[\"decoder\"][\"oracles\"],\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\bedrhan94\\Desktop\\PennyLane\\epsilon_qec_research\\experiments\\phase2_algebra.py\", line 171, in exhaustive_decoding\n    M = dec.candidate_matrix(allY)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\bedrhan94\\Desktop\\PennyLane\\epsilon_qec_research\\src\\epsqec\\decoder\\epsilon_decoder.py\", line 122, in candidate_matrix\n    diff = ring.sub(Y[:, None], self.eps[None])  # (m, k, n, 2)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\bedrhan94\\Desktop\\PennyLane\\epsilon_qec_research\\src\\epsqec\\ring\\gaussian.py\", line 68, in sub\n    return np.mod(np.asarray(x) - np.asarray(y), self.q)\n                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nValueError: operands could not be broadcast together with shapes (7225,1,1,2) (1,17,1,1,2) \n"
+}

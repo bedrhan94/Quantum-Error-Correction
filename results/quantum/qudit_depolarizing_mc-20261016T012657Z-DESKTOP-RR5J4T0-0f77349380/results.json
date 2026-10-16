@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "code": "Z25",
+      "model": "depolarizing",
+      "p": 0.05,
+      "trials": 40000,
+      "failures": 1923,
+      "MC_LER": 0.048075,
+      "ci_low": 0.0459989455848858,
+      "ci_high": 0.05021696835216596,
+      "exact_LER": 0.04800012288031463,
+      "exact_within_CI": true,
+      "device": "cuda",
+      "seconds": 0.3065563999116421
+    },
+    {
+      "code": "Z25",
+      "model": "depolarizing",
+      "p": 0.2,
+      "trials": 40000,
+      "failures": 7853,
+      "MC_LER": 0.196325,
+      "ci_low": 0.19244199076813268,
+      "ci_high": 0.20025214103951275,
+      "exact_LER": 0.1920004915212582,
+      "exact_within_CI": false,
+      "device": "cuda",
+      "seconds": 0.054678000044077635
+    },
+    {
+      "code": "Z65",
+      "model": "depolarizing",
+      "p": 0.05,
+      "trials": 40000,
+      "failures": 1917,
+      "MC_LER": 0.047925,
+      "ci_low": 0.0458520646843549,
+      "ci_high": 0.05006387189392743,
+      "exact_LER": 0.048000002688981636,
+      "exact_within_CI": true,
+      "device": "cuda",
+      "seconds": 0.44973489991389215
+    },
+    {
+      "code": "Z65",
+      "model": "depolarizing",
+      "p": 0.2,
+      "trials": 40000,
+      "failures": 7846,
+      "MC_LER": 0.19615,
+      "ci_low": 0.19226831512371223,
+      "ci_high": 0.20007584217888866,
+      "exact_LER": 0.19200001075592643,
+      "exact_within_CI": false,
+      "device": "cuda",
+      "seconds": 0.47493740008212626
+    },
+    {
+      "code": "Z85",
+      "model": "depolarizing",
+      "p": 0.05,
+      "trials": 40000,
+      "failures": 1988,
+      "MC_LER": 0.0497,
+      "ci_low": 0.04759051113114442,
+      "ci_high": 0.05187515778436589,
+      "exact_LER": 0.04982699057390583,
+      "exact_within_CI": true,
+      "device": "cuda",
+      "seconds": 0.7735685000661761
+    },
+    {
+      "code": "Z85",
+      "model": "depolarizing",
+      "p": 0.2,
+      "trials": 40000,
+      "failures": 8128,
+      "MC_LER": 0.2032,
+      "ci_low": 0.199265897883569,
+      "ci_high": 0.20717723246891845,
+      "exact_LER": 0.1993079622956231,
+      "exact_within_CI": true,
+      "device": "cuda",
+      "seconds": 0.7402880999725312
+    }
+  ],
+  "patterns": [
+    {
+      "code": "Z25",
+      "patterns": 9,
+      "X_corrected": 5,
+      "Z_corrected": 9,
+      "N_X (all u in R)": 125,
+      "N_Z (all v in R)": 125,
+      "|R|": 625
+    },
+    {
+      "code": "Z65",
+      "patterns": 9,
+      "X_corrected": 9,
+      "Z_corrected": 9,
+      "N_X (all u in R)": 845,
+      "N_Z (all v in R)": 845,
+      "|R|": 4225
+    },
+    {
+      "code": "Z85",
+      "patterns": 9,
+      "X_corrected": 5,
+      "Z_corrected": 9,
+      "N_X (all u in R)": 425,
+      "N_Z (all v in R)": 425,
+      "|R|": 7225
+    }
+  ]
+}

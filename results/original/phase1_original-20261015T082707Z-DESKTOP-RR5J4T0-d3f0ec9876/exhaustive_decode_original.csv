@@ -1,0 +1,7 @@
+ring,eps,unique_ok,unique_wrong,none_ok,none_but_y_in_C2,non_unique,y_in_C2,y_not_in_C2,appendix_disagrees,seconds,membership_tests_source_decode
+Z25,orig_find_epsilon_canonical,125,0,500,0,0,125,500,0,0.004451599903404713,3125
+Z25,paper_example4,125,0,500,0,0,125,500,0,0.004231599858030677,3125
+Z25,paper_example7,125,0,500,0,0,125,500,0,0.004203499993309379,3125
+Z85,orig_find_epsilon_canonical,1445,0,5780,0,0,1445,5780,0,0.1353916998486966,122825
+Z325,orig_find_epsilon_canonical,8125,0,97500,0,0,8125,97500,0,0.6343704001046717,528125
+Z325,paper_example6,8125,0,97500,0,0,8125,97500,0,0.6311395999509841,528125

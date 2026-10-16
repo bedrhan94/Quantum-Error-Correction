@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epsqec"
+version = "0.1.0"
+description = "Independent reproduction of 'epsilon-Quantum error correction codes over the ring R_Q' (FFA 2027)"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: long-running exhaustive checks (Z_325[i])",
+    "gpu: needs a CUDA device",
+    "pennylane: needs PennyLane",
+]

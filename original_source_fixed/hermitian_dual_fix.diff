@@ -1,0 +1,14 @@
+--- original_source/epsilon codes.py
++++ original_source_fixed/epsilon_codes_fixed.py
+@@ -116,7 +116,10 @@
+                 for a2 in range(self.q):
+                     for b2 in range(self.q):
+                         candidate = GaussianVector([(a1, b1), (a2, b2)], self.q)
+-                        if self.generator.hermitian_inner_product(candidate) == zero:
++                        # FIX (epsilon_qec_research): test against every element of the code, not only
++                        # self.generator - a dual returned by this method has generator = 0, so the
++                        # original line made dual(dual(C)) equal to the whole space.
++                        if all(c.hermitian_inner_product(candidate) == zero for c in self.elements):
+                             dual_elements.append(candidate)
+         new_code = GaussianCodeN([(0, 0), (0, 0)], self.q)
+         new_code.elements = set(dual_elements)

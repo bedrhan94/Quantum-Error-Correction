@@ -1,0 +1,11 @@
+{
+  "experiment_id": "mc_seed_check-20261016T011645Z-DESKTOP-RR5J4T0-08a0c41aff",
+  "status": "PASS",
+  "started_utc": "2026-10-16T01:16:45.053752+00:00",
+  "finished_utc": "2026-10-16T01:16:47.229600+00:00",
+  "wall_time_s": 2.1759816000703722,
+  "notes": [],
+  "rss_MB_end": 1146.8,
+  "peak_wset_MB": 1146.8,
+  "torch_cuda_max_allocated_MB": 128.3
+}

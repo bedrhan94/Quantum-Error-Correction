@@ -1,0 +1,138 @@
+{
+  "pennylane": "0.45.1",
+  "device": "lightning.qubit",
+  "mcm_method": "tree-traversal",
+  "trace_convention": "paper",
+  "codes": {
+    "Z25": {
+      "steps": {
+        "1_math": {
+          "noncommuting_pairs": 0,
+          "K_formula": 5,
+          "dim_structural": 5,
+          "dim_trace_formula": 5.0,
+          "gram_minus_I": 2.220446049250313e-16,
+          "closed_form_dual_equals_enumerated": true,
+          "C2perp_subset_C1": true,
+          "status": "PASS",
+          "seconds": 0.0009165999945253134
+        },
+        "2_encoder_B": {
+          "rows": [
+            {
+              "j": 0,
+              "t_j": "0+0i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 1,
+              "t_j": "15+5i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 2,
+              "t_j": "5+10i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 3,
+              "t_j": "20+15i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            },
+            {
+              "j": 4,
+              "t_j": "10+20i",
+              "fidelity": 1.0000000000000004,
+              "logical_and_ancilla_residual": 0.0,
+              "leakage": 0.0
+            }
+          ],
+          "worst_fidelity": 1.0,
+          "superposition_fidelity": 0.9999999999999976,
+          "max_residual_logical_ancilla": 0.0,
+          "max_leakage": 0.0,
+          "eps_to_canonical": [
+            {
+              "eps": "0+0i",
+              "canonical_j": 0
+            },
+            {
+              "eps": "2+1i",
+              "canonical_j": 4
+            },
+            {
+              "eps": "4+2i",
+              "canonical_j": 3
+            },
+            {
+              "eps": "6+3i",
+              "canonical_j": 2
+            },
+            {
+              "eps": "8+4i",
+              "canonical_j": 1
+            }
+          ],
+          "wires": {
+            "data_qubits": 12,
+            "logical_qubits": 3,
+            "ancilla_qubits": 6,
+            "total_wires": 21,
+            "digits": [
+              [
+                "U5d1",
+                5,
+                "free"
+              ],
+              [
+                "U5d0",
+                5,
+                "free"
+              ],
+              [
+                "V5d1",
+                5,
+                "label"
+              ],
+              [
+                "V5d0",
+                5,
+                "dead"
+              ]
+            ],
+            "parts": [
+              [
+                "Z",
+                0,
+                5,
+                1
+              ],
+              [
+                "X",
+                0,
+                5,
+                2
+              ]
+            ],
+            "reuse_ancilla": true
+          },
+          "status": "PASS",
+          "seconds": 0.537021900061518
+        },
+        "3_cycle_B_reuse": {
+          "status": "ERROR",
+          "error": "RuntimeError('[D:\\\\a\\\\pennylane-lightning\\\\pennylane-lightning\\\\pennylane_lightning\\\\core\\\\simulators\\\\lightning_qubit\\\\StateVectorLQubit.hpp][Line:915][Method:normalize]: Error in PennyLane Lightning: Vector has norm close to zero and cannot be normalized')",
+          "seconds": 0.4946669000200927
+        }
+      }
+    }
+  }
+}

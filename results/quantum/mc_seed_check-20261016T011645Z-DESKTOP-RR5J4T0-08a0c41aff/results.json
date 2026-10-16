@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "exact_LER": 0.0024999999999999467,
+    "pooled_failures": 1023,
+    "pooled_trials": 400000,
+    "pooled_LER": 0.0025575,
+    "pooled_ci": [
+      0.0024033431897833362,
+      0.0027189314981934274
+    ],
+    "exact_within_pooled_CI": true,
+    "z_score": 0.7282347248911836,
+    "seeds_with_exact_outside_CI": 0
+  },
+  "rows": [
+    {
+      "seed": 101,
+      "failures": 117,
+      "trials": 40000,
+      "LER": 0.002925,
+      "ci_low": 0.0024196369403851666,
+      "ci_high": 0.003504517659072269,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 102,
+      "failures": 95,
+      "trials": 40000,
+      "LER": 0.002375,
+      "ci_low": 0.0019219288058328493,
+      "ci_high": 0.0029025471029590546,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 103,
+      "failures": 110,
+      "trials": 40000,
+      "LER": 0.00275,
+      "ci_low": 0.0022606913064309245,
+      "ci_high": 0.0033135577215170453,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 104,
+      "failures": 91,
+      "trials": 40000,
+      "LER": 0.002275,
+      "ci_low": 0.0018320714737203204,
+      "ci_high": 0.0027924718879282716,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 105,
+      "failures": 85,
+      "trials": 40000,
+      "LER": 0.002125,
+      "ci_low": 0.001697716461163836,
+      "ci_high": 0.002626934870482827,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 106,
+      "failures": 109,
+      "trials": 40000,
+      "LER": 0.002725,
+      "ci_low": 0.002238026405149486,
+      "ci_high": 0.003286236644223673,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 107,
+      "failures": 95,
+      "trials": 40000,
+      "LER": 0.002375,
+      "ci_low": 0.0019219288058328493,
+      "ci_high": 0.0029025471029590546,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 108,
+      "failures": 105,
+      "trials": 40000,
+      "LER": 0.002625,
+      "ci_low": 0.002147476638730304,
+      "ci_high": 0.003176843949577366,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 109,
+      "failures": 115,
+      "trials": 40000,
+      "LER": 0.002875,
+      "ci_low": 0.00237417324852004,
+      "ci_high": 0.0034500076946387477,
+      "exact_within_CI": true,
+      "device": "cuda"
+    },
+    {
+      "seed": 110,
+      "failures": 101,
+      "trials": 40000,
+      "LER": 0.002525,
+      "ci_low": 0.0020571102380058707,
+      "ci_high": 0.003067270383621756,
+      "exact_within_CI": true,
+      "device": "cuda"
+    }
+  ]
+}

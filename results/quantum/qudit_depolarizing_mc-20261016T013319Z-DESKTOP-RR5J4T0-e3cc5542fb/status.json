@@ -1,0 +1,11 @@
+{
+  "experiment_id": "qudit_depolarizing_mc-20261016T013319Z-DESKTOP-RR5J4T0-e3cc5542fb",
+  "status": "PASS",
+  "started_utc": "2026-10-16T01:33:19.310873+00:00",
+  "finished_utc": "2026-10-16T01:33:23.374709+00:00",
+  "wall_time_s": 4.064542900072411,
+  "notes": [],
+  "rss_MB_end": 1147.3,
+  "peak_wset_MB": 1149.2,
+  "torch_cuda_max_allocated_MB": 670.0
+}

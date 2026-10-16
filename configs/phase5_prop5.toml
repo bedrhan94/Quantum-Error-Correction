@@ -1,0 +1,38 @@
+# Phase 5: Proposition 5 test + physical syndrome/recovery (state-level, matrix-free simulator).
+seed = 5555
+# recovery simulation of the separately-labelled alternative error set: exhaustive over
+# T_X x T_Z when |T_X||T_Z| <= exhaustive_pairs_limit, otherwise `sampled_pairs` random pairs
+exhaustive_pairs_limit = 25_000
+sampled_pairs = 2000
+# Knill-Laflamme check over E = {X(a)Z(b)} exhaustive when |E| <= kl_exhaustive_limit
+kl_exhaustive_limit = 130
+kl_sampled_pairs = 3000
+# errors of Lee weight 2 (outside the correctable set) used as a contrast
+weight2_samples = 400
+# Hilbert spaces larger than this (Z_5[i]^4: 390625) use smaller samples (runtime)
+large_dim = 200_000
+large_dim_sampled_pairs = 400
+large_dim_kl_pairs = 60
+
+[[codes]]
+key = "Z5_small"
+q = 5
+alpha1 = [2, 1]
+alpha2 = [1, 0]
+eps = "greedy"
+
+[[codes]]
+key = "Z25"
+
+[[codes]]
+key = "Z85"
+
+[[codes]]
+key = "Z325"
+
+[[codes]]
+key = "Z5n4"
+q = 5
+eps = "greedy"
+C2_generators = [[[3, 4], [3, 1], [1, 2], [0, 2]], [[0, 1], [0, 3], [3, 4], [4, 4]], [[3, 1], [1, 2], [4, 1], [2, 1]]]
+C1_generators = [[[4, 3], [1, 3], [3, 0], [0, 1]], [[3, 1], [2, 1], [1, 0], [0, 2]], [[2, 4], [3, 4], [4, 0], [0, 3]], [[1, 2], [4, 2], [2, 0], [0, 4]], [[0, 3], [0, 0], [0, 0], [2, 1]]]

@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase1_original-20261015T001749Z-DESKTOP-RR5J4T0-d3f0ec9876",
+  "status": "PASS",
+  "started_utc": "2026-10-15T00:17:49.606352+00:00",
+  "finished_utc": "2026-10-15T00:17:54.582117+00:00",
+  "wall_time_s": 4.975584900006652,
+  "notes": [],
+  "rss_MB_end": 640.7,
+  "peak_wset_MB": 640.7,
+  "torch_cuda_max_allocated_MB": 0.0
+}

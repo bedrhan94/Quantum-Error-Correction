@@ -1,0 +1,49 @@
+{
+  "seed": 1,
+  "experiment_name": "gate_level_css_devtest",
+  "device": "lightning.qubit",
+  "mcm_method": "tree-traversal",
+  "trace_convention": "paper",
+  "orders": [
+    "ZX",
+    "XZ"
+  ],
+  "cycle_exhaustive_limit": 3,
+  "cycle_sample": 3,
+  "superposition_pairs": 2,
+  "codes": [
+    {
+      "key": "Z25",
+      "layouts": [
+        "B",
+        "A"
+      ],
+      "reuse": [
+        true,
+        false
+      ]
+    },
+    {
+      "key": "Z65",
+      "q": 65,
+      "alpha1": [
+        4,
+        7
+      ],
+      "alpha2": [
+        3,
+        2
+      ],
+      "eps": "multiples",
+      "layouts": [
+        "B"
+      ]
+    },
+    {
+      "key": "Z85",
+      "layouts": [
+        "B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase5_pennylane-20261015T004338Z-DESKTOP-RR5J4T0-9a87023139",
+  "status": "PASS",
+  "started_utc": "2026-10-15T00:43:38.689647+00:00",
+  "finished_utc": "2026-10-15T00:43:50.764729+00:00",
+  "wall_time_s": 12.075331799918786,
+  "notes": [],
+  "rss_MB_end": 655.8,
+  "peak_wset_MB": 799.8,
+  "torch_cuda_max_allocated_MB": 0.0
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_id": "bench_pennylane_devices-20261015T092814Z-DESKTOP-RR5J4T0-cc0f358284",
+  "status": "PASS",
+  "started_utc": "2026-10-15T09:28:14.116881+00:00",
+  "finished_utc": "2026-10-15T09:31:05.065675+00:00",
+  "wall_time_s": 170.94878974099993,
+  "notes": [],
+  "rss_MB_end": 1755.1,
+  "peak_wset_MB": null,
+  "torch_cuda_max_allocated_MB": 0.0
+}

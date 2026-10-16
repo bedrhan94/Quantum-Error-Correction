@@ -1,0 +1,11 @@
+{
+  "experiment_id": "gate_level_css_devtest-20261015T200442Z-DESKTOP-RR5J4T0-2b68806d87",
+  "status": "PASS",
+  "started_utc": "2026-10-15T20:04:42.249882+00:00",
+  "finished_utc": "2026-10-15T20:09:35.293936+00:00",
+  "wall_time_s": 293.04455099999905,
+  "notes": [],
+  "rss_MB_end": 663.6,
+  "peak_wset_MB": 5027.4,
+  "torch_cuda_max_allocated_MB": 0.0
+}

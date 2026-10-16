@@ -1,0 +1,11 @@
+{
+  "experiment_id": "review_checks-20261015T201135Z-DESKTOP-RR5J4T0-e771f0665e",
+  "status": "PASS",
+  "started_utc": "2026-10-15T20:11:35.539436+00:00",
+  "finished_utc": "2026-10-15T20:11:48.571954+00:00",
+  "wall_time_s": 13.034981100121513,
+  "notes": [],
+  "rss_MB_end": 646.9,
+  "peak_wset_MB": 682.7,
+  "torch_cuda_max_allocated_MB": 0.0
+}

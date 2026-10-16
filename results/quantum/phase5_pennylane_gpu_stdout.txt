@@ -1,0 +1,48 @@
+adder Z25 {'q': 25, 'm': 5, 'k_tested': 25, 'valid_inputs_correct': True, 'work_wires_clean_valid': True, 'invalid_inputs': 7, 'invalid_stay_invalid': False, 'work_wires_clean_invalid': False, 'is_permutation': True, 'method': 'qml.matrix (dense, verification only)', 'seconds': 0.2325468000001365}
+adder Z85 {'q': 85, 'm': 7, 'k_tested': 85, 'valid_inputs_correct': True, 'work_wires_clean_valid': True, 'invalid_inputs': 43, 'invalid_stay_invalid': False, 'work_wires_clean_invalid': False, 'is_permutation': True, 'method': 'qml.matrix (dense, verification only)', 'seconds': 13.309917363000068}
+adder Z325 {'q': 325, 'm': 9, 'k_tested': 6, 'valid_inputs_correct': True, 'work_wires_clean_valid': True, 'invalid_inputs': 187, 'invalid_stay_invalid': False, 'work_wires_clean_invalid': False, 'method': 'basis-state simulation, lightning.qubit', 'seconds': 31.27957826299985}
+gates Z25 {'n_ops': 8, 'wires': 12, 'X_max_abs_error_vs_reference': 1.1007842240426015e-15, 'Z_max_abs_error_vs_reference': 2.9439233600320783e-16, 'max_leakage_or_dirty_work': np.float64(1.3988810110276972e-14), 'seconds_X': 0.3300768970000263, 'seconds_Z': 0.037268500000209315}
+gates Z85 {'n_ops': 8, 'wires': 16, 'X_max_abs_error_vs_reference': 7.605388603538626e-16, 'Z_max_abs_error_vs_reference': 5.742956581555481e-17, 'max_leakage_or_dirty_work': np.float64(1.9317880628477724e-14), 'seconds_X': 0.24718609900037336, 'seconds_Z': 0.043291499999668304}
+gates Z325 {'n_ops': 9, 'wires': 20, 'X_max_abs_error_vs_reference': 1.7399555349310319e-15, 'Z_max_abs_error_vs_reference': 4.0711178009060266e-17, 'max_leakage_or_dirty_work': np.float64(3.019806626980426e-14), 'seconds_X': 0.7058442950003609, 'seconds_Z': 0.09765600000037011}
+prop5 Z25 RUN [('0+0i', (0,), 1.0, 1.0, 0.3), ('2+1i', (0,), 0.0327, 1.0, 0.3), ('4+2i', (0,), 0.2881, 1.0, 0.4), ('6+3i', (0,), 0.2881, 1.0, 0.3), ('8+4i', (0,), 0.0327, 1.0, 0.3)]
+prop5 Z85 RUN [('0+0i', (0,), 1.0, 1.0, 0.4), ('2+1i', (0,), 0.0574, 1.0, 0.5), ('4+2i', (0,), 0.1251, 1.0, 0.6), ('6+3i', (0,), 0.0174, 1.0, 0.5), ('8+4i', (0,), 0.1931, 1.0, 0.5), ('10+5i', (0,), 0.0094, 1.0, 0.5), ('12+6i', (0,), 0.033, 1.0, 0.5), ('14+7i', (0,), 0.0655, 1.0, 0.6), ('16+8i', (0,), 0.0244, 1.0, 0.5), ('18+9i', (0,), 0.0244, 1.0, 0.5), ('20+10i', (0,), 0.0655, 1.0, 0.6), ('22+11i', (0,), 0.033, 1.0, 0.5), ('24+12i', (0,), 0.0094, 1.0, 0.6), ('26+13i', (0,), 0.1931, 1.0, 0.5), ('28+14i', (0,), 0.0174, 1.0, 0.5), ('30+15i', (0,), 0.1251, 1.0, 0.6), ('32+16i', (0,), 0.0574, 1.0, 0.6)]
+prop5 Z325 RUN [('0+0i', (0,), 1.0, 1.0, 3.1), ('3+2i', (0,), 0.2401, 1.0, 3.9), ('6+4i', (0,), 0.0294, 1.0, 4.0), ('9+6i', (0,), 0.0294, 1.0, 3.9), ('12+8i', (0,), 0.2401, 1.0, 3.9)]
+   xsyn 0+0i (0,) 0.3
+   xsyn 0+1i (6,) 0.2
+   xsyn 0+24i (19,) 0.2
+   xsyn 1+0i (17,) 0.2
+   xsyn 24+0i (8,) 0.2
+   xsyn 0+2i (12,) 0.3
+   xsyn 0+23i (13,) 0.2
+   xsyn 1+1i (23,) 0.2
+xsyn Z25 RUN True [('0+0i', (0,), (0,)), ('0+1i', (6,), (6,)), ('0+24i', (19,), (19,)), ('1+0i', (17,), (17,)), ('24+0i', (8,), (8,)), ('0+2i', (12,), (12,)), ('0+23i', (13,), (13,)), ('1+1i', (23,), (23,))]
+   xsyn 0+0i (0,) 2.4
+   xsyn 0+1i (71,) 2.0
+   xsyn 0+84i (14,) 2.1
+   xsyn 1+0i (12,) 2.1
+   xsyn 84+0i (73,) 2.2
+   xsyn 0+2i (57,) 2.1
+   xsyn 0+83i (28,) 2.1
+   xsyn 1+1i (83,) 2.1
+xsyn Z85 RUN True [('0+0i', (0,), (0,)), ('0+1i', (71,), (71,)), ('0+84i', (14,), (14,)), ('1+0i', (12,), (12,)), ('84+0i', (73,), (73,)), ('0+2i', (57,), (57,)), ('0+83i', (28,), (28,)), ('1+1i', (83,), (83,))]
+   xsyn 0+0i (0, 0) 182.3
+   xsyn 0+1i (260, 306) 183.1
+   xsyn 0+324i (65, 19) 183.2
+   xsyn 1+0i (65, 17) 183.0
+   xsyn 324+0i (260, 308) 183.2
+   xsyn 0+2i (195, 287) 183.3
+   xsyn 0+323i (130, 38) 183.0
+   xsyn 1+1i (0, 323) 183.8
+xsyn Z325 RUN True [('0+0i', (0, 0), (0, 0)), ('0+1i', (260, 306), (260, 306)), ('0+324i', (65, 19), (65, 19)), ('1+0i', (65, 17), (65, 17)), ('324+0i', (260, 308), (260, 308)), ('0+2i', (195, 287), (195, 287)), ('0+323i', (130, 38), (130, 38)), ('1+1i', (0, 323), (0, 323))]
+cycle Z25 RUN 0.9999999999999544 [('24+0i', '2+24i', 1.0), ('1+0i', '24+1i', 1.0), ('0+0i', '2+24i', 1.0), ('0+0i', '1+2i', 1.0), ('1+0i', '24+0i', 1.0), ('0+0i', '24+1i', 1.0)]
+   cycle 1+0i 24+1i 1.0 0.6
+   cycle 0+24i 2+0i 1.0 0.6
+   cycle 24+0i 2+0i 1.0 0.6
+   cycle 24+0i 0+3i 1.0 0.5
+cycle_coherent Z25 RUN 0.9999999999999989
+   cycle 0+84i 3+1i 1.0 20.9
+   cycle 0+84i 5+1i 1.0 20.7
+   cycle 1+0i 83+0i 1.0 21.5
+   cycle 0+1i 2+83i 1.0 20.9
+cycle_coherent Z85 RUN 1.0
+[PASS] phase5_pennylane_gpu-20261015T090000Z-DESKTOP-RR5J4T0-bbdaa60415  (1691.66 s)  -> /mnt/c/Users/bedrhan94/Desktop/PennyLane/epsilon_qec_research/results/quantum/phase5_pennylane_gpu-20261015T090000Z-DESKTOP-RR5J4T0-bbdaa60415

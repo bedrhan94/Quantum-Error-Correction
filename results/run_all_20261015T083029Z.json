@@ -1,0 +1,50 @@
+[
+  {
+    "phase": "1",
+    "step": "phase1_original",
+    "exit_code": 0,
+    "seconds": 5.4
+  },
+  {
+    "phase": "1",
+    "step": "phase1_fixed_impact",
+    "exit_code": 0,
+    "seconds": 4.8
+  },
+  {
+    "phase": "2",
+    "step": "phase2_algebra",
+    "exit_code": 0,
+    "seconds": 118.6
+  },
+  {
+    "phase": "3",
+    "step": "extract_paper_figures",
+    "exit_code": 0,
+    "seconds": 0.2
+  },
+  {
+    "phase": "3",
+    "step": "phase3_awgn",
+    "exit_code": 0,
+    "seconds": 27.0
+  },
+  {
+    "phase": "3",
+    "step": "plot_awgn",
+    "exit_code": 0,
+    "seconds": 2.6
+  },
+  {
+    "phase": "T",
+    "step": "pytest",
+    "exit_code": 1,
+    "seconds": 43.2
+  },
+  {
+    "phase": "R",
+    "step": "make_report",
+    "exit_code": 1,
+    "seconds": 0.0
+  }
+]

@@ -1,0 +1,25 @@
+# Phase 5 (circuits): PennyLane gate-level prototypes of the R_Q codes (qubit embedding, n = 1).
+seed = 777
+device = "lightning.qubit"     # lightning.gpu is not installable on Windows (see report)
+# Adder leakage test via qml.matrix on (register + 2 work wires); all k for q <= adder_all_k_limit
+adder_all_k_limit = 85
+adder_sample_k = 6
+# random ring states used to compare X(u)/Z(v) circuits against the matrix-free reference
+gate_test_random_u = 6
+# codes for which each circuit family is executed
+gate_tests = ["Z25", "Z85", "Z325"]
+prop5_z_syndrome = ["Z25", "Z85", "Z325"]    # X(e) errors, e in eps -> Z-type syndrome via ancilla
+x_syndrome = ["Z25", "Z85"]                  # Z(f) errors -> X-type syndrome via phase estimation
+full_cycle = ["Z25"]                         # alternative-design QEC cycle with feed-forward recovery
+full_cycle_pairs = 12                        # (a, b) in T_X x T_Z tested in the full cycle
+max_wires = 26                               # refuse to simulate circuits wider than this (memory)
+gate_set = ["CNOT", "RZ", "RY", "RX", "PhaseShift", "ControlledPhaseShift", "Hadamard", "PauliX", "QubitUnitary", "Toffoli", "SWAP", "GlobalPhase"]
+
+[[codes]]
+key = "Z25"
+
+[[codes]]
+key = "Z85"
+
+[[codes]]
+key = "Z325"

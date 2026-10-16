@@ -1,0 +1,11 @@
+{
+  "experiment_id": "bench_cpu_gpu-20261015T081654Z-DESKTOP-RR5J4T0-be531b5a19",
+  "status": "PASS",
+  "started_utc": "2026-10-15T08:16:54.312917+00:00",
+  "finished_utc": "2026-10-15T08:18:54.055097+00:00",
+  "wall_time_s": 119.74132439983077,
+  "notes": [],
+  "rss_MB_end": 5361.0,
+  "peak_wset_MB": 5370.7,
+  "torch_cuda_max_allocated_MB": 2831.9
+}

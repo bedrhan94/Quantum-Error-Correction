@@ -1,0 +1,1042 @@
+{
+  "pennylane_version": "0.45.1",
+  "device": "lightning.gpu",
+  "c_dtype": "complex128",
+  "adder_leakage": {
+    "Z25": {
+      "q": 25,
+      "m": 5,
+      "k_tested": 25,
+      "valid_inputs_correct": true,
+      "work_wires_clean_valid": true,
+      "invalid_inputs": 7,
+      "invalid_stay_invalid": false,
+      "work_wires_clean_invalid": false,
+      "is_permutation": true,
+      "method": "qml.matrix (dense, verification only)",
+      "seconds": 0.2325468000001365
+    },
+    "Z85": {
+      "q": 85,
+      "m": 7,
+      "k_tested": 85,
+      "valid_inputs_correct": true,
+      "work_wires_clean_valid": true,
+      "invalid_inputs": 43,
+      "invalid_stay_invalid": false,
+      "work_wires_clean_invalid": false,
+      "is_permutation": true,
+      "method": "qml.matrix (dense, verification only)",
+      "seconds": 13.309917363000068
+    },
+    "Z325": {
+      "q": 325,
+      "m": 9,
+      "k_tested": 6,
+      "valid_inputs_correct": true,
+      "work_wires_clean_valid": true,
+      "invalid_inputs": 187,
+      "invalid_stay_invalid": false,
+      "work_wires_clean_invalid": false,
+      "method": "basis-state simulation, lightning.qubit",
+      "seconds": 31.27957826299985
+    }
+  },
+  "gate_tests": {
+    "Z25": {
+      "n_ops": 8,
+      "wires": 12,
+      "X_max_abs_error_vs_reference": 1.1007842240426015e-15,
+      "Z_max_abs_error_vs_reference": 2.9439233600320783e-16,
+      "max_leakage_or_dirty_work": 1.3988810110276972e-14,
+      "seconds_X": 0.3300768970000263,
+      "seconds_Z": 0.037268500000209315
+    },
+    "Z85": {
+      "n_ops": 8,
+      "wires": 16,
+      "X_max_abs_error_vs_reference": 7.605388603538626e-16,
+      "Z_max_abs_error_vs_reference": 5.742956581555481e-17,
+      "max_leakage_or_dirty_work": 1.9317880628477724e-14,
+      "seconds_X": 0.24718609900037336,
+      "seconds_Z": 0.043291499999668304
+    },
+    "Z325": {
+      "n_ops": 9,
+      "wires": 20,
+      "X_max_abs_error_vs_reference": 1.7399555349310319e-15,
+      "Z_max_abs_error_vs_reference": 4.0711178009060266e-17,
+      "max_leakage_or_dirty_work": 3.019806626980426e-14,
+      "seconds_X": 0.7058442950003609,
+      "seconds_Z": 0.09765600000037011
+    }
+  },
+  "prop5_circuit": {
+    "Z25": {
+      "status": "RUN",
+      "wires": 15,
+      "rows": [
+        {
+          "e": "0+0i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.999999999999988,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 1.0000000000000004,
+          "fidelity_with_X(e)psi": 1.0000000000000004,
+          "leakage": 2.220446049250313e-16,
+          "seconds": 0.30479999799990765,
+          "python_peak_MB": 1.9361248016357422
+        },
+        {
+          "e": "2+1i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999746,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.03270172779269028,
+          "fidelity_with_X(e)psi": 1.0000000000000009,
+          "leakage": 0.0,
+          "seconds": 0.33905339700004333,
+          "python_peak_MB": 2.1759109497070312
+        },
+        {
+          "e": "4+2i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999739,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.2880771216147288,
+          "fidelity_with_X(e)psi": 1.0000000000000013,
+          "leakage": 0.0,
+          "seconds": 0.4258461970000553,
+          "python_peak_MB": 2.325778007507324
+        },
+        {
+          "e": "6+3i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999744,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.2880771216147289,
+          "fidelity_with_X(e)psi": 1.0000000000000009,
+          "leakage": 0.0,
+          "seconds": 0.338031502999911,
+          "python_peak_MB": 2.1752090454101562
+        },
+        {
+          "e": "8+4i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999745,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.03270172779269024,
+          "fidelity_with_X(e)psi": 1.0000000000000009,
+          "leakage": 0.0,
+          "seconds": 0.3378976110000167,
+          "python_peak_MB": 2.174591064453125
+        }
+      ],
+      "distinct_measured_syndromes": 1,
+      "|eps|": 5
+    },
+    "Z85": {
+      "status": "RUN",
+      "wires": 19,
+      "rows": [
+        {
+          "e": "0+0i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999819,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 1.0,
+          "fidelity_with_X(e)psi": 1.0,
+          "leakage": 0.0,
+          "seconds": 0.44947741400005725,
+          "python_peak_MB": 9.832497596740723
+        },
+        {
+          "e": "2+1i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.999999999999962,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.057377236638585724,
+          "fidelity_with_X(e)psi": 1.0000000000000027,
+          "leakage": 0.0,
+          "seconds": 0.52434941599995,
+          "python_peak_MB": 10.460296630859375
+        },
+        {
+          "e": "4+2i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.1251352857422937,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.6060381190000044,
+          "python_peak_MB": 10.576179504394531
+        },
+        {
+          "e": "6+3i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999613,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.017391205088539863,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.5208554159999039,
+          "python_peak_MB": 10.46160888671875
+        },
+        {
+          "e": "8+4i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999608,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.19307507523626996,
+          "fidelity_with_X(e)psi": 1.0000000000000044,
+          "leakage": 0.0,
+          "seconds": 0.5203143149999505,
+          "python_peak_MB": 10.459060668945312
+        },
+        {
+          "e": "10+5i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999623,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.009353988535986776,
+          "fidelity_with_X(e)psi": 1.0000000000000027,
+          "leakage": 0.0,
+          "seconds": 0.5491673169999558,
+          "python_peak_MB": 10.458908081054688
+        },
+        {
+          "e": "12+6i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999607,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.0329834081363996,
+          "fidelity_with_X(e)psi": 1.0000000000000044,
+          "leakage": 0.0,
+          "seconds": 0.5258537159998014,
+          "python_peak_MB": 10.458908081054688
+        },
+        {
+          "e": "14+7i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999624,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.06550570681236095,
+          "fidelity_with_X(e)psi": 1.000000000000003,
+          "leakage": 0.0,
+          "seconds": 0.6139179189999595,
+          "python_peak_MB": 10.582611083984375
+        },
+        {
+          "e": "16+8i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999619,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.024426301433876054,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.5204070160000356,
+          "python_peak_MB": 10.460594177246094
+        },
+        {
+          "e": "18+9i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999619,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.024426301433876113,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.5225939150000158,
+          "python_peak_MB": 10.459165573120117
+        },
+        {
+          "e": "20+10i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.0655057068123609,
+          "fidelity_with_X(e)psi": 1.0000000000000044,
+          "leakage": 0.0,
+          "seconds": 0.5500112160000299,
+          "python_peak_MB": 10.458908081054688
+        },
+        {
+          "e": "22+11i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999618,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.032983408136399855,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.5255996159999086,
+          "python_peak_MB": 10.458908081054688
+        },
+        {
+          "e": "24+12i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999619,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.009353988535986806,
+          "fidelity_with_X(e)psi": 1.0000000000000036,
+          "leakage": 0.0,
+          "seconds": 0.6069197179999719,
+          "python_peak_MB": 10.619918823242188
+        },
+        {
+          "e": "26+13i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.999999999999963,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.19307507523626957,
+          "fidelity_with_X(e)psi": 1.0000000000000027,
+          "leakage": 0.0,
+          "seconds": 0.5202001149998523,
+          "python_peak_MB": 10.460594177246094
+        },
+        {
+          "e": "28+14i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.017391205088539915,
+          "fidelity_with_X(e)psi": 1.0000000000000044,
+          "leakage": 0.0,
+          "seconds": 0.5227755159999106,
+          "python_peak_MB": 10.459060668945312
+        },
+        {
+          "e": "30+15i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999623,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.12513528574229382,
+          "fidelity_with_X(e)psi": 1.000000000000003,
+          "leakage": 0.0,
+          "seconds": 0.5523919170000227,
+          "python_peak_MB": 10.458908081054688
+        },
+        {
+          "e": "32+16i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.057377236638585724,
+          "fidelity_with_X(e)psi": 1.0000000000000044,
+          "leakage": 0.0,
+          "seconds": 0.6041353179998623,
+          "python_peak_MB": 10.575103759765625
+        }
+      ],
+      "distinct_measured_syndromes": 1,
+      "|eps|": 17
+    },
+    "Z325": {
+      "status": "RUN",
+      "wires": 24,
+      "rows": [
+        {
+          "e": "0+0i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999998784,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 1.0000000000000915,
+          "fidelity_with_X(e)psi": 1.0000000000000915,
+          "leakage": 0.0,
+          "seconds": 3.144561092999993,
+          "python_peak_MB": 259.15511894226074
+        },
+        {
+          "e": "3+2i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.999999999999857,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.24014462822001625,
+          "fidelity_with_X(e)psi": 1.0000000000000902,
+          "leakage": 0.0,
+          "seconds": 3.8717069520000678,
+          "python_peak_MB": 260.1013355255127
+        },
+        {
+          "e": "6+4i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999998573,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.029371653542804077,
+          "fidelity_with_X(e)psi": 1.0000000000000906,
+          "leakage": 0.0,
+          "seconds": 3.972107029999961,
+          "python_peak_MB": 260.220178604126
+        },
+        {
+          "e": "9+6i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.999999999999857,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.02937165354280407,
+          "fidelity_with_X(e)psi": 1.0000000000000906,
+          "leakage": 0.0,
+          "seconds": 3.927067242000021,
+          "python_peak_MB": 260.09954261779785
+        },
+        {
+          "e": "12+8i",
+          "syndrome_measured": [
+            0
+          ],
+          "syndrome_probability": 0.9999999999998571,
+          "syndrome_algebraic": [
+            0
+          ],
+          "fidelity_with_original_logical_state": 0.2401446282200163,
+          "fidelity_with_X(e)psi": 1.0000000000000906,
+          "leakage": 0.0,
+          "seconds": 3.8833606460000283,
+          "python_peak_MB": 260.0974826812744
+        }
+      ],
+      "distinct_measured_syndromes": 1,
+      "|eps|": 5
+    }
+  },
+  "x_syndrome_circuit": {
+    "Z25": {
+      "status": "RUN",
+      "wires": 17,
+      "circuit_widths": [
+        17
+      ],
+      "mode": "all generators in one circuit",
+      "x_anc_orders": [
+        25
+      ],
+      "rows": [
+        {
+          "f": "0+0i",
+          "syndrome_measured": [
+            0
+          ],
+          "probability": 0.99999999999998,
+          "syndrome_algebraic": [
+            0
+          ],
+          "seconds": 0.29205540299994937,
+          "gpu_used_MB_after_run": [
+            1599.0
+          ]
+        },
+        {
+          "f": "0+1i",
+          "syndrome_measured": [
+            6
+          ],
+          "probability": 0.9999999999999815,
+          "syndrome_algebraic": [
+            6
+          ],
+          "seconds": 0.2020214029998897,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "0+24i",
+          "syndrome_measured": [
+            19
+          ],
+          "probability": 0.9999999999999811,
+          "syndrome_algebraic": [
+            19
+          ],
+          "seconds": 0.20384000200010632,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "1+0i",
+          "syndrome_measured": [
+            17
+          ],
+          "probability": 0.9999999999999812,
+          "syndrome_algebraic": [
+            17
+          ],
+          "seconds": 0.23841880100007984,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "24+0i",
+          "syndrome_measured": [
+            8
+          ],
+          "probability": 0.9999999999999809,
+          "syndrome_algebraic": [
+            8
+          ],
+          "seconds": 0.20291010100004314,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "0+2i",
+          "syndrome_measured": [
+            12
+          ],
+          "probability": 0.999999999999981,
+          "syndrome_algebraic": [
+            12
+          ],
+          "seconds": 0.2936860009999691,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "0+23i",
+          "syndrome_measured": [
+            13
+          ],
+          "probability": 0.999999999999981,
+          "syndrome_algebraic": [
+            13
+          ],
+          "seconds": 0.21141040099996644,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        },
+        {
+          "f": "1+1i",
+          "syndrome_measured": [
+            23
+          ],
+          "probability": 0.9999999999999807,
+          "syndrome_algebraic": [
+            23
+          ],
+          "seconds": 0.20364870100002008,
+          "gpu_used_MB_after_run": [
+            1635.0
+          ]
+        }
+      ],
+      "all_match": true
+    },
+    "Z85": {
+      "status": "RUN",
+      "wires": 23,
+      "circuit_widths": [
+        23
+      ],
+      "mode": "all generators in one circuit",
+      "x_anc_orders": [
+        85
+      ],
+      "rows": [
+        {
+          "f": "0+0i",
+          "syndrome_measured": [
+            0
+          ],
+          "probability": 0.9999999999999613,
+          "syndrome_algebraic": [
+            0
+          ],
+          "seconds": 2.402431009999873,
+          "gpu_used_MB_after_run": [
+            1725.0
+          ]
+        },
+        {
+          "f": "0+1i",
+          "syndrome_measured": [
+            71
+          ],
+          "probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            71
+          ],
+          "seconds": 2.0422142090001216,
+          "gpu_used_MB_after_run": [
+            1887.0
+          ]
+        },
+        {
+          "f": "0+84i",
+          "syndrome_measured": [
+            14
+          ],
+          "probability": 0.9999999999999618,
+          "syndrome_algebraic": [
+            14
+          ],
+          "seconds": 2.0561384150000777,
+          "gpu_used_MB_after_run": [
+            1887.0
+          ]
+        },
+        {
+          "f": "1+0i",
+          "syndrome_measured": [
+            12
+          ],
+          "probability": 0.9999999999999618,
+          "syndrome_algebraic": [
+            12
+          ],
+          "seconds": 2.125524931999962,
+          "gpu_used_MB_after_run": [
+            1887.0
+          ]
+        },
+        {
+          "f": "84+0i",
+          "syndrome_measured": [
+            73
+          ],
+          "probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            73
+          ],
+          "seconds": 2.1610274320000826,
+          "gpu_used_MB_after_run": [
+            1887.0
+          ]
+        },
+        {
+          "f": "0+2i",
+          "syndrome_measured": [
+            57
+          ],
+          "probability": 0.9999999999999617,
+          "syndrome_algebraic": [
+            57
+          ],
+          "seconds": 2.068568330000062,
+          "gpu_used_MB_after_run": [
+            1892.0
+          ]
+        },
+        {
+          "f": "0+83i",
+          "syndrome_measured": [
+            28
+          ],
+          "probability": 0.9999999999999618,
+          "syndrome_algebraic": [
+            28
+          ],
+          "seconds": 2.1342679219999354,
+          "gpu_used_MB_after_run": [
+            1892.0
+          ]
+        },
+        {
+          "f": "1+1i",
+          "syndrome_measured": [
+            83
+          ],
+          "probability": 0.9999999999999616,
+          "syndrome_algebraic": [
+            83
+          ],
+          "seconds": 2.060952817000043,
+          "gpu_used_MB_after_run": [
+            1892.0
+          ]
+        }
+      ],
+      "all_match": true
+    },
+    "Z325": {
+      "status": "RUN",
+      "wires": 29,
+      "circuit_widths": [
+        23,
+        29
+      ],
+      "mode": "one circuit per generator",
+      "x_anc_orders": [
+        5,
+        325
+      ],
+      "rows": [
+        {
+          "f": "0+0i",
+          "syndrome_measured": [
+            0,
+            0
+          ],
+          "probability": 0.9999999999999362,
+          "syndrome_algebraic": [
+            0,
+            0
+          ],
+          "seconds": 182.2687761100001,
+          "gpu_used_MB_after_run": [
+            1730.0,
+            9954.0
+          ]
+        },
+        {
+          "f": "0+1i",
+          "syndrome_measured": [
+            260,
+            306
+          ],
+          "probability": 0.9999999999999611,
+          "syndrome_algebraic": [
+            260,
+            306
+          ],
+          "seconds": 183.09284581500015,
+          "gpu_used_MB_after_run": [
+            9954.0,
+            9952.0
+          ]
+        },
+        {
+          "f": "0+324i",
+          "syndrome_measured": [
+            65,
+            19
+          ],
+          "probability": 0.9999999999998985,
+          "syndrome_algebraic": [
+            65,
+            19
+          ],
+          "seconds": 183.23196281900005,
+          "gpu_used_MB_after_run": [
+            9952.0,
+            9951.0
+          ]
+        },
+        {
+          "f": "1+0i",
+          "syndrome_measured": [
+            65,
+            17
+          ],
+          "probability": 0.9999999999998874,
+          "syndrome_algebraic": [
+            65,
+            17
+          ],
+          "seconds": 183.03091863100008,
+          "gpu_used_MB_after_run": [
+            9951.0,
+            9949.0
+          ]
+        },
+        {
+          "f": "324+0i",
+          "syndrome_measured": [
+            260,
+            308
+          ],
+          "probability": 0.9999999999999619,
+          "syndrome_algebraic": [
+            260,
+            308
+          ],
+          "seconds": 183.22972600000048,
+          "gpu_used_MB_after_run": [
+            9949.0,
+            9948.0
+          ]
+        },
+        {
+          "f": "0+2i",
+          "syndrome_measured": [
+            195,
+            287
+          ],
+          "probability": 0.9999999999999609,
+          "syndrome_algebraic": [
+            195,
+            287
+          ],
+          "seconds": 183.3076179460004,
+          "gpu_used_MB_after_run": [
+            9948.0,
+            9945.0
+          ]
+        },
+        {
+          "f": "0+323i",
+          "syndrome_measured": [
+            130,
+            38
+          ],
+          "probability": 0.9999999999998981,
+          "syndrome_algebraic": [
+            130,
+            38
+          ],
+          "seconds": 182.99944677099938,
+          "gpu_used_MB_after_run": [
+            9945.0,
+            9929.0
+          ]
+        },
+        {
+          "f": "1+1i",
+          "syndrome_measured": [
+            0,
+            323
+          ],
+          "probability": 0.9999999999999072,
+          "syndrome_algebraic": [
+            0,
+            323
+          ],
+          "seconds": 183.82025610699975,
+          "gpu_used_MB_after_run": [
+            9929.0,
+            10026.0
+          ]
+        }
+      ],
+      "all_match": true
+    }
+  },
+  "full_cycle": {
+    "Z25": {
+      "status": "RUN",
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "wires": 20,
+      "mcm_method": "deferred",
+      "rows": [
+        {
+          "a": "24+0i",
+          "b": "2+24i",
+          "fidelity_after_recovery": 0.9999999999999547,
+          "seconds": 0.8798253009999826
+        },
+        {
+          "a": "1+0i",
+          "b": "24+1i",
+          "fidelity_after_recovery": 0.9999999999999544,
+          "seconds": 0.8440126010000313
+        },
+        {
+          "a": "0+0i",
+          "b": "2+24i",
+          "fidelity_after_recovery": 0.9999999999999689,
+          "seconds": 0.958391100999961
+        },
+        {
+          "a": "0+0i",
+          "b": "1+2i",
+          "fidelity_after_recovery": 0.999999999999968,
+          "seconds": 0.8261110069997812
+        },
+        {
+          "a": "1+0i",
+          "b": "24+0i",
+          "fidelity_after_recovery": 0.9999999999999545,
+          "seconds": 1.031099714999982
+        },
+        {
+          "a": "0+0i",
+          "b": "24+1i",
+          "fidelity_after_recovery": 0.999999999999969,
+          "seconds": 0.8243827119999878
+        }
+      ],
+      "min_fidelity": 0.9999999999999544
+    }
+  },
+  "full_cycle_coherent": {
+    "Z25": {
+      "status": "RUN",
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "wires": 20,
+      "feed_forward": "coherent (ancilla-controlled corrections)",
+      "rows": [
+        {
+          "a": "1+0i",
+          "b": "24+1i",
+          "ancilla_branch_probability": 0.9999999999999547,
+          "fidelity_after_recovery": 0.9999999999999998,
+          "seconds": 0.5994182089998503,
+          "gpu_used_MB_after_run": 1683.0
+        },
+        {
+          "a": "0+24i",
+          "b": "2+0i",
+          "ancilla_branch_probability": 0.9999999999999555,
+          "fidelity_after_recovery": 0.9999999999999993,
+          "seconds": 0.5887377089998154,
+          "gpu_used_MB_after_run": 1733.0
+        },
+        {
+          "a": "24+0i",
+          "b": "2+0i",
+          "ancilla_branch_probability": 0.9999999999999554,
+          "fidelity_after_recovery": 0.9999999999999996,
+          "seconds": 0.5998453090001021,
+          "gpu_used_MB_after_run": 1733.0
+        },
+        {
+          "a": "24+0i",
+          "b": "0+3i",
+          "ancilla_branch_probability": 0.9999999999999551,
+          "fidelity_after_recovery": 0.9999999999999989,
+          "seconds": 0.5189552080000794,
+          "gpu_used_MB_after_run": 1733.0
+        }
+      ],
+      "min_fidelity": 0.9999999999999989
+    },
+    "Z85": {
+      "status": "RUN",
+      "label": "ALTERNATIVE DESIGN - not a result of the paper",
+      "wires": 26,
+      "feed_forward": "coherent (ancilla-controlled corrections)",
+      "rows": [
+        {
+          "a": "0+84i",
+          "b": "3+1i",
+          "ancilla_branch_probability": 0.9999999999999278,
+          "fidelity_after_recovery": 1.0000000000000022,
+          "seconds": 20.932156482999744,
+          "gpu_used_MB_after_run": 2691.0
+        },
+        {
+          "a": "0+84i",
+          "b": "5+1i",
+          "ancilla_branch_probability": 0.9999999999999303,
+          "fidelity_after_recovery": 1.0,
+          "seconds": 20.70990775900009,
+          "gpu_used_MB_after_run": 3736.0
+        },
+        {
+          "a": "1+0i",
+          "b": "83+0i",
+          "ancilla_branch_probability": 0.9999999999999282,
+          "fidelity_after_recovery": 1.0000000000000022,
+          "seconds": 21.45315824299996,
+          "gpu_used_MB_after_run": 3737.0
+        },
+        {
+          "a": "0+1i",
+          "b": "2+83i",
+          "ancilla_branch_probability": 0.9999999999999303,
+          "fidelity_after_recovery": 1.0,
+          "seconds": 20.869854298000064,
+          "gpu_used_MB_after_run": 3722.0
+        }
+      ],
+      "min_fidelity": 1.0
+    }
+  }
+}

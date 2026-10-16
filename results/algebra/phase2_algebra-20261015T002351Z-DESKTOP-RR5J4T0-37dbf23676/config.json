@@ -1,0 +1,89 @@
+{
+  "seed": 12345,
+  "examples": [
+    "Z25",
+    "Z85",
+    "Z325"
+  ],
+  "axioms": {
+    "q_values": [
+      5,
+      13,
+      25,
+      85
+    ],
+    "triple_limit": 300000000,
+    "random_triples": 2000000,
+    "unit_table_limit": 60000000
+  },
+  "lemma1": {
+    "exhaustive_alpha_q": [
+      5,
+      13,
+      25,
+      65,
+      85
+    ],
+    "divisor_ideal_q": [
+      325
+    ]
+  },
+  "decoder": {
+    "oracles": [
+      "bitmap",
+      "pyset",
+      "algebraic"
+    ],
+    "timing_repeats": 3,
+    "family_A_primes": [
+      13,
+      17,
+      29,
+      37,
+      41,
+      53,
+      61,
+      73,
+      89,
+      97,
+      101,
+      109,
+      113,
+      137,
+      149,
+      157,
+      173,
+      181,
+      193,
+      197
+    ],
+    "family_B_primes": [
+      13,
+      17,
+      29,
+      37,
+      41,
+      53,
+      61,
+      73,
+      89,
+      97,
+      101,
+      109,
+      113,
+      137,
+      149,
+      157,
+      173,
+      181,
+      193,
+      197
+    ],
+    "decodes_per_point": 4000
+  },
+  "multiqudit": {
+    "q": 5,
+    "n": 4,
+    "max_tries": 400
+  }
+}

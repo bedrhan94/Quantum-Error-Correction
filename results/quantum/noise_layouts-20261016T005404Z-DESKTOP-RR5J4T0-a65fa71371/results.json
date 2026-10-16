@@ -1,0 +1,17 @@
+{
+  "gate_level_source": "gate_level_css-20261015T201001Z-DESKTOP-RR5J4T0-ffe8a2b77f",
+  "gate_level_all_steps_pass": {
+    "Z25": true,
+    "Z65": true,
+    "Z85": true
+  },
+  "qudit": {
+    "Z25": "RUN",
+    "Z65": "RUN",
+    "Z85": "RUN"
+  },
+  "qubit": {
+    "code": "Z25",
+    "seconds": 1310.400079099927
+  }
+}

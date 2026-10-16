@@ -1,0 +1,59 @@
+{
+  "noise_model": "code capacity: i.i.d. single-qubit (or qudit) noise on the data once; ideal encoding/syndrome extraction/recovery",
+  "resources": {
+    "ring Z_25[i]": {
+      "wires": 20,
+      "num_gates": 15673,
+      "depth": 13294,
+      "two_qubit_gates": 8577,
+      "three_qubit_gates": 340,
+      "gate_types": {
+        "RY": 1200,
+        "CZ": 600,
+        "CNOT": 6124,
+        "QubitUnitary": 5442,
+        "ControlledPhaseShift": 1835,
+        "Toffoli": 340,
+        "RZ": 42,
+        "Hadamard": 36,
+        "SWAP": 18,
+        "PhaseShift": 34,
+        "PauliX": 2
+      }
+    },
+    "modular Z_625": {
+      "wires": 20,
+      "num_gates": 22453,
+      "depth": 19105,
+      "two_qubit_gates": 12435,
+      "three_qubit_gates": 300,
+      "gate_types": {
+        "RY": 1140,
+        "CZ": 570,
+        "CNOT": 9026,
+        "QubitUnitary": 8422,
+        "ControlledPhaseShift": 2809,
+        "Toffoli": 300,
+        "RZ": 34,
+        "Hadamard": 66,
+        "SWAP": 30,
+        "PhaseShift": 54,
+        "PauliX": 2
+      }
+    },
+    "[[5,1,3]] x 3": {
+      "wires": 27,
+      "num_gates": 72,
+      "depth": 10,
+      "two_qubit_gates": 48,
+      "three_qubit_gates": 0,
+      "note": "3 independent blocks, 9 wires each (5 data + 4 ancilla); depth of one block"
+    },
+    "no QEC": {
+      "wires": 3,
+      "num_gates": 0,
+      "depth": 0,
+      "two_qubit_gates": 0
+    }
+  }
+}

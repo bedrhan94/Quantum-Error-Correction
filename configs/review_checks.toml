@@ -1,0 +1,11 @@
+# Checks requested by the second-author review (items A1, A3, A4, B4, C2).
+seed = 909
+closed_form_q = [25, 65, 85, 125, 325]
+random_alpha_per_q = 300          # extra non-divisor generators per q (exercise gcd(alpha, q))
+convention_check_codes = ["Z25", "Z85", "Z325"]
+
+[additive_counterexample]
+q = 25
+C = [[1, 0]]                      # C = Z_q * 1 (additive subgroup, not an ideal)
+C1 = [[1, 0]]                     # additive pair for the stabilizer test
+C2 = [[1, 0], [0, 5]]             # C2 = Z_q * 1 + Z_q * 5i

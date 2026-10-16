@@ -1,0 +1,39 @@
+# Gate-level CSS simulation (layouts A and B), gated test order 1-5, then other rings.
+#   .venv/Scripts/python.exe experiments/gate_level_css.py --config gate_level_css.toml
+seed = 2027
+device = "lightning.qubit"
+# Mid-circuit measurements.  engine = "segmented": exact segment-by-segment simulation on `device`
+# (collapse to the measured value, optional explicit reset, classical feed-forward), cross-checked
+# against PennyLane-native MCM (mcm_method on native_device) on `native_crosscheck` random runs.
+# (lightning.qubit's own tree-traversal aborts on the ~1e-31 numerical-noise branch after phase
+#  estimation -> native reference runs on default.qubit.)
+engine = "segmented"
+native_device = "default.qubit"
+mcm_method = "tree-traversal"
+native_crosscheck = 12            # random runs re-simulated with PennyLane-native MCM
+native_crosscheck_noreuse = 2     # (24+ wires on default.qubit: ~200 s per run)
+branch_tol = 1e-14
+fidelity_tol = 1e-12
+trace_convention = "paper"        # Tr(a+bi) = a + b  (Remark 3); "2re" -> Tr = 2a
+orders = ["ZX", "XZ"]             # Z-type syndromes first (then X-correction), or X-type first
+cycle_exhaustive_limit = 125      # all (a,b) in T_X x T_Z when |T_X||T_Z| <= limit
+cycle_sample = 40                 # otherwise this many random pairs
+superposition_pairs = 25          # pairs re-run with a random logical superposition as input
+
+[[codes]]
+key = "Z25"                       # Example 7: C1 = <3+4i>, C2 = <2+i>
+layouts = ["B", "A"]
+reuse = [true, false]             # B: shared ancilla with explicit reset, and separate registers
+
+[[codes]]
+key = "Z65"                       # CRT, two blocks (not in the paper): C1 = <4+7i> = <(2+i)(3+2i)>, C2 = <3+2i>
+q = 65
+alpha1 = [4, 7]
+alpha2 = [3, 2]
+eps = "multiples"
+layouts = ["B"]
+
+[[codes]]
+key = "Z85"                       # Tables 1-3: C1 = <7+6i>, C2 = <2+i>
+layouts = ["B"]
+overrides = { native_crosscheck = 1, cycle_sample = 30, superposition_pairs = 10 }   # 26 wires

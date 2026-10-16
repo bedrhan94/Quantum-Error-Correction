@@ -1,0 +1,11 @@
+{
+  "experiment_id": "zreading_condition-20261015T220347Z-DESKTOP-RR5J4T0-54e3c09d11",
+  "status": "PASS",
+  "started_utc": "2026-10-15T22:03:47.975717+00:00",
+  "finished_utc": "2026-10-15T22:10:36.524597+00:00",
+  "wall_time_s": 408.5367320999503,
+  "notes": [],
+  "rss_MB_end": 683.9,
+  "peak_wset_MB": 802.4,
+  "torch_cuda_max_allocated_MB": 0.0
+}

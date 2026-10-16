@@ -1,0 +1,7 @@
+q=25: pairs=14 evaluated=50 cond_true=35 prop5Z_true=35 equiv_violations=0 (8.0s)
+q=65: pairs=27 evaluated=97 cond_true=66 prop5Z_true=66 equiv_violations=0 (33.1s)
+q=85: pairs=27 evaluated=97 cond_true=67 prop5Z_true=67 equiv_violations=0 (84.3s)
+q=125: pairs=40 evaluated=140 cond_true=95 prop5Z_true=95 equiv_violations=0 (30.7s)
+q=325: pairs=102 evaluated=358 cond_true=234 prop5Z_true=234 equiv_violations=0 (240.7s)
+Z5n4: [('greedy', False, 5, 25), ('random0', False, 15, 25), ('random1', False, 17, 25), ('random2', False, 16, 25), ('random3', False, 19, 25)] cond_true 0 of 21
+[PASS] zreading_condition-20261015T220347Z-DESKTOP-RR5J4T0-54e3c09d11  (408.54 s)  -> C:\Users\bedrhan94\Desktop\PennyLane\epsilon_qec_research\results\algebra\zreading_condition-20261015T220347Z-DESKTOP-RR5J4T0-54e3c09d11

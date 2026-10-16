@@ -1,0 +1,806 @@
+{
+  "css": {
+    "Z25": {
+      "q": 25,
+      "alpha1": "3+4i",
+      "alpha2": "2+1i",
+      "|R|": 625,
+      "size_C1_enumerated": 25,
+      "size_C2_enumerated": 125,
+      "size_C1_paper_formula_q2_over_N": 25.0,
+      "size_C2_paper_formula_q2_over_N": 125.0,
+      "size_C1_gcd_formula": 25,
+      "size_C2_gcd_formula": 125,
+      "gcd(alpha1,q)": [
+        3,
+        4
+      ],
+      "gcd(alpha2,q)": [
+        2,
+        1
+      ],
+      "N(alpha1)_mod_q": 0,
+      "N(alpha2)_mod_q": 5,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 5,
+      "K": 5,
+      "size_C2_dual_true": 5,
+      "size_C2_dual_def6": 125,
+      "size_C1_dual_true": 25,
+      "size_C2_trace_dual": 5,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_def6_orthogonal_to_all_C2_exhaustive": false,
+      "dual_true_principal_generator_found": "5+15i",
+      "claimed_dual_generator": "10+5i",
+      "claimed_dual_generator_ideal_equals_true_dual": true,
+      "size_C2_euclidean_dual": 5,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "2+1i",
+        "v_in_def6_dual": "2+24i",
+        "<c,v>_H": "3+4i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "3+4i",
+        "v_in_def6_dual": "2+24i",
+        "Tr<v,u>_H mod q": 16,
+        "chi": [
+          -0.6374239897486895,
+          -0.7705132427757894
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 25,
+          "computed": 25,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 125,
+          "computed": 125,
+          "match": true
+        },
+        "index": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "K": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        }
+      }
+    },
+    "Z85": {
+      "q": 85,
+      "alpha1": "7+6i",
+      "alpha2": "2+1i",
+      "|R|": 7225,
+      "size_C1_enumerated": 85,
+      "size_C2_enumerated": 1445,
+      "size_C1_paper_formula_q2_over_N": 85.0,
+      "size_C2_paper_formula_q2_over_N": 1445.0,
+      "size_C1_gcd_formula": 85,
+      "size_C2_gcd_formula": 1445,
+      "gcd(alpha1,q)": [
+        7,
+        6
+      ],
+      "gcd(alpha2,q)": [
+        2,
+        1
+      ],
+      "N(alpha1)_mod_q": 0,
+      "N(alpha2)_mod_q": 5,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 17,
+      "K": 17,
+      "size_C2_dual_true": 5,
+      "size_C2_dual_def6": 1445,
+      "size_C1_dual_true": 85,
+      "size_C2_trace_dual": 5,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_def6_orthogonal_to_all_C2_exhaustive": false,
+      "dual_true_principal_generator_found": "17+51i",
+      "size_C2_euclidean_dual": 5,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "2+1i",
+        "v_in_def6_dual": "2+84i",
+        "<c,v>_H": "3+4i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "7+6i",
+        "v_in_def6_dual": "2+84i",
+        "Tr<v,u>_H mod q": 74,
+        "chi": [
+          0.6872366859692629,
+          -0.7264335740162239
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 85,
+          "computed": 85,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 1445,
+          "computed": 1445,
+          "match": true
+        },
+        "index": {
+          "claimed": 17,
+          "computed": 17,
+          "match": true
+        },
+        "K": {
+          "claimed": 17,
+          "computed": 17,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        }
+      }
+    },
+    "Z325": {
+      "q": 325,
+      "alpha1": "4+7i",
+      "alpha2": "3+2i",
+      "|R|": 105625,
+      "size_C1_enumerated": 1625,
+      "size_C2_enumerated": 8125,
+      "size_C1_paper_formula_q2_over_N": 1625.0,
+      "size_C2_paper_formula_q2_over_N": 8125.0,
+      "size_C1_gcd_formula": 1625,
+      "size_C2_gcd_formula": 8125,
+      "gcd(alpha1,q)": [
+        4,
+        7
+      ],
+      "gcd(alpha2,q)": [
+        3,
+        2
+      ],
+      "N(alpha1)_mod_q": 65,
+      "N(alpha2)_mod_q": 13,
+      "C1_is_R_ideal": true,
+      "C2_is_R_ideal": true,
+      "C1_subset_C2": true,
+      "index_C2_C1": 5,
+      "K": 5,
+      "size_C2_dual_true": 13,
+      "size_C2_dual_def6": 8125,
+      "size_C1_dual_true": 65,
+      "size_C2_trace_dual": 13,
+      "trace_dual_equals_hermitian_dual": true,
+      "dual_true_equals_def6": false,
+      "C2_times_dual_true_eq_R": true,
+      "C2_times_dual_def6_eq_R": false,
+      "double_dual_equals_C2": true,
+      "dual_true_subset_C1": true,
+      "dual_def6_subset_C1": false,
+      "dual_true_is_R_ideal": true,
+      "dual_true_orthogonal_to_all_C2_exhaustive": true,
+      "dual_true_principal_generator_found": "25+125i",
+      "claimed_dual_generator": "75+50i",
+      "claimed_dual_generator_ideal_equals_true_dual": true,
+      "size_C2_euclidean_dual": 13,
+      "euclidean_dual_subset_C1": false,
+      "euclidean_dual_equals_hermitian_dual": false,
+      "def6_counterexample": {
+        "c_in_C2": "3+2i",
+        "v_in_def6_dual": "3+323i",
+        "<c,v>_H": "5+12i",
+        "nonzero": true
+      },
+      "def6_commutation_counterexample": {
+        "u_in_C1": "4+7i",
+        "v_in_def6_dual": "3+323i",
+        "Tr<v,u>_H mod q": 294,
+        "chi": [
+          0.825719824359524,
+          -0.5640804655895086
+        ],
+        "commute": false
+      },
+      "claims_vs_computed": {
+        "size_C1": {
+          "claimed": 1625,
+          "computed": 1625,
+          "match": true
+        },
+        "size_C2": {
+          "claimed": 8125,
+          "computed": 8125,
+          "match": true
+        },
+        "index": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "K": {
+          "claimed": 5,
+          "computed": 5,
+          "match": true
+        },
+        "size_dual": {
+          "claimed": 13,
+          "computed": 13,
+          "match": true
+        }
+      }
+    }
+  },
+  "z9_table_row": {
+    "C1": [
+      0,
+      3,
+      6
+    ],
+    "C2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "size_C1": 3,
+    "size_C2": 9,
+    "index": 3,
+    "size_C2_dual_true": 1,
+    "C2_dual_true": [
+      0
+    ],
+    "size_C2_dual_def6": 9,
+    "K_theorem4_formula": 3,
+    "table_claims": {
+      "size_C1": 3,
+      "size_C2": 9,
+      "index": 3,
+      "size_dual": 3,
+      "K_table2": 1
+    },
+    "table1_dual_size_matches_true_dual": false,
+    "table2_K_matches_theorem4": false
+  },
+  "lemma1": [
+    {
+      "q": 5,
+      "n_alpha_tested": 25,
+      "n_distinct_ideals": 4,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 4
+        },
+        "p2_def6": {
+          "violations": 2,
+          "tested": 4
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 5
+        },
+        "p3_def6": {
+          "violations": 5,
+          "tested": 5
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 25,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 25
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 25,
+          "|C2dual|": 25,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 13,
+      "n_alpha_tested": 169,
+      "n_distinct_ideals": 4,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 4
+        },
+        "p2_def6": {
+          "violations": 2,
+          "tested": 4
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 5
+        },
+        "p3_def6": {
+          "violations": 5,
+          "tested": 5
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 169,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 169
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 169,
+          "|C2dual|": 169,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 25,
+      "n_alpha_tested": 625,
+      "n_distinct_ideals": 9,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 9
+        },
+        "p2_def6": {
+          "violations": 6,
+          "tested": 9
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 27
+        },
+        "p3_def6": {
+          "violations": 27,
+          "tested": 27
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 625,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 625
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 625,
+          "|C2dual|": 625,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 65,
+      "n_alpha_tested": 4225,
+      "n_distinct_ideals": 16,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 16
+        },
+        "p2_def6": {
+          "violations": 12,
+          "tested": 16
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 65
+        },
+        "p3_def6": {
+          "violations": 65,
+          "tested": 65
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 4225,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 4225
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 4225,
+          "|C2dual|": 4225,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 85,
+      "n_alpha_tested": 7225,
+      "n_distinct_ideals": 16,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 16
+        },
+        "p2_def6": {
+          "violations": 12,
+          "tested": 16
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 65
+        },
+        "p3_def6": {
+          "violations": 65,
+          "tested": 65
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "0+1i",
+          "|C|": 7225,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "0+0i",
+          "|C|": 1,
+          "|dual|": 1,
+          "q^2": 7225
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "0+0i",
+          "C2": "0+1i",
+          "|C1|": 1,
+          "|C2|": 7225,
+          "|C2dual|": 7225,
+          "|C1dual|": 1
+        }
+      },
+      "mode": "all alpha in R"
+    },
+    {
+      "q": 325,
+      "n_alpha_tested": 36,
+      "n_distinct_ideals": 36,
+      "violations": {
+        "p1_true": {
+          "violations": 1,
+          "tested": 1
+        },
+        "p1_def6": {
+          "violations": 0,
+          "tested": 1
+        },
+        "p2_true": {
+          "violations": 0,
+          "tested": 36
+        },
+        "p2_def6": {
+          "violations": 30,
+          "tested": 36
+        },
+        "p3_true": {
+          "violations": 0,
+          "tested": 288
+        },
+        "p3_def6": {
+          "violations": 288,
+          "tested": 288
+        }
+      },
+      "first_counterexample": {
+        "p1_true": {
+          "alpha": "1+0i",
+          "|C|": 105625,
+          "|sigma(dual)|": 1
+        },
+        "p1_def6": null,
+        "p2_true": null,
+        "p2_def6": {
+          "alpha": "1+0i",
+          "|C|": 105625,
+          "|dual|": 105625,
+          "q^2": 105625
+        },
+        "p3_true": null,
+        "p3_def6": {
+          "C1": "3+323i",
+          "C2": "1+0i",
+          "|C1|": 8125,
+          "|C2|": 105625,
+          "|C2dual|": 105625,
+          "|C1dual|": 8125
+        }
+      },
+      "mode": "all divisor ideals (= all ideals, Z_q[i] is a PIR)"
+    }
+  ],
+  "multiqudit": {
+    "found_after_tries": 3,
+    "C2_generators": [
+      [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    ],
+    "C1_generators": [
+      [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "size_C2": 15625,
+    "size_C1": 625,
+    "size_C2_dual": 25,
+    "C1_subset_C2": true,
+    "dual_subset_C1": true,
+    "orth_exhaustive_C2_vs_dual": true,
+    "K_theorem4_|C2|/|C1|": 25,
+    "K_remark8_|C1|/|C2dual|": 25,
+    "C1_dual_size": 625,
+    "status": "independent reconstruction (paper gives no generators)"
+  }
+}

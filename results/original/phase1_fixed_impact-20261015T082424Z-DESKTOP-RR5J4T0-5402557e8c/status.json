@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase1_fixed_impact-20261015T082424Z-DESKTOP-RR5J4T0-5402557e8c",
+  "status": "PASS",
+  "started_utc": "2026-10-15T08:24:24.974447+00:00",
+  "finished_utc": "2026-10-15T08:24:29.297626+00:00",
+  "wall_time_s": 4.3234271998517215,
+  "notes": [],
+  "rss_MB_end": 634.0,
+  "peak_wset_MB": 634.0,
+  "torch_cuda_max_allocated_MB": 0.0
+}

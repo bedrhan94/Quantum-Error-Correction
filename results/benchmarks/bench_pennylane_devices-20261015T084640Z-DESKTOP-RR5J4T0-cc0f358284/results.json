@@ -1,0 +1,172 @@
+{
+  "rows": [
+    {
+      "circuit": "Z25 Prop.5 Z-syndrome round",
+      "wires": 15,
+      "device": "lightning.qubit",
+      "c_dtype": "complex128",
+      "seconds_min": 0.07653469000001678,
+      "seconds_all": [
+        0.08001559000001635,
+        0.07653469000001678
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999478,
+      "gpu_used_MB_after_run": null,
+      "speedup_vs_lightning_qubit": 1.0
+    },
+    {
+      "circuit": "Z25 Prop.5 Z-syndrome round",
+      "wires": 15,
+      "device": "lightning.gpu",
+      "c_dtype": "complex128",
+      "seconds_min": 0.12820658400005414,
+      "seconds_all": [
+        0.3067810610000379,
+        0.12820658400005414
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999474,
+      "gpu_used_MB_after_run": 1598.0,
+      "speedup_vs_lightning_qubit": 0.5969638033564989
+    },
+    {
+      "circuit": "Z25 Prop.5 Z-syndrome round",
+      "wires": 15,
+      "device": "lightning.gpu",
+      "c_dtype": "complex64",
+      "seconds_min": 0.1267683849999912,
+      "seconds_all": [
+        0.1267683849999912,
+        0.2109537740000178
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999887476846312,
+      "gpu_used_MB_after_run": 1598.0,
+      "speedup_vs_lightning_qubit": 0.6037364126712041
+    },
+    {
+      "circuit": "Z85 Prop.5 Z-syndrome round",
+      "wires": 19,
+      "device": "lightning.qubit",
+      "c_dtype": "complex128",
+      "seconds_min": 0.35699785500003145,
+      "seconds_all": [
+        0.37539265299994895,
+        0.35699785500003145
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999309,
+      "gpu_used_MB_after_run": null,
+      "speedup_vs_lightning_qubit": 1.0
+    },
+    {
+      "circuit": "Z85 Prop.5 Z-syndrome round",
+      "wires": 19,
+      "device": "lightning.gpu",
+      "c_dtype": "complex128",
+      "seconds_min": 0.22252007200006574,
+      "seconds_all": [
+        0.2253048720000379,
+        0.22252007200006574
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999309,
+      "gpu_used_MB_after_run": 1604.0,
+      "speedup_vs_lightning_qubit": 1.6043400120773195
+    },
+    {
+      "circuit": "Z85 Prop.5 Z-syndrome round",
+      "wires": 19,
+      "device": "lightning.gpu",
+      "c_dtype": "complex64",
+      "seconds_min": 0.1887212769998996,
+      "seconds_all": [
+        0.2800015650000205,
+        0.1887212769998996
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999812869507864,
+      "gpu_used_MB_after_run": 1600.0,
+      "speedup_vs_lightning_qubit": 1.8916672283868732
+    },
+    {
+      "circuit": "Z85 X-syndrome round (phase estimation)",
+      "wires": 23,
+      "device": "lightning.qubit",
+      "c_dtype": "complex128",
+      "seconds_min": 27.609601393000048,
+      "seconds_all": [
+        28.33669472700001,
+        27.609601393000048
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999294,
+      "gpu_used_MB_after_run": null,
+      "speedup_vs_lightning_qubit": 1.0
+    },
+    {
+      "circuit": "Z85 X-syndrome round (phase estimation)",
+      "wires": 23,
+      "device": "lightning.gpu",
+      "c_dtype": "complex128",
+      "seconds_min": 2.146205183999996,
+      "seconds_all": [
+        2.381750524999916,
+        2.146205183999996
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999999294,
+      "gpu_used_MB_after_run": 1714.0,
+      "speedup_vs_lightning_qubit": 12.864381094049255
+    },
+    {
+      "circuit": "Z85 X-syndrome round (phase estimation)",
+      "wires": 23,
+      "device": "lightning.gpu",
+      "c_dtype": "complex64",
+      "seconds_min": 1.0408728919999248,
+      "seconds_all": [
+        1.0408728919999248,
+        1.1354871920000278
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999696210410306,
+      "gpu_used_MB_after_run": 1650.0,
+      "speedup_vs_lightning_qubit": 26.525430343325766
+    },
+    {
+      "circuit": "Z325 Prop.5 Z-syndrome round",
+      "wires": 24,
+      "device": "lightning.qubit",
+      "c_dtype": "complex128",
+      "seconds_min": 46.16229871199994,
+      "seconds_all": [
+        46.16229871199994,
+        46.30554398100003
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999998952,
+      "gpu_used_MB_after_run": null,
+      "speedup_vs_lightning_qubit": 1.0
+    },
+    {
+      "circuit": "Z325 Prop.5 Z-syndrome round",
+      "wires": 24,
+      "device": "lightning.gpu",
+      "c_dtype": "complex128",
+      "seconds_min": 3.332408370000053,
+      "seconds_all": [
+        3.5025202079999644,
+        3.332408370000053
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999999999998952,
+      "gpu_used_MB_after_run": 1840.0,
+      "speedup_vs_lightning_qubit": 13.852533539279042
+    },
+    {
+      "circuit": "Z325 Prop.5 Z-syndrome round",
+      "wires": 24,
+      "device": "lightning.gpu",
+      "c_dtype": "complex64",
+      "seconds_min": 1.8442884280000271,
+      "seconds_all": [
+        1.8830375310000136,
+        1.8442884280000271
+      ],
+      "fidelity_vs_lightning_qubit_c128": 0.9999706545813662,
+      "gpu_used_MB_after_run": 1712.0,
+      "speedup_vs_lightning_qubit": 25.029869521037444
+    }
+  ]
+}

@@ -1,0 +1,862 @@
+q,alpha1,alpha2,|C1|,|C2|,K,|C1^perpH|,C1^perpH_subset_C1,eps_method,status,|eps|,condition,condition_pairwise,distinct_syndromes,prop5_Z_reading_holds,equivalence_holds
+25,2+-1i,1+0i,125,625,5,5,True,greedy,ok,5,True,True,5,True,True
+25,2+-1i,1+0i,125,625,5,5,True,canonical,ok,5,True,True,5,True,True
+25,2+-1i,1+0i,125,625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+25,2+-1i,1+0i,125,625,5,5,True,random,ok,5,True,True,5,True,True
+25,3+-4i,1+0i,25,625,25,25,True,greedy,ok,25,True,True,25,True,True
+25,3+-4i,1+0i,25,625,25,25,True,canonical,ok,25,True,True,25,True,True
+25,3+-4i,1+0i,25,625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+25,3+-4i,1+0i,25,625,25,25,True,random,ok,25,True,True,25,True,True
+25,3+-4i,2+-1i,25,125,5,25,True,greedy,ok,5,True,True,5,True,True
+25,3+-4i,2+-1i,25,125,5,25,True,canonical,ok,5,True,True,5,True,True
+25,3+-4i,2+-1i,25,125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+25,3+-4i,2+-1i,25,125,5,25,True,random,ok,5,True,True,5,True,True
+25,2+1i,1+0i,125,625,5,5,True,greedy,ok,5,True,True,5,True,True
+25,2+1i,1+0i,125,625,5,5,True,canonical,ok,5,True,True,5,True,True
+25,2+1i,1+0i,125,625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+25,2+1i,1+0i,125,625,5,5,True,random,ok,5,True,True,5,True,True
+25,5+0i,1+0i,25,625,25,25,True,greedy,ok,25,True,True,25,True,True
+25,5+0i,1+0i,25,625,25,25,True,canonical,ok,25,True,True,25,True,True
+25,5+0i,1+0i,25,625,25,25,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,5+0i,1+0i,25,625,25,25,True,random,ok,25,True,True,25,True,True
+25,5+0i,2+-1i,25,125,5,25,True,greedy,ok,5,True,True,5,True,True
+25,5+0i,2+-1i,25,125,5,25,True,canonical,ok,5,True,True,5,True,True
+25,5+0i,2+-1i,25,125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+25,5+0i,2+-1i,25,125,5,25,True,random,ok,5,True,True,5,True,True
+25,5+0i,2+1i,25,125,5,25,True,greedy,ok,5,True,True,5,True,True
+25,5+0i,2+1i,25,125,5,25,True,canonical,ok,5,True,True,5,True,True
+25,5+0i,2+1i,25,125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+25,5+0i,2+1i,25,125,5,25,True,random,ok,5,True,True,5,True,True
+25,10+-5i,1+0i,5,625,125,125,False,greedy,ok,125,False,False,5,False,True
+25,10+-5i,1+0i,5,625,125,125,False,canonical,ok,125,False,False,5,False,True
+25,10+-5i,1+0i,5,625,125,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,10+-5i,1+0i,5,625,125,125,False,random,ok,125,False,False,5,False,True
+25,10+-5i,2+-1i,5,125,25,125,False,greedy,ok,25,False,False,1,False,True
+25,10+-5i,2+-1i,5,125,25,125,False,canonical,ok,25,False,False,1,False,True
+25,10+-5i,2+-1i,5,125,25,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,10+-5i,2+-1i,5,125,25,125,False,random,ok,25,False,False,1,False,True
+25,3+4i,1+0i,25,625,25,25,True,greedy,ok,25,True,True,25,True,True
+25,3+4i,1+0i,25,625,25,25,True,canonical,ok,25,True,True,25,True,True
+25,3+4i,1+0i,25,625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+25,3+4i,1+0i,25,625,25,25,True,random,ok,25,True,True,25,True,True
+25,3+4i,2+1i,25,125,5,25,True,greedy,ok,5,True,True,5,True,True
+25,3+4i,2+1i,25,125,5,25,True,canonical,ok,5,True,True,5,True,True
+25,3+4i,2+1i,25,125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+25,3+4i,2+1i,25,125,5,25,True,random,ok,5,True,True,5,True,True
+25,10+5i,1+0i,5,625,125,125,False,greedy,ok,125,False,False,5,False,True
+25,10+5i,1+0i,5,625,125,125,False,canonical,ok,125,False,False,5,False,True
+25,10+5i,1+0i,5,625,125,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,10+5i,1+0i,5,625,125,125,False,random,ok,125,False,False,5,False,True
+25,10+5i,2+1i,5,125,25,125,False,greedy,ok,25,False,False,1,False,True
+25,10+5i,2+1i,5,125,25,125,False,canonical,ok,25,False,False,1,False,True
+25,10+5i,2+1i,5,125,25,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,10+5i,2+1i,5,125,25,125,False,random,ok,25,False,False,1,False,True
+25,25+0i,1+0i,1,625,625,625,False,greedy,ok,625,False,False,1,False,True
+25,25+0i,1+0i,1,625,625,625,False,canonical,ok,625,False,False,1,False,True
+25,25+0i,1+0i,1,625,625,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+25,25+0i,1+0i,1,625,625,625,False,random,ok,625,False,False,1,False,True
+65,3+-2i,1+0i,325,4225,13,13,True,greedy,ok,13,True,True,13,True,True
+65,3+-2i,1+0i,325,4225,13,13,True,canonical,ok,13,True,True,13,True,True
+65,3+-2i,1+0i,325,4225,13,13,True,paper_multiples,ok,13,True,True,13,True,True
+65,3+-2i,1+0i,325,4225,13,13,True,random,ok,13,True,True,13,True,True
+65,3+2i,1+0i,325,4225,13,13,True,greedy,ok,13,True,True,13,True,True
+65,3+2i,1+0i,325,4225,13,13,True,canonical,ok,13,True,True,13,True,True
+65,3+2i,1+0i,325,4225,13,13,True,paper_multiples,ok,13,True,True,13,True,True
+65,3+2i,1+0i,325,4225,13,13,True,random,ok,13,True,True,13,True,True
+65,13+0i,1+0i,25,4225,169,169,False,greedy,ok,169,False,False,25,False,True
+65,13+0i,1+0i,25,4225,169,169,False,canonical,ok,169,False,False,25,False,True
+65,13+0i,1+0i,25,4225,169,169,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,13+0i,1+0i,25,4225,169,169,False,random,ok,169,False,False,25,False,True
+65,2+-1i,1+0i,845,4225,5,5,True,greedy,ok,5,True,True,5,True,True
+65,2+-1i,1+0i,845,4225,5,5,True,canonical,ok,5,True,True,5,True,True
+65,2+-1i,1+0i,845,4225,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+65,2+-1i,1+0i,845,4225,5,5,True,random,ok,5,True,True,5,True,True
+65,4+-7i,1+0i,65,4225,65,65,True,greedy,ok,65,True,True,65,True,True
+65,4+-7i,1+0i,65,4225,65,65,True,canonical,ok,65,True,True,65,True,True
+65,4+-7i,1+0i,65,4225,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+65,4+-7i,1+0i,65,4225,65,65,True,random,ok,65,True,True,65,True,True
+65,4+-7i,3+-2i,65,325,5,65,True,greedy,ok,5,True,True,5,True,True
+65,4+-7i,3+-2i,65,325,5,65,True,canonical,ok,5,True,True,5,True,True
+65,4+-7i,3+-2i,65,325,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+65,4+-7i,3+-2i,65,325,5,65,True,random,ok,5,True,True,5,True,True
+65,4+-7i,2+-1i,65,845,13,65,True,greedy,ok,13,True,True,13,True,True
+65,4+-7i,2+-1i,65,845,13,65,True,canonical,ok,13,True,True,13,True,True
+65,4+-7i,2+-1i,65,845,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+65,4+-7i,2+-1i,65,845,13,65,True,random,ok,13,True,True,13,True,True
+65,8+1i,1+0i,65,4225,65,65,True,greedy,ok,65,True,True,65,True,True
+65,8+1i,1+0i,65,4225,65,65,True,canonical,ok,65,True,True,65,True,True
+65,8+1i,1+0i,65,4225,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+65,8+1i,1+0i,65,4225,65,65,True,random,ok,65,True,True,65,True,True
+65,8+1i,3+2i,65,325,5,65,True,greedy,ok,5,True,True,5,True,True
+65,8+1i,3+2i,65,325,5,65,True,canonical,ok,5,True,True,5,True,True
+65,8+1i,3+2i,65,325,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+65,8+1i,3+2i,65,325,5,65,True,random,ok,5,True,True,5,True,True
+65,8+1i,2+-1i,65,845,13,65,True,greedy,ok,13,True,True,13,True,True
+65,8+1i,2+-1i,65,845,13,65,True,canonical,ok,13,True,True,13,True,True
+65,8+1i,2+-1i,65,845,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+65,8+1i,2+-1i,65,845,13,65,True,random,ok,13,True,True,13,True,True
+65,26+-13i,1+0i,5,4225,845,845,False,greedy,ok,845,False,False,5,False,True
+65,26+-13i,1+0i,5,4225,845,845,False,canonical,ok,845,False,False,5,False,True
+65,26+-13i,1+0i,5,4225,845,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,26+-13i,1+0i,5,4225,845,845,False,random,ok,845,False,False,5,False,True
+65,26+-13i,2+-1i,5,845,169,845,False,greedy,ok,169,False,False,1,False,True
+65,26+-13i,2+-1i,5,845,169,845,False,canonical,ok,169,False,False,1,False,True
+65,26+-13i,2+-1i,5,845,169,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,26+-13i,2+-1i,5,845,169,845,False,random,ok,169,False,False,1,False,True
+65,2+1i,1+0i,845,4225,5,5,True,greedy,ok,5,True,True,5,True,True
+65,2+1i,1+0i,845,4225,5,5,True,canonical,ok,5,True,True,5,True,True
+65,2+1i,1+0i,845,4225,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+65,2+1i,1+0i,845,4225,5,5,True,random,ok,5,True,True,5,True,True
+65,8+-1i,1+0i,65,4225,65,65,True,greedy,ok,65,True,True,65,True,True
+65,8+-1i,1+0i,65,4225,65,65,True,canonical,ok,65,True,True,65,True,True
+65,8+-1i,1+0i,65,4225,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+65,8+-1i,1+0i,65,4225,65,65,True,random,ok,65,True,True,65,True,True
+65,8+-1i,3+-2i,65,325,5,65,True,greedy,ok,5,True,True,5,True,True
+65,8+-1i,3+-2i,65,325,5,65,True,canonical,ok,5,True,True,5,True,True
+65,8+-1i,3+-2i,65,325,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+65,8+-1i,3+-2i,65,325,5,65,True,random,ok,5,True,True,5,True,True
+65,8+-1i,2+1i,65,845,13,65,True,greedy,ok,13,True,True,13,True,True
+65,8+-1i,2+1i,65,845,13,65,True,canonical,ok,13,True,True,13,True,True
+65,8+-1i,2+1i,65,845,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+65,8+-1i,2+1i,65,845,13,65,True,random,ok,13,True,True,13,True,True
+65,4+7i,1+0i,65,4225,65,65,True,greedy,ok,65,True,True,65,True,True
+65,4+7i,1+0i,65,4225,65,65,True,canonical,ok,65,True,True,65,True,True
+65,4+7i,1+0i,65,4225,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+65,4+7i,1+0i,65,4225,65,65,True,random,ok,65,True,True,65,True,True
+65,4+7i,3+2i,65,325,5,65,True,greedy,ok,5,True,True,5,True,True
+65,4+7i,3+2i,65,325,5,65,True,canonical,ok,5,True,True,5,True,True
+65,4+7i,3+2i,65,325,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+65,4+7i,3+2i,65,325,5,65,True,random,ok,5,True,True,5,True,True
+65,4+7i,2+1i,65,845,13,65,True,greedy,ok,13,True,True,13,True,True
+65,4+7i,2+1i,65,845,13,65,True,canonical,ok,13,True,True,13,True,True
+65,4+7i,2+1i,65,845,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+65,4+7i,2+1i,65,845,13,65,True,random,ok,13,True,True,13,True,True
+65,26+13i,1+0i,5,4225,845,845,False,greedy,ok,845,False,False,5,False,True
+65,26+13i,1+0i,5,4225,845,845,False,canonical,ok,845,False,False,5,False,True
+65,26+13i,1+0i,5,4225,845,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,26+13i,1+0i,5,4225,845,845,False,random,ok,845,False,False,5,False,True
+65,26+13i,2+1i,5,845,169,845,False,greedy,ok,169,False,False,1,False,True
+65,26+13i,2+1i,5,845,169,845,False,canonical,ok,169,False,False,1,False,True
+65,26+13i,2+1i,5,845,169,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,26+13i,2+1i,5,845,169,845,False,random,ok,169,False,False,1,False,True
+65,5+0i,1+0i,169,4225,25,25,False,greedy,ok,25,True,True,25,True,True
+65,5+0i,1+0i,169,4225,25,25,False,canonical,ok,25,True,True,25,True,True
+65,5+0i,1+0i,169,4225,25,25,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,5+0i,1+0i,169,4225,25,25,False,random,ok,25,False,False,24,False,True
+65,15+-10i,1+0i,13,4225,325,325,False,greedy,ok,325,False,False,13,False,True
+65,15+-10i,1+0i,13,4225,325,325,False,canonical,ok,325,False,False,13,False,True
+65,15+-10i,1+0i,13,4225,325,325,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,15+-10i,1+0i,13,4225,325,325,False,random,ok,325,False,False,13,False,True
+65,15+-10i,3+-2i,13,325,25,325,False,greedy,ok,25,False,False,1,False,True
+65,15+-10i,3+-2i,13,325,25,325,False,canonical,ok,25,False,False,1,False,True
+65,15+-10i,3+-2i,13,325,25,325,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,15+-10i,3+-2i,13,325,25,325,False,random,ok,25,False,False,1,False,True
+65,15+10i,1+0i,13,4225,325,325,False,greedy,ok,325,False,False,13,False,True
+65,15+10i,1+0i,13,4225,325,325,False,canonical,ok,325,False,False,13,False,True
+65,15+10i,1+0i,13,4225,325,325,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,15+10i,1+0i,13,4225,325,325,False,random,ok,325,False,False,13,False,True
+65,15+10i,3+2i,13,325,25,325,False,greedy,ok,25,False,False,1,False,True
+65,15+10i,3+2i,13,325,25,325,False,canonical,ok,25,False,False,1,False,True
+65,15+10i,3+2i,13,325,25,325,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,15+10i,3+2i,13,325,25,325,False,random,ok,25,False,False,1,False,True
+65,65+0i,1+0i,1,4225,4225,4225,False,greedy,ok,4225,False,,1,False,True
+65,65+0i,1+0i,1,4225,4225,4225,False,canonical,ok,4225,False,,1,False,True
+65,65+0i,1+0i,1,4225,4225,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+65,65+0i,1+0i,1,4225,4225,4225,False,random,ok,4225,False,,1,False,True
+85,4+-1i,1+0i,425,7225,17,17,True,greedy,ok,17,True,True,17,True,True
+85,4+-1i,1+0i,425,7225,17,17,True,canonical,ok,17,True,True,17,True,True
+85,4+-1i,1+0i,425,7225,17,17,True,paper_multiples,ok,17,True,True,17,True,True
+85,4+-1i,1+0i,425,7225,17,17,True,random,ok,17,True,True,17,True,True
+85,4+1i,1+0i,425,7225,17,17,True,greedy,ok,17,True,True,17,True,True
+85,4+1i,1+0i,425,7225,17,17,True,canonical,ok,17,True,True,17,True,True
+85,4+1i,1+0i,425,7225,17,17,True,paper_multiples,ok,17,True,True,17,True,True
+85,4+1i,1+0i,425,7225,17,17,True,random,ok,17,True,True,17,True,True
+85,17+0i,1+0i,25,7225,289,289,False,greedy,ok,289,False,False,25,False,True
+85,17+0i,1+0i,25,7225,289,289,False,canonical,ok,289,False,False,25,False,True
+85,17+0i,1+0i,25,7225,289,289,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,17+0i,1+0i,25,7225,289,289,False,random,ok,289,False,False,25,False,True
+85,2+-1i,1+0i,1445,7225,5,5,True,greedy,ok,5,True,True,5,True,True
+85,2+-1i,1+0i,1445,7225,5,5,True,canonical,ok,5,True,True,5,True,True
+85,2+-1i,1+0i,1445,7225,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+85,2+-1i,1+0i,1445,7225,5,5,True,random,ok,5,True,True,5,True,True
+85,7+-6i,1+0i,85,7225,85,85,True,greedy,ok,85,True,True,85,True,True
+85,7+-6i,1+0i,85,7225,85,85,True,canonical,ok,85,True,True,85,True,True
+85,7+-6i,1+0i,85,7225,85,85,True,paper_multiples,ok,85,True,True,85,True,True
+85,7+-6i,1+0i,85,7225,85,85,True,random,ok,85,True,True,85,True,True
+85,7+-6i,4+-1i,85,425,5,85,True,greedy,ok,5,True,True,5,True,True
+85,7+-6i,4+-1i,85,425,5,85,True,canonical,ok,5,True,True,5,True,True
+85,7+-6i,4+-1i,85,425,5,85,True,paper_multiples,ok,5,True,True,5,True,True
+85,7+-6i,4+-1i,85,425,5,85,True,random,ok,5,True,True,5,True,True
+85,7+-6i,2+-1i,85,1445,17,85,True,greedy,ok,17,True,True,17,True,True
+85,7+-6i,2+-1i,85,1445,17,85,True,canonical,ok,17,True,True,17,True,True
+85,7+-6i,2+-1i,85,1445,17,85,True,paper_multiples,ok,17,True,True,17,True,True
+85,7+-6i,2+-1i,85,1445,17,85,True,random,ok,17,True,True,17,True,True
+85,9+-2i,1+0i,85,7225,85,85,True,greedy,ok,85,True,True,85,True,True
+85,9+-2i,1+0i,85,7225,85,85,True,canonical,ok,85,True,True,85,True,True
+85,9+-2i,1+0i,85,7225,85,85,True,paper_multiples,ok,85,True,True,85,True,True
+85,9+-2i,1+0i,85,7225,85,85,True,random,ok,85,True,True,85,True,True
+85,9+-2i,4+1i,85,425,5,85,True,greedy,ok,5,True,True,5,True,True
+85,9+-2i,4+1i,85,425,5,85,True,canonical,ok,5,True,True,5,True,True
+85,9+-2i,4+1i,85,425,5,85,True,paper_multiples,ok,5,True,True,5,True,True
+85,9+-2i,4+1i,85,425,5,85,True,random,ok,5,True,True,5,True,True
+85,9+-2i,2+-1i,85,1445,17,85,True,greedy,ok,17,True,True,17,True,True
+85,9+-2i,2+-1i,85,1445,17,85,True,canonical,ok,17,True,True,17,True,True
+85,9+-2i,2+-1i,85,1445,17,85,True,paper_multiples,ok,17,True,True,17,True,True
+85,9+-2i,2+-1i,85,1445,17,85,True,random,ok,17,True,True,17,True,True
+85,34+-17i,1+0i,5,7225,1445,1445,False,greedy,ok,1445,False,,5,False,True
+85,34+-17i,1+0i,5,7225,1445,1445,False,canonical,ok,1445,False,,5,False,True
+85,34+-17i,1+0i,5,7225,1445,1445,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,34+-17i,1+0i,5,7225,1445,1445,False,random,ok,1445,False,,5,False,True
+85,34+-17i,2+-1i,5,1445,289,1445,False,greedy,ok,289,False,False,1,False,True
+85,34+-17i,2+-1i,5,1445,289,1445,False,canonical,ok,289,False,False,1,False,True
+85,34+-17i,2+-1i,5,1445,289,1445,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,34+-17i,2+-1i,5,1445,289,1445,False,random,ok,289,False,False,1,False,True
+85,2+1i,1+0i,1445,7225,5,5,True,greedy,ok,5,True,True,5,True,True
+85,2+1i,1+0i,1445,7225,5,5,True,canonical,ok,5,True,True,5,True,True
+85,2+1i,1+0i,1445,7225,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+85,2+1i,1+0i,1445,7225,5,5,True,random,ok,5,True,True,5,True,True
+85,9+2i,1+0i,85,7225,85,85,True,greedy,ok,85,True,True,85,True,True
+85,9+2i,1+0i,85,7225,85,85,True,canonical,ok,85,True,True,85,True,True
+85,9+2i,1+0i,85,7225,85,85,True,paper_multiples,ok,85,True,True,85,True,True
+85,9+2i,1+0i,85,7225,85,85,True,random,ok,85,True,True,85,True,True
+85,9+2i,4+-1i,85,425,5,85,True,greedy,ok,5,True,True,5,True,True
+85,9+2i,4+-1i,85,425,5,85,True,canonical,ok,5,True,True,5,True,True
+85,9+2i,4+-1i,85,425,5,85,True,paper_multiples,ok,5,True,True,5,True,True
+85,9+2i,4+-1i,85,425,5,85,True,random,ok,5,True,True,5,True,True
+85,9+2i,2+1i,85,1445,17,85,True,greedy,ok,17,True,True,17,True,True
+85,9+2i,2+1i,85,1445,17,85,True,canonical,ok,17,True,True,17,True,True
+85,9+2i,2+1i,85,1445,17,85,True,paper_multiples,ok,17,True,True,17,True,True
+85,9+2i,2+1i,85,1445,17,85,True,random,ok,17,True,True,17,True,True
+85,7+6i,1+0i,85,7225,85,85,True,greedy,ok,85,True,True,85,True,True
+85,7+6i,1+0i,85,7225,85,85,True,canonical,ok,85,True,True,85,True,True
+85,7+6i,1+0i,85,7225,85,85,True,paper_multiples,ok,85,True,True,85,True,True
+85,7+6i,1+0i,85,7225,85,85,True,random,ok,85,True,True,85,True,True
+85,7+6i,4+1i,85,425,5,85,True,greedy,ok,5,True,True,5,True,True
+85,7+6i,4+1i,85,425,5,85,True,canonical,ok,5,True,True,5,True,True
+85,7+6i,4+1i,85,425,5,85,True,paper_multiples,ok,5,True,True,5,True,True
+85,7+6i,4+1i,85,425,5,85,True,random,ok,5,True,True,5,True,True
+85,7+6i,2+1i,85,1445,17,85,True,greedy,ok,17,True,True,17,True,True
+85,7+6i,2+1i,85,1445,17,85,True,canonical,ok,17,True,True,17,True,True
+85,7+6i,2+1i,85,1445,17,85,True,paper_multiples,ok,17,True,True,17,True,True
+85,7+6i,2+1i,85,1445,17,85,True,random,ok,17,True,True,17,True,True
+85,34+17i,1+0i,5,7225,1445,1445,False,greedy,ok,1445,False,,5,False,True
+85,34+17i,1+0i,5,7225,1445,1445,False,canonical,ok,1445,False,,5,False,True
+85,34+17i,1+0i,5,7225,1445,1445,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,34+17i,1+0i,5,7225,1445,1445,False,random,ok,1445,False,,5,False,True
+85,34+17i,2+1i,5,1445,289,1445,False,greedy,ok,289,False,False,1,False,True
+85,34+17i,2+1i,5,1445,289,1445,False,canonical,ok,289,False,False,1,False,True
+85,34+17i,2+1i,5,1445,289,1445,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,34+17i,2+1i,5,1445,289,1445,False,random,ok,289,False,False,1,False,True
+85,5+0i,1+0i,289,7225,25,25,False,greedy,ok,25,True,True,25,True,True
+85,5+0i,1+0i,289,7225,25,25,False,canonical,ok,25,True,True,25,True,True
+85,5+0i,1+0i,289,7225,25,25,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,5+0i,1+0i,289,7225,25,25,False,random,ok,25,True,True,25,True,True
+85,20+-5i,1+0i,17,7225,425,425,False,greedy,ok,425,False,False,17,False,True
+85,20+-5i,1+0i,17,7225,425,425,False,canonical,ok,425,False,False,17,False,True
+85,20+-5i,1+0i,17,7225,425,425,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,20+-5i,1+0i,17,7225,425,425,False,random,ok,425,False,False,17,False,True
+85,20+-5i,4+-1i,17,425,25,425,False,greedy,ok,25,False,False,1,False,True
+85,20+-5i,4+-1i,17,425,25,425,False,canonical,ok,25,False,False,1,False,True
+85,20+-5i,4+-1i,17,425,25,425,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,20+-5i,4+-1i,17,425,25,425,False,random,ok,25,False,False,1,False,True
+85,20+5i,1+0i,17,7225,425,425,False,greedy,ok,425,False,False,17,False,True
+85,20+5i,1+0i,17,7225,425,425,False,canonical,ok,425,False,False,17,False,True
+85,20+5i,1+0i,17,7225,425,425,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,20+5i,1+0i,17,7225,425,425,False,random,ok,425,False,False,17,False,True
+85,20+5i,4+1i,17,425,25,425,False,greedy,ok,25,False,False,1,False,True
+85,20+5i,4+1i,17,425,25,425,False,canonical,ok,25,False,False,1,False,True
+85,20+5i,4+1i,17,425,25,425,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,20+5i,4+1i,17,425,25,425,False,random,ok,25,False,False,1,False,True
+85,85+0i,1+0i,1,7225,7225,7225,False,greedy,ok,7225,False,,1,False,True
+85,85+0i,1+0i,1,7225,7225,7225,False,canonical,ok,7225,False,,1,False,True
+85,85+0i,1+0i,1,7225,7225,7225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+85,85+0i,1+0i,1,7225,7225,7225,False,random,ok,7225,False,,1,False,True
+125,2+-1i,1+0i,3125,15625,5,5,True,greedy,ok,5,True,True,5,True,True
+125,2+-1i,1+0i,3125,15625,5,5,True,canonical,ok,5,True,True,5,True,True
+125,2+-1i,1+0i,3125,15625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+125,2+-1i,1+0i,3125,15625,5,5,True,random,ok,5,True,True,5,True,True
+125,3+-4i,1+0i,625,15625,25,25,True,greedy,ok,25,True,True,25,True,True
+125,3+-4i,1+0i,625,15625,25,25,True,canonical,ok,25,True,True,25,True,True
+125,3+-4i,1+0i,625,15625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+125,3+-4i,1+0i,625,15625,25,25,True,random,ok,25,True,True,25,True,True
+125,3+-4i,2+-1i,625,3125,5,25,True,greedy,ok,5,True,True,5,True,True
+125,3+-4i,2+-1i,625,3125,5,25,True,canonical,ok,5,True,True,5,True,True
+125,3+-4i,2+-1i,625,3125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+125,3+-4i,2+-1i,625,3125,5,25,True,random,ok,5,True,True,5,True,True
+125,2+-11i,1+0i,125,15625,125,125,True,greedy,ok,125,True,True,125,True,True
+125,2+-11i,1+0i,125,15625,125,125,True,canonical,ok,125,True,True,125,True,True
+125,2+-11i,1+0i,125,15625,125,125,True,paper_multiples,ok,125,True,True,125,True,True
+125,2+-11i,1+0i,125,15625,125,125,True,random,ok,125,True,True,125,True,True
+125,2+-11i,2+-1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,2+-11i,2+-1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,2+-11i,2+-1i,125,3125,25,125,True,paper_multiples,ok,25,True,True,25,True,True
+125,2+-11i,2+-1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,2+-11i,3+-4i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,2+-11i,3+-4i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,2+-11i,3+-4i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,2+-11i,3+-4i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,2+1i,1+0i,3125,15625,5,5,True,greedy,ok,5,True,True,5,True,True
+125,2+1i,1+0i,3125,15625,5,5,True,canonical,ok,5,True,True,5,True,True
+125,2+1i,1+0i,3125,15625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+125,2+1i,1+0i,3125,15625,5,5,True,random,ok,5,True,True,5,True,True
+125,5+0i,1+0i,625,15625,25,25,True,greedy,ok,25,True,True,25,True,True
+125,5+0i,1+0i,625,15625,25,25,True,canonical,ok,25,True,True,25,True,True
+125,5+0i,1+0i,625,15625,25,25,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,5+0i,1+0i,625,15625,25,25,True,random,ok,25,True,True,25,True,True
+125,5+0i,2+-1i,625,3125,5,25,True,greedy,ok,5,True,True,5,True,True
+125,5+0i,2+-1i,625,3125,5,25,True,canonical,ok,5,True,True,5,True,True
+125,5+0i,2+-1i,625,3125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+125,5+0i,2+-1i,625,3125,5,25,True,random,ok,5,True,True,5,True,True
+125,5+0i,2+1i,625,3125,5,25,True,greedy,ok,5,True,True,5,True,True
+125,5+0i,2+1i,625,3125,5,25,True,canonical,ok,5,True,True,5,True,True
+125,5+0i,2+1i,625,3125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+125,5+0i,2+1i,625,3125,5,25,True,random,ok,5,True,True,5,True,True
+125,10+-5i,1+0i,125,15625,125,125,True,greedy,ok,125,True,True,125,True,True
+125,10+-5i,1+0i,125,15625,125,125,True,canonical,ok,125,True,True,125,True,True
+125,10+-5i,1+0i,125,15625,125,125,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,10+-5i,1+0i,125,15625,125,125,True,random,ok,125,True,True,125,True,True
+125,10+-5i,2+-1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,10+-5i,2+-1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,10+-5i,2+-1i,125,3125,25,125,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,10+-5i,2+-1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,10+-5i,3+-4i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,10+-5i,3+-4i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,10+-5i,3+-4i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,10+-5i,3+-4i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,10+-5i,2+1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,10+-5i,2+1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,10+-5i,2+1i,125,3125,25,125,True,paper_multiples,ok,25,True,True,25,True,True
+125,10+-5i,2+1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,10+-5i,5+0i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,10+-5i,5+0i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,10+-5i,5+0i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,10+-5i,5+0i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,15+-20i,1+0i,25,15625,625,625,False,greedy,ok,625,False,False,25,False,True
+125,15+-20i,1+0i,25,15625,625,625,False,canonical,ok,625,False,False,25,False,True
+125,15+-20i,1+0i,25,15625,625,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+-20i,1+0i,25,15625,625,625,False,random,ok,625,False,False,25,False,True
+125,15+-20i,2+-1i,25,3125,125,625,False,greedy,ok,125,False,False,5,False,True
+125,15+-20i,2+-1i,25,3125,125,625,False,canonical,ok,125,False,False,5,False,True
+125,15+-20i,2+-1i,25,3125,125,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+-20i,2+-1i,25,3125,125,625,False,random,ok,125,False,False,5,False,True
+125,15+-20i,3+-4i,25,625,25,625,False,greedy,ok,25,False,False,1,False,True
+125,15+-20i,3+-4i,25,625,25,625,False,canonical,ok,25,False,False,1,False,True
+125,15+-20i,3+-4i,25,625,25,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+-20i,3+-4i,25,625,25,625,False,random,ok,25,False,False,1,False,True
+125,3+4i,1+0i,625,15625,25,25,True,greedy,ok,25,True,True,25,True,True
+125,3+4i,1+0i,625,15625,25,25,True,canonical,ok,25,True,True,25,True,True
+125,3+4i,1+0i,625,15625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+125,3+4i,1+0i,625,15625,25,25,True,random,ok,25,True,True,25,True,True
+125,3+4i,2+1i,625,3125,5,25,True,greedy,ok,5,True,True,5,True,True
+125,3+4i,2+1i,625,3125,5,25,True,canonical,ok,5,True,True,5,True,True
+125,3+4i,2+1i,625,3125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+125,3+4i,2+1i,625,3125,5,25,True,random,ok,5,True,True,5,True,True
+125,10+5i,1+0i,125,15625,125,125,True,greedy,ok,125,True,True,125,True,True
+125,10+5i,1+0i,125,15625,125,125,True,canonical,ok,125,True,True,125,True,True
+125,10+5i,1+0i,125,15625,125,125,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,10+5i,1+0i,125,15625,125,125,True,random,ok,125,True,True,125,True,True
+125,10+5i,2+-1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,10+5i,2+-1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,10+5i,2+-1i,125,3125,25,125,True,paper_multiples,ok,25,True,True,25,True,True
+125,10+5i,2+-1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,10+5i,2+1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,10+5i,2+1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,10+5i,2+1i,125,3125,25,125,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,10+5i,2+1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,10+5i,5+0i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,10+5i,5+0i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,10+5i,5+0i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,10+5i,5+0i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,10+5i,3+4i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,10+5i,3+4i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,10+5i,3+4i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,10+5i,3+4i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,25+0i,1+0i,25,15625,625,625,False,greedy,ok,625,False,False,25,False,True
+125,25+0i,1+0i,25,15625,625,625,False,canonical,ok,625,False,False,25,False,True
+125,25+0i,1+0i,25,15625,625,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,25+0i,1+0i,25,15625,625,625,False,random,ok,625,False,False,25,False,True
+125,25+0i,2+-1i,25,3125,125,625,False,greedy,ok,125,False,False,5,False,True
+125,25+0i,2+-1i,25,3125,125,625,False,canonical,ok,125,False,False,5,False,True
+125,25+0i,2+-1i,25,3125,125,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,25+0i,2+-1i,25,3125,125,625,False,random,ok,125,False,False,5,False,True
+125,25+0i,2+1i,25,3125,125,625,False,greedy,ok,125,False,False,5,False,True
+125,25+0i,2+1i,25,3125,125,625,False,canonical,ok,125,False,False,5,False,True
+125,25+0i,2+1i,25,3125,125,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,25+0i,2+1i,25,3125,125,625,False,random,ok,125,False,False,5,False,True
+125,25+0i,5+0i,25,625,25,625,False,greedy,ok,25,False,False,1,False,True
+125,25+0i,5+0i,25,625,25,625,False,canonical,ok,25,False,False,1,False,True
+125,25+0i,5+0i,25,625,25,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,25+0i,5+0i,25,625,25,625,False,random,ok,25,False,False,1,False,True
+125,50+-25i,1+0i,5,15625,3125,3125,False,greedy,ok,3125,False,,5,False,True
+125,50+-25i,1+0i,5,15625,3125,3125,False,canonical,ok,3125,False,,5,False,True
+125,50+-25i,1+0i,5,15625,3125,3125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,50+-25i,1+0i,5,15625,3125,3125,False,random,ok,3125,False,,5,False,True
+125,50+-25i,2+-1i,5,3125,625,3125,False,greedy,ok,625,False,False,1,False,True
+125,50+-25i,2+-1i,5,3125,625,3125,False,canonical,ok,625,False,False,1,False,True
+125,50+-25i,2+-1i,5,3125,625,3125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,50+-25i,2+-1i,5,3125,625,3125,False,random,ok,625,False,False,1,False,True
+125,2+11i,1+0i,125,15625,125,125,True,greedy,ok,125,True,True,125,True,True
+125,2+11i,1+0i,125,15625,125,125,True,canonical,ok,125,True,True,125,True,True
+125,2+11i,1+0i,125,15625,125,125,True,paper_multiples,ok,125,True,True,125,True,True
+125,2+11i,1+0i,125,15625,125,125,True,random,ok,125,True,True,125,True,True
+125,2+11i,2+1i,125,3125,25,125,True,greedy,ok,25,True,True,25,True,True
+125,2+11i,2+1i,125,3125,25,125,True,canonical,ok,25,True,True,25,True,True
+125,2+11i,2+1i,125,3125,25,125,True,paper_multiples,ok,25,True,True,25,True,True
+125,2+11i,2+1i,125,3125,25,125,True,random,ok,25,True,True,25,True,True
+125,2+11i,3+4i,125,625,5,125,True,greedy,ok,5,True,True,5,True,True
+125,2+11i,3+4i,125,625,5,125,True,canonical,ok,5,True,True,5,True,True
+125,2+11i,3+4i,125,625,5,125,True,paper_multiples,ok,5,True,True,5,True,True
+125,2+11i,3+4i,125,625,5,125,True,random,ok,5,True,True,5,True,True
+125,15+20i,1+0i,25,15625,625,625,False,greedy,ok,625,False,False,25,False,True
+125,15+20i,1+0i,25,15625,625,625,False,canonical,ok,625,False,False,25,False,True
+125,15+20i,1+0i,25,15625,625,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+20i,1+0i,25,15625,625,625,False,random,ok,625,False,False,25,False,True
+125,15+20i,2+1i,25,3125,125,625,False,greedy,ok,125,False,False,5,False,True
+125,15+20i,2+1i,25,3125,125,625,False,canonical,ok,125,False,False,5,False,True
+125,15+20i,2+1i,25,3125,125,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+20i,2+1i,25,3125,125,625,False,random,ok,125,False,False,5,False,True
+125,15+20i,3+4i,25,625,25,625,False,greedy,ok,25,False,False,1,False,True
+125,15+20i,3+4i,25,625,25,625,False,canonical,ok,25,False,False,1,False,True
+125,15+20i,3+4i,25,625,25,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,15+20i,3+4i,25,625,25,625,False,random,ok,25,False,False,1,False,True
+125,50+25i,1+0i,5,15625,3125,3125,False,greedy,ok,3125,False,,5,False,True
+125,50+25i,1+0i,5,15625,3125,3125,False,canonical,ok,3125,False,,5,False,True
+125,50+25i,1+0i,5,15625,3125,3125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,50+25i,1+0i,5,15625,3125,3125,False,random,ok,3125,False,,5,False,True
+125,50+25i,2+1i,5,3125,625,3125,False,greedy,ok,625,False,False,1,False,True
+125,50+25i,2+1i,5,3125,625,3125,False,canonical,ok,625,False,False,1,False,True
+125,50+25i,2+1i,5,3125,625,3125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,50+25i,2+1i,5,3125,625,3125,False,random,ok,625,False,False,1,False,True
+125,125+0i,1+0i,1,15625,15625,15625,False,greedy,ok,15625,False,,1,False,True
+125,125+0i,1+0i,1,15625,15625,15625,False,canonical,ok,15625,False,,1,False,True
+125,125+0i,1+0i,1,15625,15625,15625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+125,125+0i,1+0i,1,15625,15625,15625,False,random,ok,15625,False,,1,False,True
+325,3+-2i,1+0i,8125,105625,13,13,True,greedy,ok,13,True,True,13,True,True
+325,3+-2i,1+0i,8125,105625,13,13,True,canonical,ok,13,True,True,13,True,True
+325,3+-2i,1+0i,8125,105625,13,13,True,paper_multiples,ok,13,True,True,13,True,True
+325,3+-2i,1+0i,8125,105625,13,13,True,random,ok,13,True,True,13,True,True
+325,3+2i,1+0i,8125,105625,13,13,True,greedy,ok,13,True,True,13,True,True
+325,3+2i,1+0i,8125,105625,13,13,True,canonical,ok,13,True,True,13,True,True
+325,3+2i,1+0i,8125,105625,13,13,True,paper_multiples,ok,13,True,True,13,True,True
+325,3+2i,1+0i,8125,105625,13,13,True,random,ok,13,True,True,13,True,True
+325,13+0i,1+0i,625,105625,169,169,False,greedy,ok,169,True,True,169,True,True
+325,13+0i,1+0i,625,105625,169,169,False,canonical,ok,169,True,True,169,True,True
+325,13+0i,1+0i,625,105625,169,169,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,13+0i,1+0i,625,105625,169,169,False,random,ok,169,False,False,150,False,True
+325,2+-1i,1+0i,21125,105625,5,5,True,greedy,ok,5,True,True,5,True,True
+325,2+-1i,1+0i,21125,105625,5,5,True,canonical,ok,5,True,True,5,True,True
+325,2+-1i,1+0i,21125,105625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+325,2+-1i,1+0i,21125,105625,5,5,True,random,ok,5,True,True,5,True,True
+325,4+-7i,1+0i,1625,105625,65,65,True,greedy,ok,65,True,True,65,True,True
+325,4+-7i,1+0i,1625,105625,65,65,True,canonical,ok,65,True,True,65,True,True
+325,4+-7i,1+0i,1625,105625,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+325,4+-7i,1+0i,1625,105625,65,65,True,random,ok,65,True,True,65,True,True
+325,4+-7i,3+-2i,1625,8125,5,65,True,greedy,ok,5,True,True,5,True,True
+325,4+-7i,3+-2i,1625,8125,5,65,True,canonical,ok,5,True,True,5,True,True
+325,4+-7i,3+-2i,1625,8125,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+325,4+-7i,3+-2i,1625,8125,5,65,True,random,ok,5,True,True,5,True,True
+325,4+-7i,2+-1i,1625,21125,13,65,True,greedy,ok,13,True,True,13,True,True
+325,4+-7i,2+-1i,1625,21125,13,65,True,canonical,ok,13,True,True,13,True,True
+325,4+-7i,2+-1i,1625,21125,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+325,4+-7i,2+-1i,1625,21125,13,65,True,random,ok,13,True,True,13,True,True
+325,8+1i,1+0i,1625,105625,65,65,True,greedy,ok,65,True,True,65,True,True
+325,8+1i,1+0i,1625,105625,65,65,True,canonical,ok,65,True,True,65,True,True
+325,8+1i,1+0i,1625,105625,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+325,8+1i,1+0i,1625,105625,65,65,True,random,ok,65,True,True,65,True,True
+325,8+1i,3+2i,1625,8125,5,65,True,greedy,ok,5,True,True,5,True,True
+325,8+1i,3+2i,1625,8125,5,65,True,canonical,ok,5,True,True,5,True,True
+325,8+1i,3+2i,1625,8125,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+325,8+1i,3+2i,1625,8125,5,65,True,random,ok,5,True,True,5,True,True
+325,8+1i,2+-1i,1625,21125,13,65,True,greedy,ok,13,True,True,13,True,True
+325,8+1i,2+-1i,1625,21125,13,65,True,canonical,ok,13,True,True,13,True,True
+325,8+1i,2+-1i,1625,21125,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+325,8+1i,2+-1i,1625,21125,13,65,True,random,ok,13,True,True,13,True,True
+325,26+-13i,1+0i,125,105625,845,845,False,greedy,ok,845,False,False,125,False,True
+325,26+-13i,1+0i,125,105625,845,845,False,canonical,ok,845,False,False,125,False,True
+325,26+-13i,1+0i,125,105625,845,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,26+-13i,1+0i,125,105625,845,845,False,random,ok,845,False,False,125,False,True
+325,26+-13i,2+-1i,125,21125,169,845,False,greedy,ok,169,False,False,25,False,True
+325,26+-13i,2+-1i,125,21125,169,845,False,canonical,ok,169,False,False,25,False,True
+325,26+-13i,2+-1i,125,21125,169,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,26+-13i,2+-1i,125,21125,169,845,False,random,ok,169,False,False,24,False,True
+325,3+-4i,1+0i,4225,105625,25,25,True,greedy,ok,25,True,True,25,True,True
+325,3+-4i,1+0i,4225,105625,25,25,True,canonical,ok,25,True,True,25,True,True
+325,3+-4i,1+0i,4225,105625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+325,3+-4i,1+0i,4225,105625,25,25,True,random,ok,25,True,True,25,True,True
+325,3+-4i,2+-1i,4225,21125,5,25,True,greedy,ok,5,True,True,5,True,True
+325,3+-4i,2+-1i,4225,21125,5,25,True,canonical,ok,5,True,True,5,True,True
+325,3+-4i,2+-1i,4225,21125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+325,3+-4i,2+-1i,4225,21125,5,25,True,random,ok,5,True,True,5,True,True
+325,1+-18i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,1+-18i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,1+-18i,1+0i,325,105625,325,325,True,paper_multiples,ok,325,True,True,325,True,True
+325,1+-18i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,1+-18i,3+-2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,1+-18i,3+-2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,1+-18i,3+-2i,325,8125,25,325,True,paper_multiples,ok,25,True,True,25,True,True
+325,1+-18i,3+-2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,1+-18i,2+-1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,1+-18i,2+-1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,1+-18i,2+-1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,1+-18i,2+-1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,1+-18i,4+-7i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,1+-18i,4+-7i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,1+-18i,4+-7i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,1+-18i,4+-7i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,1+-18i,3+-4i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,1+-18i,3+-4i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,1+-18i,3+-4i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,1+-18i,3+-4i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,17+-6i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,17+-6i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,17+-6i,1+0i,325,105625,325,325,True,paper_multiples,ok,325,True,True,325,True,True
+325,17+-6i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,17+-6i,3+2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,17+-6i,3+2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,17+-6i,3+2i,325,8125,25,325,True,paper_multiples,ok,25,True,True,25,True,True
+325,17+-6i,3+2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,17+-6i,2+-1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,17+-6i,2+-1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,17+-6i,2+-1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,17+-6i,2+-1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,17+-6i,8+1i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,17+-6i,8+1i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,17+-6i,8+1i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,17+-6i,8+1i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,17+-6i,3+-4i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,17+-6i,3+-4i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,17+-6i,3+-4i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,17+-6i,3+-4i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,39+-52i,1+0i,25,105625,4225,4225,False,greedy,ok,4225,False,,25,False,True
+325,39+-52i,1+0i,25,105625,4225,4225,False,canonical,ok,4225,False,,25,False,True
+325,39+-52i,1+0i,25,105625,4225,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+-52i,1+0i,25,105625,4225,4225,False,random,ok,4225,False,,25,False,True
+325,39+-52i,2+-1i,25,21125,845,4225,False,greedy,ok,845,False,False,5,False,True
+325,39+-52i,2+-1i,25,21125,845,4225,False,canonical,ok,845,False,False,5,False,True
+325,39+-52i,2+-1i,25,21125,845,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+-52i,2+-1i,25,21125,845,4225,False,random,ok,845,False,False,5,False,True
+325,39+-52i,3+-4i,25,4225,169,4225,False,greedy,ok,169,False,False,1,False,True
+325,39+-52i,3+-4i,25,4225,169,4225,False,canonical,ok,169,False,False,1,False,True
+325,39+-52i,3+-4i,25,4225,169,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+-52i,3+-4i,25,4225,169,4225,False,random,ok,169,False,False,1,False,True
+325,2+1i,1+0i,21125,105625,5,5,True,greedy,ok,5,True,True,5,True,True
+325,2+1i,1+0i,21125,105625,5,5,True,canonical,ok,5,True,True,5,True,True
+325,2+1i,1+0i,21125,105625,5,5,True,paper_multiples,ok,5,True,True,5,True,True
+325,2+1i,1+0i,21125,105625,5,5,True,random,ok,5,True,True,5,True,True
+325,8+-1i,1+0i,1625,105625,65,65,True,greedy,ok,65,True,True,65,True,True
+325,8+-1i,1+0i,1625,105625,65,65,True,canonical,ok,65,True,True,65,True,True
+325,8+-1i,1+0i,1625,105625,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+325,8+-1i,1+0i,1625,105625,65,65,True,random,ok,65,True,True,65,True,True
+325,8+-1i,3+-2i,1625,8125,5,65,True,greedy,ok,5,True,True,5,True,True
+325,8+-1i,3+-2i,1625,8125,5,65,True,canonical,ok,5,True,True,5,True,True
+325,8+-1i,3+-2i,1625,8125,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+325,8+-1i,3+-2i,1625,8125,5,65,True,random,ok,5,True,True,5,True,True
+325,8+-1i,2+1i,1625,21125,13,65,True,greedy,ok,13,True,True,13,True,True
+325,8+-1i,2+1i,1625,21125,13,65,True,canonical,ok,13,True,True,13,True,True
+325,8+-1i,2+1i,1625,21125,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+325,8+-1i,2+1i,1625,21125,13,65,True,random,ok,13,True,True,13,True,True
+325,4+7i,1+0i,1625,105625,65,65,True,greedy,ok,65,True,True,65,True,True
+325,4+7i,1+0i,1625,105625,65,65,True,canonical,ok,65,True,True,65,True,True
+325,4+7i,1+0i,1625,105625,65,65,True,paper_multiples,ok,65,True,True,65,True,True
+325,4+7i,1+0i,1625,105625,65,65,True,random,ok,65,True,True,65,True,True
+325,4+7i,3+2i,1625,8125,5,65,True,greedy,ok,5,True,True,5,True,True
+325,4+7i,3+2i,1625,8125,5,65,True,canonical,ok,5,True,True,5,True,True
+325,4+7i,3+2i,1625,8125,5,65,True,paper_multiples,ok,5,True,True,5,True,True
+325,4+7i,3+2i,1625,8125,5,65,True,random,ok,5,True,True,5,True,True
+325,4+7i,2+1i,1625,21125,13,65,True,greedy,ok,13,True,True,13,True,True
+325,4+7i,2+1i,1625,21125,13,65,True,canonical,ok,13,True,True,13,True,True
+325,4+7i,2+1i,1625,21125,13,65,True,paper_multiples,ok,13,True,True,13,True,True
+325,4+7i,2+1i,1625,21125,13,65,True,random,ok,13,True,True,13,True,True
+325,26+13i,1+0i,125,105625,845,845,False,greedy,ok,845,False,False,125,False,True
+325,26+13i,1+0i,125,105625,845,845,False,canonical,ok,845,False,False,125,False,True
+325,26+13i,1+0i,125,105625,845,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,26+13i,1+0i,125,105625,845,845,False,random,ok,845,False,False,125,False,True
+325,26+13i,2+1i,125,21125,169,845,False,greedy,ok,169,False,False,25,False,True
+325,26+13i,2+1i,125,21125,169,845,False,canonical,ok,169,False,False,25,False,True
+325,26+13i,2+1i,125,21125,169,845,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,26+13i,2+1i,125,21125,169,845,False,random,ok,169,False,False,25,False,True
+325,5+0i,1+0i,4225,105625,25,25,True,greedy,ok,25,True,True,25,True,True
+325,5+0i,1+0i,4225,105625,25,25,True,canonical,ok,25,True,True,25,True,True
+325,5+0i,1+0i,4225,105625,25,25,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,5+0i,1+0i,4225,105625,25,25,True,random,ok,25,True,True,25,True,True
+325,5+0i,2+-1i,4225,21125,5,25,True,greedy,ok,5,True,True,5,True,True
+325,5+0i,2+-1i,4225,21125,5,25,True,canonical,ok,5,True,True,5,True,True
+325,5+0i,2+-1i,4225,21125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+325,5+0i,2+-1i,4225,21125,5,25,True,random,ok,5,True,True,5,True,True
+325,5+0i,2+1i,4225,21125,5,25,True,greedy,ok,5,True,True,5,True,True
+325,5+0i,2+1i,4225,21125,5,25,True,canonical,ok,5,True,True,5,True,True
+325,5+0i,2+1i,4225,21125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+325,5+0i,2+1i,4225,21125,5,25,True,random,ok,5,True,True,5,True,True
+325,15+-10i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,15+-10i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,15+-10i,1+0i,325,105625,325,325,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,15+-10i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,15+-10i,3+-2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,15+-10i,3+-2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,15+-10i,3+-2i,325,8125,25,325,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,15+-10i,3+-2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,15+-10i,2+-1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,15+-10i,2+-1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,15+-10i,2+-1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,15+-10i,2+-1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,15+-10i,4+-7i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,15+-10i,4+-7i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,15+-10i,4+-7i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,15+-10i,4+-7i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,15+-10i,2+1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,15+-10i,2+1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,15+-10i,2+1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,15+-10i,2+1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,15+-10i,8+-1i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,15+-10i,8+-1i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,15+-10i,8+-1i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,15+-10i,8+-1i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,15+-10i,5+0i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,15+-10i,5+0i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,15+-10i,5+0i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,15+-10i,5+0i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,15+10i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,15+10i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,15+10i,1+0i,325,105625,325,325,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,15+10i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,15+10i,3+2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,15+10i,3+2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,15+10i,3+2i,325,8125,25,325,True,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,15+10i,3+2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,15+10i,2+-1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,15+10i,2+-1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,15+10i,2+-1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,15+10i,2+-1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,15+10i,8+1i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,15+10i,8+1i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,15+10i,8+1i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,15+10i,8+1i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,15+10i,2+1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,15+10i,2+1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,15+10i,2+1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,15+10i,2+1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,15+10i,4+7i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,15+10i,4+7i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,15+10i,4+7i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,15+10i,4+7i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,15+10i,5+0i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,15+10i,5+0i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,15+10i,5+0i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,15+10i,5+0i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,65+0i,1+0i,25,105625,4225,4225,False,greedy,ok,4225,False,,25,False,True
+325,65+0i,1+0i,25,105625,4225,4225,False,canonical,ok,4225,False,,25,False,True
+325,65+0i,1+0i,25,105625,4225,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,65+0i,1+0i,25,105625,4225,4225,False,random,ok,4225,False,,25,False,True
+325,65+0i,2+-1i,25,21125,845,4225,False,greedy,ok,845,False,False,5,False,True
+325,65+0i,2+-1i,25,21125,845,4225,False,canonical,ok,845,False,False,5,False,True
+325,65+0i,2+-1i,25,21125,845,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,65+0i,2+-1i,25,21125,845,4225,False,random,ok,845,False,False,5,False,True
+325,65+0i,2+1i,25,21125,845,4225,False,greedy,ok,845,False,False,5,False,True
+325,65+0i,2+1i,25,21125,845,4225,False,canonical,ok,845,False,False,5,False,True
+325,65+0i,2+1i,25,21125,845,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,65+0i,2+1i,25,21125,845,4225,False,random,ok,845,False,False,5,False,True
+325,65+0i,5+0i,25,4225,169,4225,False,greedy,ok,169,False,False,1,False,True
+325,65+0i,5+0i,25,4225,169,4225,False,canonical,ok,169,False,False,1,False,True
+325,65+0i,5+0i,25,4225,169,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,65+0i,5+0i,25,4225,169,4225,False,random,ok,169,False,False,1,False,True
+325,10+-5i,1+0i,845,105625,125,125,False,greedy,ok,125,True,True,125,True,True
+325,10+-5i,1+0i,845,105625,125,125,False,canonical,ok,125,True,True,125,True,True
+325,10+-5i,1+0i,845,105625,125,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,10+-5i,1+0i,845,105625,125,125,False,random,ok,125,False,False,118,False,True
+325,10+-5i,2+-1i,845,21125,25,125,False,greedy,ok,25,True,True,25,True,True
+325,10+-5i,2+-1i,845,21125,25,125,False,canonical,ok,25,True,True,25,True,True
+325,10+-5i,2+-1i,845,21125,25,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,10+-5i,2+-1i,845,21125,25,125,False,random,ok,25,False,False,23,False,True
+325,20+-35i,1+0i,65,105625,1625,1625,False,greedy,ok,1625,False,,65,False,True
+325,20+-35i,1+0i,65,105625,1625,1625,False,canonical,ok,1625,False,,65,False,True
+325,20+-35i,1+0i,65,105625,1625,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+-35i,1+0i,65,105625,1625,1625,False,random,ok,1625,False,,65,False,True
+325,20+-35i,3+-2i,65,8125,125,1625,False,greedy,ok,125,False,False,5,False,True
+325,20+-35i,3+-2i,65,8125,125,1625,False,canonical,ok,125,False,False,5,False,True
+325,20+-35i,3+-2i,65,8125,125,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+-35i,3+-2i,65,8125,125,1625,False,random,ok,125,False,False,5,False,True
+325,20+-35i,2+-1i,65,21125,325,1625,False,greedy,ok,325,False,False,13,False,True
+325,20+-35i,2+-1i,65,21125,325,1625,False,canonical,ok,325,False,False,13,False,True
+325,20+-35i,2+-1i,65,21125,325,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+-35i,2+-1i,65,21125,325,1625,False,random,ok,325,False,False,13,False,True
+325,20+-35i,4+-7i,65,1625,25,1625,False,greedy,ok,25,False,False,1,False,True
+325,20+-35i,4+-7i,65,1625,25,1625,False,canonical,ok,25,False,False,1,False,True
+325,20+-35i,4+-7i,65,1625,25,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+-35i,4+-7i,65,1625,25,1625,False,random,ok,25,False,False,1,False,True
+325,40+5i,1+0i,65,105625,1625,1625,False,greedy,ok,1625,False,,65,False,True
+325,40+5i,1+0i,65,105625,1625,1625,False,canonical,ok,1625,False,,65,False,True
+325,40+5i,1+0i,65,105625,1625,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+5i,1+0i,65,105625,1625,1625,False,random,ok,1625,False,,65,False,True
+325,40+5i,3+2i,65,8125,125,1625,False,greedy,ok,125,False,False,5,False,True
+325,40+5i,3+2i,65,8125,125,1625,False,canonical,ok,125,False,False,5,False,True
+325,40+5i,3+2i,65,8125,125,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+5i,3+2i,65,8125,125,1625,False,random,ok,125,False,False,5,False,True
+325,40+5i,2+-1i,65,21125,325,1625,False,greedy,ok,325,False,False,13,False,True
+325,40+5i,2+-1i,65,21125,325,1625,False,canonical,ok,325,False,False,13,False,True
+325,40+5i,2+-1i,65,21125,325,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+5i,2+-1i,65,21125,325,1625,False,random,ok,325,False,False,13,False,True
+325,40+5i,8+1i,65,1625,25,1625,False,greedy,ok,25,False,False,1,False,True
+325,40+5i,8+1i,65,1625,25,1625,False,canonical,ok,25,False,False,1,False,True
+325,40+5i,8+1i,65,1625,25,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+5i,8+1i,65,1625,25,1625,False,random,ok,25,False,False,1,False,True
+325,130+-65i,1+0i,5,105625,21125,21125,False,greedy,ok,21125,False,,5,False,True
+325,130+-65i,1+0i,5,105625,21125,21125,False,canonical,ok,21125,False,,5,False,True
+325,130+-65i,1+0i,5,105625,21125,21125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,130+-65i,1+0i,5,105625,21125,21125,False,random,ok,21125,False,,5,False,True
+325,130+-65i,2+-1i,5,21125,4225,21125,False,greedy,ok,4225,False,,1,False,True
+325,130+-65i,2+-1i,5,21125,4225,21125,False,canonical,ok,4225,False,,1,False,True
+325,130+-65i,2+-1i,5,21125,4225,21125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,130+-65i,2+-1i,5,21125,4225,21125,False,random,ok,4225,False,,1,False,True
+325,3+4i,1+0i,4225,105625,25,25,True,greedy,ok,25,True,True,25,True,True
+325,3+4i,1+0i,4225,105625,25,25,True,canonical,ok,25,True,True,25,True,True
+325,3+4i,1+0i,4225,105625,25,25,True,paper_multiples,ok,25,True,True,25,True,True
+325,3+4i,1+0i,4225,105625,25,25,True,random,ok,25,True,True,25,True,True
+325,3+4i,2+1i,4225,21125,5,25,True,greedy,ok,5,True,True,5,True,True
+325,3+4i,2+1i,4225,21125,5,25,True,canonical,ok,5,True,True,5,True,True
+325,3+4i,2+1i,4225,21125,5,25,True,paper_multiples,ok,5,True,True,5,True,True
+325,3+4i,2+1i,4225,21125,5,25,True,random,ok,5,True,True,5,True,True
+325,17+6i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,17+6i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,17+6i,1+0i,325,105625,325,325,True,paper_multiples,ok,325,True,True,325,True,True
+325,17+6i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,17+6i,3+-2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,17+6i,3+-2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,17+6i,3+-2i,325,8125,25,325,True,paper_multiples,ok,25,True,True,25,True,True
+325,17+6i,3+-2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,17+6i,2+1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,17+6i,2+1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,17+6i,2+1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,17+6i,2+1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,17+6i,8+-1i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,17+6i,8+-1i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,17+6i,8+-1i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,17+6i,8+-1i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,17+6i,3+4i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,17+6i,3+4i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,17+6i,3+4i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,17+6i,3+4i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,1+18i,1+0i,325,105625,325,325,True,greedy,ok,325,True,True,325,True,True
+325,1+18i,1+0i,325,105625,325,325,True,canonical,ok,325,True,True,325,True,True
+325,1+18i,1+0i,325,105625,325,325,True,paper_multiples,ok,325,True,True,325,True,True
+325,1+18i,1+0i,325,105625,325,325,True,random,ok,325,True,True,325,True,True
+325,1+18i,3+2i,325,8125,25,325,True,greedy,ok,25,True,True,25,True,True
+325,1+18i,3+2i,325,8125,25,325,True,canonical,ok,25,True,True,25,True,True
+325,1+18i,3+2i,325,8125,25,325,True,paper_multiples,ok,25,True,True,25,True,True
+325,1+18i,3+2i,325,8125,25,325,True,random,ok,25,True,True,25,True,True
+325,1+18i,2+1i,325,21125,65,325,True,greedy,ok,65,True,True,65,True,True
+325,1+18i,2+1i,325,21125,65,325,True,canonical,ok,65,True,True,65,True,True
+325,1+18i,2+1i,325,21125,65,325,True,paper_multiples,ok,65,True,True,65,True,True
+325,1+18i,2+1i,325,21125,65,325,True,random,ok,65,True,True,65,True,True
+325,1+18i,4+7i,325,1625,5,325,True,greedy,ok,5,True,True,5,True,True
+325,1+18i,4+7i,325,1625,5,325,True,canonical,ok,5,True,True,5,True,True
+325,1+18i,4+7i,325,1625,5,325,True,paper_multiples,ok,5,True,True,5,True,True
+325,1+18i,4+7i,325,1625,5,325,True,random,ok,5,True,True,5,True,True
+325,1+18i,3+4i,325,4225,13,325,True,greedy,ok,13,True,True,13,True,True
+325,1+18i,3+4i,325,4225,13,325,True,canonical,ok,13,True,True,13,True,True
+325,1+18i,3+4i,325,4225,13,325,True,paper_multiples,ok,13,True,True,13,True,True
+325,1+18i,3+4i,325,4225,13,325,True,random,ok,13,True,True,13,True,True
+325,39+52i,1+0i,25,105625,4225,4225,False,greedy,ok,4225,False,,25,False,True
+325,39+52i,1+0i,25,105625,4225,4225,False,canonical,ok,4225,False,,25,False,True
+325,39+52i,1+0i,25,105625,4225,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+52i,1+0i,25,105625,4225,4225,False,random,ok,4225,False,,25,False,True
+325,39+52i,2+1i,25,21125,845,4225,False,greedy,ok,845,False,False,5,False,True
+325,39+52i,2+1i,25,21125,845,4225,False,canonical,ok,845,False,False,5,False,True
+325,39+52i,2+1i,25,21125,845,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+52i,2+1i,25,21125,845,4225,False,random,ok,845,False,False,5,False,True
+325,39+52i,3+4i,25,4225,169,4225,False,greedy,ok,169,False,False,1,False,True
+325,39+52i,3+4i,25,4225,169,4225,False,canonical,ok,169,False,False,1,False,True
+325,39+52i,3+4i,25,4225,169,4225,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,39+52i,3+4i,25,4225,169,4225,False,random,ok,169,False,False,1,False,True
+325,10+5i,1+0i,845,105625,125,125,False,greedy,ok,125,True,True,125,True,True
+325,10+5i,1+0i,845,105625,125,125,False,canonical,ok,125,True,True,125,True,True
+325,10+5i,1+0i,845,105625,125,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,10+5i,1+0i,845,105625,125,125,False,random,ok,125,False,False,111,False,True
+325,10+5i,2+1i,845,21125,25,125,False,greedy,ok,25,True,True,25,True,True
+325,10+5i,2+1i,845,21125,25,125,False,canonical,ok,25,True,True,25,True,True
+325,10+5i,2+1i,845,21125,25,125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,10+5i,2+1i,845,21125,25,125,False,random,ok,25,True,True,25,True,True
+325,40+-5i,1+0i,65,105625,1625,1625,False,greedy,ok,1625,False,,65,False,True
+325,40+-5i,1+0i,65,105625,1625,1625,False,canonical,ok,1625,False,,65,False,True
+325,40+-5i,1+0i,65,105625,1625,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+-5i,1+0i,65,105625,1625,1625,False,random,ok,1625,False,,65,False,True
+325,40+-5i,3+-2i,65,8125,125,1625,False,greedy,ok,125,False,False,5,False,True
+325,40+-5i,3+-2i,65,8125,125,1625,False,canonical,ok,125,False,False,5,False,True
+325,40+-5i,3+-2i,65,8125,125,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+-5i,3+-2i,65,8125,125,1625,False,random,ok,125,False,False,5,False,True
+325,40+-5i,2+1i,65,21125,325,1625,False,greedy,ok,325,False,False,13,False,True
+325,40+-5i,2+1i,65,21125,325,1625,False,canonical,ok,325,False,False,13,False,True
+325,40+-5i,2+1i,65,21125,325,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+-5i,2+1i,65,21125,325,1625,False,random,ok,325,False,False,13,False,True
+325,40+-5i,8+-1i,65,1625,25,1625,False,greedy,ok,25,False,False,1,False,True
+325,40+-5i,8+-1i,65,1625,25,1625,False,canonical,ok,25,False,False,1,False,True
+325,40+-5i,8+-1i,65,1625,25,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,40+-5i,8+-1i,65,1625,25,1625,False,random,ok,25,False,False,1,False,True
+325,20+35i,1+0i,65,105625,1625,1625,False,greedy,ok,1625,False,,65,False,True
+325,20+35i,1+0i,65,105625,1625,1625,False,canonical,ok,1625,False,,65,False,True
+325,20+35i,1+0i,65,105625,1625,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+35i,1+0i,65,105625,1625,1625,False,random,ok,1625,False,,65,False,True
+325,20+35i,3+2i,65,8125,125,1625,False,greedy,ok,125,False,False,5,False,True
+325,20+35i,3+2i,65,8125,125,1625,False,canonical,ok,125,False,False,5,False,True
+325,20+35i,3+2i,65,8125,125,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+35i,3+2i,65,8125,125,1625,False,random,ok,125,False,False,5,False,True
+325,20+35i,2+1i,65,21125,325,1625,False,greedy,ok,325,False,False,13,False,True
+325,20+35i,2+1i,65,21125,325,1625,False,canonical,ok,325,False,False,13,False,True
+325,20+35i,2+1i,65,21125,325,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+35i,2+1i,65,21125,325,1625,False,random,ok,325,False,False,13,False,True
+325,20+35i,4+7i,65,1625,25,1625,False,greedy,ok,25,False,False,1,False,True
+325,20+35i,4+7i,65,1625,25,1625,False,canonical,ok,25,False,False,1,False,True
+325,20+35i,4+7i,65,1625,25,1625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,20+35i,4+7i,65,1625,25,1625,False,random,ok,25,False,False,1,False,True
+325,130+65i,1+0i,5,105625,21125,21125,False,greedy,ok,21125,False,,5,False,True
+325,130+65i,1+0i,5,105625,21125,21125,False,canonical,ok,21125,False,,5,False,True
+325,130+65i,1+0i,5,105625,21125,21125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,130+65i,1+0i,5,105625,21125,21125,False,random,ok,21125,False,,5,False,True
+325,130+65i,2+1i,5,21125,4225,21125,False,greedy,ok,4225,False,,1,False,True
+325,130+65i,2+1i,5,21125,4225,21125,False,canonical,ok,4225,False,,1,False,True
+325,130+65i,2+1i,5,21125,4225,21125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,130+65i,2+1i,5,21125,4225,21125,False,random,ok,4225,False,,1,False,True
+325,25+0i,1+0i,169,105625,625,625,False,greedy,ok,625,False,False,169,False,True
+325,25+0i,1+0i,169,105625,625,625,False,canonical,ok,625,False,False,169,False,True
+325,25+0i,1+0i,169,105625,625,625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,25+0i,1+0i,169,105625,625,625,False,random,ok,625,False,False,164,False,True
+325,75+-50i,1+0i,13,105625,8125,8125,False,greedy,ok,8125,False,,13,False,True
+325,75+-50i,1+0i,13,105625,8125,8125,False,canonical,ok,8125,False,,13,False,True
+325,75+-50i,1+0i,13,105625,8125,8125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,75+-50i,1+0i,13,105625,8125,8125,False,random,ok,8125,False,,13,False,True
+325,75+-50i,3+-2i,13,8125,625,8125,False,greedy,ok,625,False,False,1,False,True
+325,75+-50i,3+-2i,13,8125,625,8125,False,canonical,ok,625,False,False,1,False,True
+325,75+-50i,3+-2i,13,8125,625,8125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,75+-50i,3+-2i,13,8125,625,8125,False,random,ok,625,False,False,1,False,True
+325,75+50i,1+0i,13,105625,8125,8125,False,greedy,ok,8125,False,,13,False,True
+325,75+50i,1+0i,13,105625,8125,8125,False,canonical,ok,8125,False,,13,False,True
+325,75+50i,1+0i,13,105625,8125,8125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,75+50i,1+0i,13,105625,8125,8125,False,random,ok,8125,False,,13,False,True
+325,75+50i,3+2i,13,8125,625,8125,False,greedy,ok,625,False,False,1,False,True
+325,75+50i,3+2i,13,8125,625,8125,False,canonical,ok,625,False,False,1,False,True
+325,75+50i,3+2i,13,8125,625,8125,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,75+50i,3+2i,13,8125,625,8125,False,random,ok,625,False,False,1,False,True
+325,325+0i,1+0i,1,105625,105625,105625,False,greedy,ok,105625,False,,1,False,True
+325,325+0i,1+0i,1,105625,105625,105625,False,canonical,ok,105625,False,,1,False,True
+325,325+0i,1+0i,1,105625,105625,105625,False,paper_multiples,not a transversal (multiples of alpha2),,,,,,
+325,325+0i,1+0i,1,105625,105625,105625,False,random,ok,105625,False,,1,False,True
+5 (n=4),,,,,25,625,False,greedy,ok,25,False,False,5,False,True
+5 (n=4),,,,,25,625,False,random0,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random1,ok,25,False,False,17,False,True
+5 (n=4),,,,,25,625,False,random2,ok,25,False,False,16,False,True
+5 (n=4),,,,,25,625,False,random3,ok,25,False,False,19,False,True
+5 (n=4),,,,,25,625,False,random4,ok,25,False,False,13,False,True
+5 (n=4),,,,,25,625,False,random5,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random6,ok,25,False,False,17,False,True
+5 (n=4),,,,,25,625,False,random7,ok,25,False,False,14,False,True
+5 (n=4),,,,,25,625,False,random8,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random9,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random10,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random11,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random12,ok,25,False,False,17,False,True
+5 (n=4),,,,,25,625,False,random13,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random14,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random15,ok,25,False,False,15,False,True
+5 (n=4),,,,,25,625,False,random16,ok,25,False,False,14,False,True
+5 (n=4),,,,,25,625,False,random17,ok,25,False,False,16,False,True
+5 (n=4),,,,,25,625,False,random18,ok,25,False,False,17,False,True
+5 (n=4),,,,,25,625,False,random19,ok,25,False,False,17,False,True

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "phase5_pennylane-20261015T004245Z-DESKTOP-RR5J4T0-9a87023139",
+  "status": "FAIL",
+  "started_utc": "2026-10-15T00:42:45.949135+00:00",
+  "finished_utc": "2026-10-15T00:42:59.028154+00:00",
+  "wall_time_s": 13.079516400117427,
+  "notes": [
+    "Z25: gate decomposition disagrees with reference",
+    "Z25: full QEC cycle did not restore the state"
+  ],
+  "rss_MB_end": 657.0,
+  "peak_wset_MB": 801.0,
+  "torch_cuda_max_allocated_MB": 0.0
+}

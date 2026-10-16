@@ -1,0 +1,11 @@
+{
+  "experiment_id": "gate_level_css-20261015T201001Z-DESKTOP-RR5J4T0-ffe8a2b77f",
+  "status": "PASS",
+  "started_utc": "2026-10-15T20:10:01.740764+00:00",
+  "finished_utc": "2026-10-16T00:53:35.942311+00:00",
+  "wall_time_s": 17014.195447100094,
+  "notes": [],
+  "rss_MB_end": 338.7,
+  "peak_wset_MB": 31277.7,
+  "torch_cuda_max_allocated_MB": 0.0
+}

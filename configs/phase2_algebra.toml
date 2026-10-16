@@ -1,0 +1,31 @@
+# Phase 2: independent algebra + exhaustive verification + decoder cost.
+seed = 12345
+examples = ["Z25", "Z85", "Z325"]
+
+[axioms]
+# exhaustive over all pairs for these q; exhaustive over all triples when q^6 <= triple_limit
+q_values = [5, 13, 25, 85]
+triple_limit = 300_000_000
+random_triples = 2_000_000
+# brute-force unit test (multiplication table) when q^4 <= unit_table_limit
+unit_table_limit = 60_000_000
+
+[lemma1]
+# all alpha in R exhaustively for these q (each alpha -> its ideal); divisor ideals for the rest
+exhaustive_alpha_q = [5, 13, 25, 65, 85]
+divisor_ideal_q = [325]
+
+[decoder]
+oracles = ["bitmap", "pyset", "algebraic"]
+timing_repeats = 3
+# scaling family A: q = 5p, C2 = <2+i>, C1 = <(2+i) pi_p>  ->  |eps| = p (grows)
+family_A_primes = [13, 17, 29, 37, 41, 53, 61, 73, 89, 97, 101, 109, 113, 137, 149, 157, 173, 181, 193, 197]
+# scaling family B: q = 5p, C2 = <pi_p>, C1 = <(2+i) pi_p>  ->  |eps| = 5 fixed, |C1| grows
+family_B_primes = [13, 17, 29, 37, 41, 53, 61, 73, 89, 97, 101, 109, 113, 137, 149, 157, 173, 181, 193, 197]
+decodes_per_point = 4000
+
+[multiqudit]
+# Remark 8: Z_5[i]^4 with |C2| = 5^6, |C1| = 5^4, |C2^perpH| = 25 (generators not given in paper)
+q = 5
+n = 4
+max_tries = 400

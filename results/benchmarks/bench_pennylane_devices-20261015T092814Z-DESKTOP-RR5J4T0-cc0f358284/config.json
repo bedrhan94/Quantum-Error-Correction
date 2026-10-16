@@ -1,0 +1,9 @@
+{
+  "devices": [
+    "lightning.qubit:complex128",
+    "lightning.gpu:complex128",
+    "lightning.gpu:complex64"
+  ],
+  "seed": 9,
+  "repeats": 2
+}

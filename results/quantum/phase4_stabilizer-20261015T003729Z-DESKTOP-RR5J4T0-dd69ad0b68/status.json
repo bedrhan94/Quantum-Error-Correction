@@ -1,0 +1,11 @@
+{
+  "experiment_id": "phase4_stabilizer-20261015T003729Z-DESKTOP-RR5J4T0-dd69ad0b68",
+  "status": "PASS",
+  "started_utc": "2026-10-15T00:37:29.192402+00:00",
+  "finished_utc": "2026-10-15T00:56:15.624986+00:00",
+  "wall_time_s": 1126.4333879000042,
+  "notes": [],
+  "rss_MB_end": 862.0,
+  "peak_wset_MB": 1309.1,
+  "torch_cuda_max_allocated_MB": 0.0
+}

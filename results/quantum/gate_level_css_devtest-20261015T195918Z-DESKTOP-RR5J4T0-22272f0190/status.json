@@ -1,0 +1,13 @@
+{
+  "experiment_id": "gate_level_css_devtest-20261015T195918Z-DESKTOP-RR5J4T0-22272f0190",
+  "status": "FAIL",
+  "started_utc": "2026-10-15T19:59:18.774811+00:00",
+  "finished_utc": "2026-10-15T19:59:23.569861+00:00",
+  "wall_time_s": 4.79492440004833,
+  "notes": [
+    "Z25: step 3_cycle_B_reuse ERROR"
+  ],
+  "rss_MB_end": 631.2,
+  "peak_wset_MB": 823.2,
+  "torch_cuda_max_allocated_MB": 0.0
+}

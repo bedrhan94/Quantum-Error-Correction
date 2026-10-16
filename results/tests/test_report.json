@@ -1,0 +1,1634 @@
+{
+  "generated_utc": "2026-10-16T01:39:22.778331+00:00",
+  "summary": {
+    "PASS": 135,
+    "FAIL": 14,
+    "NOT RUN": 0
+  },
+  "summary_by_category": {
+    "matematiksel iddia": {
+      "PASS": 33,
+      "FAIL": 13,
+      "NOT RUN": 0
+    },
+    "uygulama": {
+      "PASS": 102,
+      "FAIL": 1,
+      "NOT RUN": 0
+    }
+  },
+  "tests": [
+    {
+      "test": "tests/test_awgn.py::test_constellation_sizes_and_geometry",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": []
+    },
+    {
+      "test": "tests/test_awgn.py::test_coded_constellation_equivalent_to_128qam_geometry",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": []
+    },
+    {
+      "test": "tests/test_awgn.py::test_16qam_ser_matches_closed_form_cpu",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.066,
+      "markers": []
+    },
+    {
+      "test": "tests/test_awgn.py::test_ring_receiver_equals_ml_in_interior_only",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.049,
+      "markers": []
+    },
+    {
+      "test": "tests/test_awgn.py::test_gpu_and_cpu_agree_statistically",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.355,
+      "markers": [
+        "skipif",
+        "gpu"
+      ]
+    },
+    {
+      "test": "tests/test_awgn.py::test_clopper_pearson_zero_errors",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_decoder.py::test_coset_partition_all_transversals[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_coset_partition_all_transversals[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.004,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_coset_partition_all_transversals[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.006,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_exhaustive_decoding_every_word[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_exhaustive_decoding_every_word[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_exhaustive_decoding_every_word[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.017,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_example8_y_11_8i",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_decoder.py::test_example5_y_2_i",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_decoder.py::test_invalid_word_rejected_with_one_test",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_decoder.py::test_non_unique_detected_for_bad_eps",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.004,
+      "markers": []
+    },
+    {
+      "test": "tests/test_decoder.py::test_oracles_give_identical_decodes[bitmap]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.038,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_oracles_give_identical_decodes[pyset]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.036,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_oracles_give_identical_decodes[algebraic]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.026,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_direct_quotient_decoder_agrees[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.006,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_direct_quotient_decoder_agrees[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.069,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_decoder.py::test_direct_quotient_decoder_agrees[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.019,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_sizes_by_enumeration_match_paper[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.027,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_sizes_by_enumeration_match_paper[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.476,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_sizes_by_enumeration_match_paper[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 1.477,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_true_hermitian_dual_containment_and_size[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.027,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_true_hermitian_dual_containment_and_size[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.475,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_true_hermitian_dual_containment_and_size[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 1.478,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_membership_oracles_agree_exhaustive",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.147,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_dual_orthogonal_exhaustive_all_pairs",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.027,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_euclidean_dual_is_not_contained_in_C1",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_definition6_dual_satisfies_examples_containment[Z25]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: <sigma(alpha2)> has 125 elements and is not inside C1 (|C1|=25)\nassert False\n +  where False = issubset(AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fal...     False, False, False, False, False, False, False, False, False,\\n       False, False, False, False]), name='<3+4i>'))\n +    where issubset = AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True,",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_definition6_dual_satisfies_examples_containment[Z85]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: <sigma(alpha2)> has 1445 elements and is not inside C1 (|C1|=85)\nassert False\n +  where False = issubset(AdditiveCode(ring=GaussianRing(q=85, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, False, False, ..., False, False, False], shape=(7225,)), name='<7+6i>'))\n +    where issubset = AdditiveCode(ring=GaussianRing(q=85, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, False, False, ..., False,  True, False], shape=(7225,",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_definition6_dual_satisfies_examples_containment[Z325]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: <sigma(alpha2)> has 8125 elements and is not inside C1 (|C1|=1625)\nassert False\n +  where False = issubset(AdditiveCode(ring=GaussianRing(q=325, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, False, False, ..., False, False, False], shape=(105625,)), name='<4+7i>'))\n +    where issubset = AdditiveCode(ring=GaussianRing(q=325, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, False, False, ..., False, False, False], shape=",
+      "duration_s": 0.003,
+      "markers": [
+        "parametrize",
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_lemma1_property2_under_definition6",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper claim does not hold)",
+      "message": "AssertionError: 125 * 125 != 625\nassert (125 * 125) == 625\n +  where 125 = AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fal...      True, False, False, False, False,  True, False, False, False,\\n       False,  True, False, False]), name='<2+1i>').size\n +  and   125 = AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fal...lse,  True, False, False, False, False,  ",
+      "duration_s": 0.001,
+      "markers": [
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_lemma1_property1_under_true_dual",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: sigma(C^perpH) has 1 elements, C has 625\nassert AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fal...se,\\n       False, False, False, False, False, False, False, False, False,\\n       False, False, False, False]), name='') == AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True,  Tr...      True,  True,  True,  True,  True,  True,  True,  True,  True,\\n",
+      "duration_s": 0.002,
+      "markers": [
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_lemma1_property1_under_definition6",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.028,
+      "markers": [
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_lemma1_property3_under_definition6",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper claim does not hold)",
+      "message": "AssertionError: |<sigma(alpha2)>| = 125 is not inside |<sigma(alpha1)>| = 25\nassert False\n +  where False = issubset(AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fal...lse, False, False, False, False, False,  True, False, False,\\n       False, False, False, False]), name='<sigma(3+4i)>'))\n +    where issubset = AdditiveCode(ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), n=1, mask=array([ True, Fa",
+      "duration_s": 0.001,
+      "markers": [
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_table1_z9_dual_size",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper table entry; case outside the paper's own hypothesis)",
+      "message": "AssertionError: computed 1, Table 1 says 3 (Z9: 3 = 3 mod 4, outside the hypothesis)\nassert 1 == 3",
+      "duration_s": 0.0,
+      "markers": [
+        "outside_hypothesis",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_table2_z9_K_equals_theorem4_formula",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper table entry; case outside the paper's own hypothesis)",
+      "message": "AssertionError: |C2|/|C1| = 3, Table 2 says K = 1 (Z9 outside the hypothesis)\nassert 3 == 1",
+      "duration_s": 0.0,
+      "markers": [
+        "outside_hypothesis",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_printed_dual_generators[Z25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_ideals_duals.py::test_paper_printed_dual_generators[Z325]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.01,
+      "markers": [
+        "parametrize",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_channels_are_cptp[bit_flip]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_channels_are_cptp[phase_flip]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_channels_are_cptp[depolarizing]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_channels_are_cptp[amplitude_damping]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_channels_are_cptp[phase_damping]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_recovery_isometries_complete",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 1.963,
+      "markers": []
+    },
+    {
+      "test": "tests/test_noise.py::test_zero_noise_zero_logical_error",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 17.376,
+      "markers": []
+    },
+    {
+      "test": "tests/test_noise.py::test_unencoded_bitflip_closed_form[0.001]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_unencoded_bitflip_closed_form[0.01]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_unencoded_bitflip_closed_form[0.1]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_noise.py::test_five_qubit_block_bitflip_leading_order",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.004,
+      "markers": []
+    },
+    {
+      "test": "tests/test_noise.py::test_gpu_matches_cpu_density_matrix",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 5.193,
+      "markers": []
+    },
+    {
+      "test": "tests/test_noise.py::test_ring_mc_within_ci_of_exact",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.214,
+      "markers": []
+    },
+    {
+      "test": "tests/test_noise.py::test_ring_unit_shift_exact_is_p_squared",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": []
+    },
+    {
+      "test": "tests/test_original_fixed.py::test_fixed_double_dual_is_C",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.005,
+      "markers": []
+    },
+    {
+      "test": "tests/test_original_fixed.py::test_original_left_untouched",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_file_unchanged",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_sets_equal_independent[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_sets_equal_independent[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.023,
+      "markers": [
+        "parametrize",
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_sets_equal_independent[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.294,
+      "markers": [
+        "parametrize",
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_decode_example8",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_run_simulation_seeded_reproducible",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.009,
+      "markers": [
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_original_source.py::test_original_hermitian_dual_twice_returns_C",
+      "outcome": "FAIL",
+      "category": "uygulama",
+      "failure_class": "implementation (original source)",
+      "message": "AssertionError: double dual has 625 elements, C has 25\nassert 625 == 25\n +  where 625 = size()\n +    where size = <epsilon_codes_original.GaussianCodeN object at 0x00000228E6EDA270>.size\n +  and   25 = size()\n +    where size = <epsilon_codes_original.GaussianCodeN object at 0x00000228E6E557F0>.size",
+      "duration_s": 0.003,
+      "markers": [
+        "original_source"
+      ]
+    },
+    {
+      "test": "tests/test_pennylane_circuits.py::test_adder_valid_subspace_no_leakage",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.036,
+      "markers": [
+        "pennylane"
+      ]
+    },
+    {
+      "test": "tests/test_pennylane_circuits.py::test_X_and_Z_gates_match_reference",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.077,
+      "markers": [
+        "pennylane"
+      ]
+    },
+    {
+      "test": "tests/test_pennylane_circuits.py::test_z_syndrome_circuit_matches_algebra",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.392,
+      "markers": [
+        "pennylane"
+      ]
+    },
+    {
+      "test": "tests/test_regression.py::test_frozen_algebra[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.027,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_regression.py::test_frozen_algebra[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.493,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_regression.py::test_frozen_algebra[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 1.475,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_regression.py::test_frozen_transversal_original_canonical_z25",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_regression.py::test_frozen_alternative_correctable_x_set_z25",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_dual_equals_annihilator_all_ideals[25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_dual_equals_annihilator_all_ideals[65]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.007,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_dual_equals_annihilator_all_ideals[85]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.009,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_dual_equals_annihilator_all_ideals[125]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.017,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_dual_equals_annihilator_all_ideals[325]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.331,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_closed_form_random_generators",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.138,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_definition6_coincides_only_for_5_in_Z25",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_definition6_fails_for_both_example_generators[Z25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_definition6_fails_for_both_example_generators[Z85]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_definition6_fails_for_both_example_generators[Z325]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.02,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_printed_condition_with_conjugate_is_the_true_dual[Z25-a20]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_printed_condition_with_conjugate_is_the_true_dual[Z325-a21]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.013,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_additive_non_module_code_breaks_hermitian_cardinality",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_additive_pair_needs_left_trace_dual_for_K",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_trace_sides_agree_for_ideals",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_equivalence_all_valid_pairs[25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.032,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_equivalence_all_valid_pairs[65]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.914,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_equivalence_all_valid_pairs[85]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 2.469,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_holds_for_paper_examples[Z25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_holds_for_paper_examples[Z85]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_holds_for_paper_examples[Z325]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.015,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_zreading_fails_for_Z5n4_greedy",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.497,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_convention_2re_gives_same_structure[Z25]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestMathematicalClaims::test_convention_2re_gives_same_structure[Z85]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.004,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestImplementation::test_trace_conventions",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_review.py::TestImplementation::test_pauli_relation_under_both_conventions[paper]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.009,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_review.py::TestImplementation::test_pauli_relation_under_both_conventions[2re]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.009,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_ring_axioms_exhaustive_pairs[5]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_ring_axioms_exhaustive_pairs[13]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_ring_axioms_exhaustive_pairs[25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.044,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_associativity_distributivity_exhaustive[5]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.003,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_associativity_distributivity_exhaustive[25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 2.487,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_i_squared_and_norm",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ring.py::test_units_norm_criterion_matches_brute_force[5]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_units_norm_criterion_matches_brute_force[13]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_units_norm_criterion_matches_brute_force[25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.01,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_units_norm_criterion_matches_brute_force[65]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.157,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_ring.py::test_trace_pairing_nondegenerate",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.008,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ring.py::test_rejects_non_split_modulus",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_ring.py::test_zi_gcd_and_division",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_split_map_is_ring_isomorphism_exhaustive[spec0]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.004,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_split_map_is_ring_isomorphism_exhaustive[spec1]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.016,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_ideals_are_digit_products_and_K[spec0]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_ideals_are_digit_products_and_K[spec1]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_ideals_are_digit_products_and_K[spec2]",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestMathematicalClaims::test_conjugation_swaps_components",
+      "outcome": "PASS",
+      "category": "matematiksel iddia",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "math"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_small_blocks_are_valid_subspace_preserving",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.002,
+      "markers": []
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_X_Z_gates_match_reference_and_commutation[spec0-paper]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.797,
+      "markers": [
+        "parametrize",
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_X_Z_gates_match_reference_and_commutation[spec0-2re]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.796,
+      "markers": [
+        "parametrize",
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_X_Z_gates_match_reference_and_commutation[spec1-paper]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.729,
+      "markers": [
+        "parametrize",
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_X_Z_gates_match_reference_and_commutation[spec1-2re]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.719,
+      "markers": [
+        "parametrize",
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_radix_p_fourier_equals_dense_dft25",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.376,
+      "markers": []
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_encoder_gate_level[spec0]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.468,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_encoder_gate_level[spec1]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.518,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_cycle_segmented_matches_native_and_detects_missing_correction",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 25.063,
+      "markers": []
+    },
+    {
+      "test": "tests/test_split_layout.py::TestImplementation::test_ancilla_keeps_measured_value_without_reset",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 2.073,
+      "markers": []
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_pauli_unitary_and_relation_exhaustive_z5",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.055,
+      "markers": []
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_pauli_relation_sampled[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.053,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_pauli_relation_sampled[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.323,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_stabilizers_commute_true_dual[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_stabilizers_commute_true_dual[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_stabilizers_commute_true_dual[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_theorem4_stabilizers_commute_with_definition6_dual[Z25]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: {'pairs': 3125, 'noncommuting_pairs': 2800, 'first_noncommuting': {'v': '(0+5i)', 'u': '(1+18i)', 'Tr<v,u>': 20}}\nassert 2800 == 0",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize",
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_theorem4_stabilizers_commute_with_definition6_dual[Z85]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper definitions mutually inconsistent)",
+      "message": "AssertionError: {'pairs': 122825, 'noncommuting_pairs': 117776, 'first_noncommuting': {'v': '(0+5i)', 'u': '(1+13i)', 'Tr<v,u>': 70}}\nassert 117776 == 0",
+      "duration_s": 0.004,
+      "markers": [
+        "parametrize",
+        "definition_consistency"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_code_dimension_equals_K[Z5_small]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_code_dimension_equals_K[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 1.094,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_code_dimension_equals_K[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.008,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_code_dimension_equals_K[Z325]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 2.016,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_logical_states_orthonormal_and_stabilised[Z25]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.001,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_logical_states_orthonormal_and_stabilised[Z85]",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.009,
+      "markers": [
+        "parametrize"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_group_order_z25",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.015,
+      "markers": []
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_paper_proposition5_distinct_syndromes_for_X_errors[Z25]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper claim does not hold)",
+      "message": "AssertionError: X-reading: 1 distinct syndrome(s) for |eps| = 5\nassert 1 == 5\n +  where 1 = len({(0, 0)})\n +  and   5 = len(array([[[0, 0]],\\n\\n       [[2, 1]],\\n\\n       [[4, 2]],\\n\\n       [[6, 3]],\\n\\n       [[8, 4]]]))\n +    where array([[[0, 0]],\\n\\n       [[2, 1]],\\n\\n       [[4, 2]],\\n\\n       [[6, 3]],\\n\\n       [[8, 4]]]) = Built(key='Z25', ring=GaussianRing(q=25, require_split_primes=True, trace_convention='paper'), space=<epsqec.stabilize...RingCSSCode object at 0x00000228DCC45AC0>, c",
+      "duration_s": 0.002,
+      "markers": [
+        "parametrize",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_paper_proposition5_distinct_syndromes_for_X_errors[Z85]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper claim does not hold)",
+      "message": "AssertionError: X-reading: 1 distinct syndrome(s) for |eps| = 17\nassert 1 == 17\n +  where 1 = len({(0, 0)})\n +  and   17 = len(array([[[ 0,  0]],\\n\\n       [[ 2,  1]],\\n\\n       [[ 4,  2]],\\n\\n       [[ 6,  3]],\\n\\n       [[ 8,  4]],\\n\\n       [[10,  5]],...       [[22, 11]],\\n\\n       [[24, 12]],\\n\\n       [[26, 13]],\\n\\n       [[28, 14]],\\n\\n       [[30, 15]],\\n\\n       [[32, 16]]]))\n +    where array([[[ 0,  0]],\\n\\n       [[ 2,  1]],\\n\\n       [[ 4,  2]],\\n\\n       [[ 6,  3]],\\n\\n       [[ 8",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_paper_proposition5_distinct_syndromes_for_X_errors[Z325]",
+      "outcome": "FAIL",
+      "category": "matematiksel iddia",
+      "failure_class": "mathematical (paper claim does not hold)",
+      "message": "AssertionError: X-reading: 1 distinct syndrome(s) for |eps| = 5\nassert 1 == 5\n +  where 1 = len({(0, 0, 0)})\n +  and   5 = len(array([[[ 0,  0]],\\n\\n       [[ 3,  2]],\\n\\n       [[ 6,  4]],\\n\\n       [[ 9,  6]],\\n\\n       [[12,  8]]]))\n +    where array([[[ 0,  0]],\\n\\n       [[ 3,  2]],\\n\\n       [[ 6,  4]],\\n\\n       [[ 9,  6]],\\n\\n       [[12,  8]]]) = Built(key='Z325', ring=GaussianRing(q=325, require_split_primes=True, trace_convention='paper'), space=<epsqec.stabili...RingCSSCode object at",
+      "duration_s": 0.0,
+      "markers": [
+        "parametrize",
+        "paper_claim"
+      ]
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_x_errors_in_C2_are_logical_operators",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.0,
+      "markers": []
+    },
+    {
+      "test": "tests/test_stabilizer.py::test_alternative_design_recovers_all_correctable_errors_z25",
+      "outcome": "PASS",
+      "category": "uygulama",
+      "failure_class": null,
+      "message": "",
+      "duration_s": 0.284,
+      "markers": []
+    }
+  ]
+}
